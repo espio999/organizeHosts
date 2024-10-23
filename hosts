@@ -1,0 +1,661 @@
+﻿# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+
+
+#2mdn.net
+0.0.0.0 2mdn.net s0.2mdn.net
+
+#3lift.com
+0.0.0.0 eb2.3lift.com ib.3lift.com
+
+#4dex.io
+0.0.0.0 script.4dex.io
+
+#ad999.biz
+0.0.0.0 ad999.biz
+
+#adingo.jp
+0.0.0.0 sh.adingo.jp
+0.0.0.0 cdn-fluct.sh.adingo.jp one.adingo.jp pdn.adingo.jp
+
+#adlightning.com
+0.0.0.0 tagan.adlightning.com
+
+#admatrix.jp
+0.0.0.0 ad.poly.admatrix.jp
+
+#adnxs
+0.0.0.0 acdn.adnxs.com ib.adnxs.com
+0.0.0.0 sin3-ib.adnxs-simple.com
+
+#adpon.jp
+0.0.0.0 ad.adpon.jp
+
+#adsafeprotected.com
+0.0.0.0 cdn.adsafeprotected.com dt.adsafeprotected.com pixel.adsafeprotected.com static.adsafeprotected.com
+
+#ad-delivery.net
+0.0.0.0 ad-delivery.net
+
+#ad-drop.jp
+0.0.0.0 cs.ad-drop.jp edayo.ad-drop.jp js.ad-drop.jp
+
+#ad-nex.com
+0.0.0.0 img.ad-nex.com
+
+#ad-spire
+0.0.0.0 js.ad-spire.net
+
+#ad-stir
+0.0.0.0 ad.ad-stir.com js.ad-stir.com
+
+#adtechus.com
+0.0.0.0 aka-cdn.adtechus.com
+
+#advertising.com
+0.0.0.0 cdn.cmp.advertising.com
+
+#akamai.net
+#0.0.0.0 a248.e.akamai.net
+0.0.0.0 speee-ad.akamaized.net
+
+#amazon
+#0.0.0.0 completion.amazon.com
+#0.0.0.0 aax-fe-sin.amazon-adsystem.com c.amazon-adsystem.com
+#0.0.0.0 images-fe.ssl-images-amazon.com
+#0.0.0.0 m.media-amazon.com
+
+#ancientact.com noDNS
+0.0.0.0 ancientact.com
+
+#anymind360.com
+0.0.0.0 anymind360.com
+
+#aolcdn.com
+#0.0.0.0 s.aolcdn.com
+
+#appspot.com
+0.0.0.0 guidesites.appspot.com
+
+#tag.aticdn.net
+0.0.0.0 tag.aticdn.net
+
+#cdn-apple.com
+#0.0.0.0 appleid.cdn-apple.com
+
+#asahiinteractive.com noDNS
+0.0.0.0 push.asahiinteractive.com
+
+#bigmining.com
+0.0.0.0 cdn.bigmining.com
+
+#bing.com
+0.0.0.0 c.bing.com g.bing.com r.bing.com
+0.0.0.0 bat.bing.com th.bing.com
+
+#bizzabo.com
+0.0.0.0 organizer.bizzabo.com
+
+#boost-next.co.jp
+0.0.0.0 cs.boost-next.co.jp edayo.boost-next.co.jp js.boost-next.co.jp
+
+#browsiprod.com
+0.0.0.0 cdn.browsiprod.com
+
+#btloader.com
+0.0.0.0 btloader.com
+
+#bloombergの表示に必要
+#bwbx.io
+#0.0.0.0 assets.bwbx.io
+
+#abeagle-public.buzzfeed.com
+0.0.0.0 abeagle-public.buzzfeed.com
+
+#caprofitx.com
+0.0.0.0 cdn.caprofitx.com
+
+#chartbeat.com
+0.0.0.0 static.chartbeat.com
+
+#cloudflare noDNS
+#0.0.0.0 cdnjs.cloudflare.com
+
+#cloudinary.com noDNS
+0.0.0.0 nordot-res.cloudinary.com
+
+#cnevids.com
+0.0.0.0 player.cnevids.com
+
+#confiant-integrations.net noDNS
+0.0.0.0 cdn.confiant-integrations.net
+
+#connatix.com noDNS
+0.0.0.0 capi.connatix.com cd.connatix.com cdn.connatix.com cds.connatix.com img.connatix.com capi.connatix.com
+
+#contents-search-windows.com
+0.0.0.0 cdn.contents-search-windows.com client.contents-search-windows.com
+
+#cookielaw.org
+0.0.0.0 cdn.cookielaw.org
+
+#criteo.net
+0.0.0.0 static.criteo.net
+
+#cxense.com
+0.0.0.0 adserver.cxad.cxense.com cdn.cxense.com scdn.cxense.com
+
+#cxpublic.com
+0.0.0.0 csm.cxpublic.com
+
+#d2-apps.net
+0.0.0.0 cdn.d2-apps.net
+
+#davidwalsh.name
+0.0.0.0 davidwalsh.name
+
+#dmm.com
+0.0.0.0 rcv.ixd.dmm.com
+
+#docomo.ne.jp
+0.0.0.0 alxc.addlv.smt.docomo.ne.jp
+
+#doubleclick
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 cm.g.doubleclick.net googleads.g.doubleclick.net pubads.g.doubleclick.net securepubads.g.doubleclick.net stats.g.doubleclick.net static.doubleclick.net
+
+#durationmedia.net
+0.0.0.0 tag.durationmedia.net
+
+#enhance.co.jp noDNS
+0.0.0.0 rise.enhance.co.jp
+
+#facebook.net
+0.0.0.0 connect.facebook.net
+
+#fam-8.net
+0.0.0.0 fam-8.net
+
+#fc2.com
+0.0.0.0 analyzer51.fc2.com counter.fc2.com counter1.fc2.com media.fc2.com media5.fc2.com static.fc2.com vip.chps-api.fc2.com
+
+#firework.tv
+0.0.0.0 firework.tv
+
+#fireworktv.com
+0.0.0.0 cdn4.fireworktv.com
+
+#flux-cdn.com
+0.0.0.0 flux-cdn.com
+
+#focas.jp
+0.0.0.0 pc-adroute.focas.jp static.pc-adroute.focas.jp
+
+#functionalfeather.com
+0.0.0.0 functionalfeather.com
+
+#futurecdn.net
+0.0.0.0 search-api.fie.futurecdn.net vanilla.futurecdn.net
+
+#fwcdn2
+0.0.0.0 asset.fwcdn2.com
+
+#fwmrm.net
+0.0.0.0 fwmrm.net 2975c.v.fwmrm.net
+
+#fwpub1.com
+0.0.0.0 asset.fwpub1.com
+
+#geniee.jp
+0.0.0.0 cpt.geniee.jp
+
+#genieesspv
+0.0.0.0 aladdin.genieesspv.jp
+
+#gfx.ms
+0.0.0.0 mem.gfx.ms
+
+#gliacloud.com
+0.0.0.0 player.gliacloud.com
+
+#glossom.jp
+0.0.0.0 js.glossom.jp
+
+#gmossp-sp.jp
+0.0.0.0 cdn.gmossp-sp.jp sp.gmossp-sp.jp
+
+#gmpg.org/
+0.0.0.0 gmpg.org
+
+#go-mpulse.net
+0.0.0.0 s.go-mpulse.net
+
+#goo
+0.0.0.0 adcdn.goo.ne.jp img.news.goo.ne.jp log000.goo.ne.jp ranking.goo.ne.jp
+0.0.0.0 imagegooranking.rank-king.jp
+
+#google
+0.0.0.0 yt3.ggpht.com
+#0.0.0.0 apis.google.com
+0.0.0.0 fundingchoicesmessages.google.com
+0.0.0.0 www.googleadservices.com
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 www.googletagmanager.com
+#googleusercontent.com --> YouTubeの広告画像、FeedlyやGoogle newsなどのサムネイル画像
+# 0.0.0.0 lh1.googleusercontent.com lh2.googleusercontent.com lh3.googleusercontent.com lh4.googleusercontent.com lh5.googleusercontent.com lh6.googleusercontent.com lh7.googleusercontent.com lh8.googleusercontent.com lh9.googleusercontent.com lh0.googleusercontent.com
+#0.0.0.0 www.gstatic.com
+0.0.0.0 encrypted-tbn2.gstatic.com
+
+#gravatar.com
+0.0.0.0 secure.gravatar.com
+
+#gsspcln
+0.0.0.0 js.gsspcln.jp
+
+#gstatic.com
+#CAPTCHAに利用される
+#0.0.0.0 www.gstatic.com
+
+#gumgum.com
+0.0.0.0 js.gumgum.com
+
+#hatena
+0.0.0.0 cdn.ad-hatena.com
+
+#i2ad.jp
+0.0.0.0 i2ad.jp
+
+#iasds01.com
+0.0.0.0 sc.iasds01.com
+
+#iid.jp
+0.0.0.0 deliver.ads2.iid.jp front-api-gateway.account.media.iid.jp recruitbox.media.iid.jp
+0.0.0.0 widget.iid-network.jp
+
+#i-mobile
+0.0.0.0 imp-adedge.i-mobile.co.jp
+
+#id5-sync.com
+0.0.0.0 cdn.id5-sync.com/
+
+#im-apps
+0.0.0.0 dmp.im-apps.net
+
+#impact-ad
+0.0.0.0 aw.dw.impact-ad.jp img.ak.impact-ad.jp penta.a.one.impact-ad.jp v.one.impact-ad.jp y.one.impact-ad.jp
+
+#impactify.media
+0.0.0.0 ad.impactify.media
+
+#imrworldwide.com
+0.0.0.0 cdn-gl.imrworldwide.com
+
+#indexww.com
+0.0.0.0 js-sec.indexww.com
+
+#ismcdn.jp
+#東洋経済のCSS
+#0.0.0.0 tk.ismcdn.jp
+
+#itmedia  noDNS
+0.0.0.0 dlv.itmedia.jp 
+#0.0.0.0  img.itmedia.jp
+
+#jsdelivr.net
+#0.0.0.0 cdn.jsdelivr.net
+
+#jwplatform.com
+0.0.0.0 content.jwplatform.com
+
+#ketchcdn.com  noDNS
+0.0.0.0 global.ketchcdn.com
+
+#ketchjs.com  noDNS
+0.0.0.0 cdn.ketchjs.com
+
+#kuzen.io
+0.0.0.0 dialog.kuzen.io
+
+#line
+0.0.0.0 scdn.line-apps.com
+
+#linksynergy.com
+0.0.0.0 automate-frontend.linksynergy.com
+
+#livedoor.jp  noDNS
+0.0.0.0 parts.blog.livedoor.jp
+
+#livelog.biz
+0.0.0.0 blog.livelog.biz
+
+#lmadps.jp
+0.0.0.0 img.lmadps.jp tck.lmadps.jp
+
+#logly
+0.0.0.0 dsp.logly.co.jp l.logly.co.jp lt.logly.co.jp
+
+#loom-app.com  noDNS
+0.0.0.0 media.loom-app.com
+
+#media.net  noDNS
+0.0.0.0 contextual.media.net warp.media.net
+
+#media-platform.com  noDNS
+0.0.0.0 assets.media-platform.com
+
+#mediaweaver.jp
+0.0.0.0 mediaweaver.jp
+
+#mgid.com
+0.0.0.0 jsc.mgid.com
+
+#microad
+0.0.0.0 j.microad.net
+0.0.0.0 d-cache.microad.jp
+
+#ml314.com  noDNS
+0.0.0.0 vi.ml314.com
+
+#moatads.com
+0.0.0.0 z.moatads.com
+
+#moshimo.com
+0.0.0.0 i.moshimo.com
+
+#msfstatic.com
+0.0.0.0 r.msfstatic.com
+
+#msn.com
+#msnポータルの機能が失われる --> assets.msn.com
+#msnポータルの画像が失われる --> img-s-msn-com.akamaized.net
+#0.0.0.0 assets.msn.com
+#0.0.0.0 img-s-msn-com.akamaized.net
+0.0.0.0 api.msn.com browser.events.data.msn.com c.msn.com ent-api.msn.com srtb.msn.com 
+0.0.0.0 c.msn.cn
+0.0.0.0 static-global-s-msn-com.akamaized.net
+
+#mrf.io
+0.0.0.0 sdk.mrf.io
+
+#mulan.cloud
+0.0.0.0 js.mulan.cloud
+
+#mynavi  noDNS
+0.0.0.0 ad.woman.mynavi.jp ssfpc.news.mynavi.jp stg.ad.woman.mynavi.jp
+
+#nakanohito.jp
+0.0.0.0 cs.nakanohito.jp
+
+#newrelic
+0.0.0.0 js-agent.newrelic.com
+
+#nhk.or.jp
+0.0.0.0 apps.nhk.or.jp location.nhk.or.jp
+
+#nikkei  noDNS
+0.0.0.0 nkis.nikkei.com r.nikkei.com
+
+#nordot  noDNS
+#KYODOの記事が表示されなくなる --> nordot.app
+0.0.0.0 log.nordot.jp
+
+#npttech.com  noDNS
+0.0.0.0 www.npttech.com
+
+#nr-data
+0.0.0.0 bam.nr-data.net
+
+#oath.com
+0.0.0.0 consent.cmp.oath.com
+
+#ogp.me  noDNS
+#0.0.0.0 ogp.me
+
+#omnisnippet1.com
+0.0.0.0 omnisnippet1.com
+
+#onesignal.com
+0.0.0.0 cdn.onesignal.com
+
+#opecloud.com  noDNS
+0.0.0.0 cdn.opecloud.com
+
+#openx
+0.0.0.0 u.openx.net
+
+#outbrain
+0.0.0.0 outbrain.com amplifypixel.outbrain.com widgets.outbrain.com
+0.0.0.0 zem.outbrainimg.com
+
+#p-n.io
+0.0.0.0 cdn.p-n.io
+
+#piano.io  noDNS
+0.0.0.0 api-esp-ap.piano.io buy-ap.piano.io code.piano.io experience-ap.piano.io
+
+#placehold.jp
+0.0.0.0 placehold.jp
+
+#playfulriver.com
+0.0.0.0 playfulriver.com
+
+#polyfill.io
+0.0.0.0 polyfill.io
+
+#polymorphicads.jp
+0.0.0.0 img.polymorphicads.jp
+
+#popin
+0.0.0.0 a.popin.cc api.popin.cc jp.popin.cc
+
+#printwhatyoulike.com
+0.0.0.0 printwhatyoulike.com
+
+#privacymanager.io
+0.0.0.0 ats-wrapper.privacymanager.io
+
+#provesrc.com
+0.0.0.0 cdn.provesrc.com
+
+#proxypy.org
+0.0.0.0 proxypy.org
+
+#pub.network
+0.0.0.0 a.pub.network
+
+#pubmatic
+0.0.0.0 ads.pubmatic.com aktrack.pubmatic.com sshowads.pubmatic.com
+
+#pubmine.com
+0.0.0.0 c0.pubmine.com
+
+#quant.jp
+0.0.0.0 static.quant.jp
+
+#quantcount.com
+0.0.0.0 rules.quantcount.com
+
+#quantserve.com
+0.0.0.0 secure.quantserve.com
+
+#relaido.jp
+0.0.0.0 api.relaido.jp
+
+#rocket-push.com
+0.0.0.0 cdn.rocket-push.com
+
+#rubiconproject.com
+0.0.0.0 ads.rubiconproject.com eus.rubiconproject.com micro.rubiconproject.com
+
+#sail-horizon.com
+0.0.0.0 ak.sail-horizon.com
+
+#shema.org
+0.0.0.0 schema.org
+
+#scorecardresearch.com
+0.0.0.0 b.scorecardresearch.com sb.scorecardresearch.com
+
+#segment.com
+0.0.0.0 cdn.segment.com
+
+#serving-sys
+0.0.0.0 secure-ds.serving-sys.com
+
+#sharethrough.com noDNS
+0.0.0.0 sdk.sharethrough.com
+
+#socdm.com
+0.0.0.0 frtn.socdm.com tg.socdm.com
+
+#solutionshindsight.net noDNS
+0.0.0.0 static.solutionshindsight.net
+
+#s-onetag.com
+0.0.0.0 get.s-onetag.com signal-beacon.s-onetag.com
+
+#speee-ad.jp
+0.0.0.0 click.speee-ad.jp
+
+#speedcurve.com noDNS
+0.0.0.0 cdn.speedcurve.com
+
+#stamped.io
+0.0.0.0 cdn1.stamped.io
+
+#stickyadstv.com
+0.0.0.0 ads.stickyadstv.com
+
+#taboola.com
+0.0.0.0 cdn.taboola.com
+
+#taxel.jp
+0.0.0.0 widgets.taxel.jp
+
+#teads.tv
+0.0.0.0 a.teads.tv cm.teads.tv s8t.teads.tv
+
+#themoneytizer.com
+0.0.0.0 ads.themoneytizer.com
+
+#topsy.com
+0.0.0.0 cdn.topsy.com
+
+#trvdp.com
+0.0.0.0 go.trvdp.com vid.trvdp.com
+
+#treasuredata.com noDNS
+0.0.0.0 cdn.treasuredata.com cdp.in.treasuredata.com docs.treasuredata.com in.treasuredata.com
+
+#tru.am
+0.0.0.0 tru.am
+
+#tubemogul.com
+0.0.0.0 rtd.tubemogul.com
+
+#twimg.com
+0.0.0.0 cdn.syndication.twimg.com
+
+#twitter
+0.0.0.0 static.ads-twitter.com
+0.0.0.0 platform.twitter.com
+
+#typekit.net
+0.0.0.0 use.typekit.net
+
+#unblockia.com
+0.0.0.0 cdn.unblockia.com
+
+#uplynk.com
+0.0.0.0 content.uplynk.com
+
+#ust-ad.com
+0.0.0.0 adjs.ust-ad.com
+
+#valuecommerce.com  noDNS
+0.0.0.0 aml.valuecommerce.com dalb.valuecommerce.com dalc.valuecommerce.com vpj.valuecommerce.com
+0.0.0.0 ad.jp.ap.valuecommerce.com
+
+#verizonmedia.com
+0.0.0.0 adjp.apacact.verizonmedia.com
+
+#videojs.com
+0.0.0.0 videojs.com
+
+#vidible.tv
+0.0.0.0 cdn.vidible.tv
+
+#w.org
+0.0.0.0 s.w.org
+
+#webpush.jp
+0.0.0.0 cdn.webpush.jp
+
+#wordpress, wp.com
+#0.0.0.0 c0.wp.com  画像
+0.0.0.0 c0.wp.com stats.wp.com
+0.0.0.0 v0.wordpress.com
+
+#xxxxxxxx.jp
+0.0.0.0 x5.xxxxxxxx.jp
+
+#Yahoo.com
+0.0.0.0 ads.yahoo.com fc.yahoo.com geo.yahoo.com geo.query.yahoo.com iquery.finance.yahoo.com
+0.0.0.0 a.beap.gemini.yahoo.com b.beap.gemini.yahoo.com c.beap.gemini.yahoo.com d.beap.gemini.yahoo.com e.beap.gemini.yahoo.com f.beap.gemini.yahoo.com g.beap.gemini.yahoo.com h.beap.gemini.yahoo.com i.beap.gemini.yahoo.com j.beap.gemini.yahoo.com k.beap.gemini.yahoo.com l.beap.gemini.yahoo.com m.beap.gemini.yahoo.com n.beap.gemini.yahoo.com o.beap.gemini.yahoo.com p.beap.gemini.yahoo.com q.beap.gemini.yahoo.com r.beap.gemini.yahoo.com s.beap.gemini.yahoo.com t.beap.gemini.yahoo.com u.beap.gemini.yahoo.com v.beap.gemini.yahoo.com w.beap.gemini.yahoo.com x.beap.gemini.yahoo.com y.beap.gemini.yahoo.com z.beap.gemini.yahoo.com
+0.0.0.0 beap.gemini.yahoo.com jill.fc.yahoo.com csm.analytics.yahoo.com opus.analytics.yahoo.com sp.analytics.yahoo.com video-api.yql.yahoo.com
+0.0.0.0 hb.yahoo.net
+0.0.0.0 l.yimg.com
+#0.0.0.0  s.yimg.com --> Yahoo Financeが表示されなくなる
+0.0.0.0 cdn.yahoomedia.net
+0.0.0.0 jac.yahoosandbox.com
+
+#Yahoo Japan
+#Yahooへのログインができなくなる --> s.yimg.jp
+#ヤフオクの画像が表示されない --> auc-pctr.c.yimg.jp
+0.0.0.0 im.c.yimg.jp yads.c.yimg.jp
+0.0.0.0 b.yjtag.jp s.yjtag.jp
+0.0.0.0 b92.yahoo.co.jp dsb.yahoo.co.jp cksync.yahoo.co.jp yads.yahoo.co.jp yads.c.yimg.jp ybx.yahoo.co.jp yjtag.yahoo.co.jp
+0.0.0.0 slink.west.edge.storage-yahoo.jp
+
+#yoast.com
+0.0.0.0 yoast.com
+
+#YouTube
+0.0.0.0 ad.youtube.com ads.youtube.com s.youtube.com
+#ytimg.com --> YouTubeのサムネイル画像
+#0.0.0.0 a.ytimg.com b.ytimg.com c.ytimg.com d.ytimg.com e.ytimg.com f.ytimg.com g.ytimg.com h.ytimg.com i.ytimg.com j.ytimg.com k.ytimg.com l.ytimg.com m.ytimg.com n.ytimg.com o.ytimg.com p.ytimg.com q.ytimg.com r.ytimg.com s.ytimg.com t.ytimg.com u.ytimg.com v.ytimg.com w.ytimg.com x.ytimg.com y.ytimg.com z.ytimg.com
+
+#zergnet
+0.0.0.0 www.zergnet.com
+
+#zucks.net
+0.0.0.0 j.zoe.zucks.net
+
+*有害
+0.0.0.0 cryptoxix.com
+
+# Added by Docker Desktop
+192.168.1.7 host.docker.internal
+192.168.1.7 gateway.docker.internal
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+# End of section
