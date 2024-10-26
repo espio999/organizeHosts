@@ -3,8 +3,9 @@
 
 # 出力ファイルが既に存在する場合は削除
 
-$inputFile = "subdomain-list.txt"
-$outputFile = "domain-list.txt"
+$inputFile = "input.txt"
+$outputFile = "output.txt"
+$splitter = '.'
 
 if (Test-Path $outputFile) {
     Remove-Item $outputFile
@@ -16,7 +17,7 @@ Get-Content $inputFile | ForEach-Object {
     $line = $_
     
     # ドットで文字列を分割
-    $parts = $line.Split('.')
+    $parts = $line.Split($splitter)
     
     # 部分が2つ以上ある場合のみ処理
     if ($parts.Count -ge 2) {
