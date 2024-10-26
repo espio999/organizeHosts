@@ -44,7 +44,7 @@
 0.0.0.0 ad.poly.admatrix.jp
 
 #adnxs
-0.0.0.0 acdn.adnxs.com ib.adnxs.com
+0.0.0.0 acdn.adnxs.com cdn.adnxs.com ib.adnxs.com
 0.0.0.0 sin3-ib.adnxs-simple.com
 
 #adpon.jp
@@ -52,6 +52,10 @@
 
 #adsafeprotected.com
 0.0.0.0 cdn.adsafeprotected.com dt.adsafeprotected.com pixel.adsafeprotected.com static.adsafeprotected.com
+
+#adtechus.com
+0.0.0.0	adserver.adtechus.com
+0.0.0.0	www.adserver.adtechus.com
 
 #ad-delivery.net
 0.0.0.0 ad-delivery.net
@@ -185,6 +189,17 @@
 
 #durationmedia.net
 0.0.0.0 tag.durationmedia.net
+
+#edgekey.net
+0.0.0.0	esd-secure.taboola.com.edgekey.net
+0.0.0.0	taboola.com.edgekey.net
+0.0.0.0	www.esd-secure.taboola.com.edgekey.net
+0.0.0.0	www.taboola.com.edgekey.net
+
+#engageya.com
+0.0.0.0	ecs4.engageya.com
+0.0.0.0	engageya.com
+0.0.0.0	images9.engageya.com
 
 #enhance.co.jp noDNS
 0.0.0.0 rise.enhance.co.jp
@@ -381,6 +396,9 @@
 #moshimo.com
 0.0.0.0 i.moshimo.com
 
+#msedge.net
+0.0.0.0	fp.msedge.net
+
 #msfstatic.com
 0.0.0.0 r.msfstatic.com
 
@@ -389,7 +407,7 @@
 #msnポータルの画像が失われる --> img-s-msn-com.akamaized.net
 #0.0.0.0 assets.msn.com
 #0.0.0.0 img-s-msn-com.akamaized.net
-0.0.0.0 api.msn.com browser.events.data.msn.com c.msn.com ent-api.msn.com srtb.msn.com 
+0.0.0.0 api.msn.com browser.events.data.msn.com c.msn.com ent-api.msn.com mobileads.msn.com srtb.msn.com
 0.0.0.0 c.msn.cn
 0.0.0.0 static-global-s-msn-com.akamaized.net
 
@@ -436,15 +454,34 @@
 #onesignal.com
 0.0.0.0 cdn.onesignal.com
 
+#oooutbrain.com
+0.0.0.0	oooutbrain.com
+
 #opecloud.com  noDNS
 0.0.0.0 cdn.opecloud.com
 
 #openx
-0.0.0.0 u.openx.net
+0.0.0.0 u.openx.net us-u.openx.net www.us-u.openx.net
 
 #outbrain
-0.0.0.0 outbrain.com amplifypixel.outbrain.com widgets.outbrain.com
+0.0.0.0 outbrain.com
+0.0.0.0 amplify.outbrain.com
+0.0.0.0 amplifypixel.outbrain.com
+0.0.0.0 images.outbrain.com
+0.0.0.0 log.outbrain.com
+0.0.0.0 widgets.outbrain.com
+0.0.0.0	odb.outbrain.com
+0.0.0.0	paid.outbrain.com
+0.0.0.0	sync.outbrain.com
+0.0.0.0	tr.outbrain.com
+0.0.0.0	traffic.outbrain.com
+0.0.0.0	vra.outbrain.com
+0.0.0.0	vrp.outbrain.com
+0.0.0.0	vrt.outbrain.com
+0.0.0.0	widgets.outbrain.com
+0.0.0.0	www.outbrain.com
 0.0.0.0 zem.outbrainimg.com
+0.0.0.0	amplifypixel.outbrain.com
 
 #p-n.io
 0.0.0.0 cdn.p-n.io
@@ -539,6 +576,9 @@
 #speedcurve.com noDNS
 0.0.0.0 cdn.speedcurve.com
 
+#spotxcdn.com
+0.0.0.0	cdn.spotxcdn.com
+
 #stamped.io
 0.0.0.0 cdn1.stamped.io
 
@@ -546,7 +586,33 @@
 0.0.0.0 ads.stickyadstv.com
 
 #taboola.com
-0.0.0.0 cdn.taboola.com
+0.0.0.0	api.taboola.com
+0.0.0.0	c2.taboola.com
+0.0.0.0	cdn.taboola.com
+0.0.0.0	images.taboola.com
+0.0.0.0	imprammp.taboola.com
+0.0.0.0	nr.taboola.com
+0.0.0.0	popup.taboola.com
+0.0.0.0	taboola.com
+0.0.0.0	trc.taboola.com
+0.0.0.0	vidstat.taboola.com
+0.0.0.0	vidstatb.taboola.com
+0.0.0.0	www.api.taboola.com
+0.0.0.0	www.c2.taboola.com
+0.0.0.0	www.cdn.taboola.com
+0.0.0.0	www.popup.taboola.com
+0.0.0.0	www.taboola.com
+0.0.0.0	www.trc.taboola.com
+
+#taboolasyndication.com
+0.0.0.0	cdn.taboolasyndication.co
+0.0.0.0	cdn.taboolasyndication.com
+0.0.0.0	taboolasyndication.com
+0.0.0.0	trc.taboolasyndication.com
+0.0.0.0	urc.taboolasyndication.com
+0.0.0.0	www.cdn.taboolasyndication.com
+0.0.0.0	www.taboolasyndication.com
+0.0.0.0	www.urc.taboolasyndication.com
 
 #taxel.jp
 0.0.0.0 widgets.taxel.jp
@@ -562,6 +628,9 @@
 
 #trvdp.com
 0.0.0.0 go.trvdp.com vid.trvdp.com
+
+#trafficmanager.net
+0.0.0.0	msmonplat.trafficmanager.net
 
 #treasuredata.com noDNS
 0.0.0.0 cdn.treasuredata.com cdp.in.treasuredata.com docs.treasuredata.com in.treasuredata.com
@@ -603,6 +672,9 @@
 
 #vidible.tv
 0.0.0.0 cdn.vidible.tv
+
+#vungle.com
+0.0.0.0	ads.api.vungle.com
 
 #w.org
 0.0.0.0 s.w.org
