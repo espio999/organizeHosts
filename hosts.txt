@@ -338,5 +338,3 @@
 0.0.0.0 cryptoxix.com
 0.0.0.0 cdn.opecloud.com
 0.0.0.0 rise.enhance.co.jp
-
-0.0.0.0 uncn.jp
