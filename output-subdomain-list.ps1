@@ -1,7 +1,8 @@
 # 1行に複数記録されているサブドメインを、1行ごとの記録に書き換える
 
-$inputFile = "record.csv" 
-$outputFile = "subdomain-list.txt"
+$inputFile = "input.csv" 
+$outputFile = "output.txt"
+$splitter = ','
 
 # 出力ファイルが既に存在する場合は削除
 if (Test-Path $outputFile) {
@@ -14,7 +15,7 @@ Get-Content $inputFile | ForEach-Object {
     $line = $_
     
     # カンマで現在行をレコードごとに分割
-    $parts = $line.Trim().Split(',')
+    $parts = $line.Trim().Split($splitter)
 
     # 1行、1レコードで記録
     $parts | ForEach-Object {
