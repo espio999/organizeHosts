@@ -91,6 +91,9 @@
 #ancientact.com noDNS
 0.0.0.0 ancientact.com
 
+#player.aniview.com
+0.0.0.0 player.aniview.com
+
 #anymind360.com
 0.0.0.0 anymind360.com
 
@@ -108,6 +111,10 @@
 
 #asahiinteractive.com noDNS
 0.0.0.0 push.asahiinteractive.com
+
+
+#avantisvideo.com
+0.0.0.0 cdn.avantisvideo.com
 
 #bigmining.com
 0.0.0.0 cdn.bigmining.com
@@ -554,6 +561,9 @@
 
 #segment.com
 0.0.0.0 cdn.segment.com
+
+#sentry-cdn.com
+0.0.0.0 browser.sentry-cdn.com
 
 #serving-sys
 0.0.0.0 secure-ds.serving-sys.com
