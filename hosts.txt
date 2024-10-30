@@ -30,10 +30,12 @@
 0.0.0.0 cdn.cmp.advertising.com
 0.0.0.0 speee-ad.akamaized.net
 0.0.0.0 ancientact.com
+0.0.0.0 player.aniview.com
 0.0.0.0 anymind360.com
 0.0.0.0 guidesites.appspot.com
 0.0.0.0 tag.aticdn.net
 0.0.0.0 push.asahiinteractive.com
+0.0.0.0 cdn.avantisvideo.com
 0.0.0.0 cdn.bigmining.com
 0.0.0.0 c.bing.com
 0.0.0.0 g.bing.com
@@ -236,6 +238,7 @@
 0.0.0.0 static.solutionshindsight.net
 0.0.0.0 get.s-onetag.com
 0.0.0.0 signal-beacon.s-onetag.com
+0.0.0.0 browser.sentry-cdn.com
 0.0.0.0 click.speee-ad.jp
 0.0.0.0 cdn.speedcurve.com
 0.0.0.0 cdn1.stamped.io
