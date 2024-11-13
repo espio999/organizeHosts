@@ -27,8 +27,15 @@
 #3lift.com
 0.0.0.0 eb2.3lift.com ib.3lift.com
 
+#33across.com
+0.0.0.0 cdn-ima.33across.com
+
 #4dex.io
 0.0.0.0 script.4dex.io
+
+#ad.gt
+0.0.0.0 a.ad.gt ids.ad.gt p.ad.gt
+0.0.0.0 pixels.ad.gt
 
 #ad999.biz
 0.0.0.0 ad999.biz
@@ -172,6 +179,9 @@
 #criteo.net
 0.0.0.0 static.criteo.net
 
+#crwdcntrl.net
+0.0.0.0 tags.crwdcntrl.net
+
 #cxense.com
 0.0.0.0 adserver.cxad.cxense.com cdn.cxense.com scdn.cxense.com
 
@@ -216,6 +226,9 @@
 
 #fam-8.net
 0.0.0.0 fam-8.net
+
+#fastclick.net
+0.0.0.0 secure.cdn.fastclick.net
 
 #fc2.com
 0.0.0.0 analyzer51.fc2.com counter.fc2.com counter1.fc2.com media.fc2.com media5.fc2.com static.fc2.com vip.chps-api.fc2.com
@@ -291,7 +304,7 @@
 0.0.0.0 secure.gravatar.com
 
 #gsspcln
-0.0.0.0 js.gsspcln.jp
+0.0.0.0 js.gsspcln.jp works.gsspcln.jp
 
 #gstatic.com
 #CAPTCHAに利用される
@@ -299,6 +312,9 @@
 
 #gumgum.com
 0.0.0.0 js.gumgum.com
+
+#hadronid.net
+0.0.0.0 cdn.hadronid.net
 
 #hatena
 0.0.0.0 cdn.ad-hatena.com
@@ -308,6 +324,9 @@
 
 #iasds01.com
 0.0.0.0 sc.iasds01.com
+
+#id5-sync.com
+0.0.0.0 cdn.id5-sync.com
 
 #iid.jp
 0.0.0.0 deliver.ads2.iid.jp front-api-gateway.account.media.iid.jp recruitbox.media.iid.jp
