@@ -341,3 +341,17 @@
 0.0.0.0 cryptoxix.com
 0.0.0.0 cdn.opecloud.com
 0.0.0.0 rise.enhance.co.jp
+
+0.0.0.0 cdn-ima.33across.com
+0.0.0.0 a.ad.gt
+0.0.0.0 ids.ad.gt
+0.0.0.0 p.ad.gt
+0.0.0.0 pixels.ad.gt
+0.0.0.0 tags.crwdcntrl.net
+0.0.0.0 rise.enhance.co.jp
+0.0.0.0 secure.cdn.fastclick.net
+0.0.0.0 works.gsspcln.jp
+0.0.0.0 cdn.hadronid.net
+0.0.0.0 cdn.id5-sync.com
+0.0.0.0 cdn.webpush.jp
+0.0.0.0 xn--pckua2a7gp15o89zb.com
