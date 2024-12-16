@@ -208,7 +208,7 @@
 0.0.0.0 tag.durationmedia.net
 
 #edgekey.net
-0.0.0.0	esd-secure.taboola.com.edgekey.net
+0.0.0.0	cdn.taboola.com esd-secure.taboola.com.edgekey.net
 0.0.0.0	taboola.com.edgekey.net
 0.0.0.0	www.esd-secure.taboola.com.edgekey.net
 0.0.0.0	www.taboola.com.edgekey.net
@@ -265,6 +265,9 @@
 
 #genieesspv
 0.0.0.0 aladdin.genieesspv.jp
+
+#geoedge.be
+0.0.0.0 rumcdn.geoedge.be
 
 #gfx.ms
 0.0.0.0 mem.gfx.ms
@@ -649,6 +652,10 @@
 #teads.tv
 0.0.0.0 a.teads.tv cm.teads.tv s8t.teads.tv
 
+#tgstc.com
+#togetterを正常に表示する
+#0.0.0.0 s.tgstc.com
+
 #themoneytizer.com
 0.0.0.0 ads.themoneytizer.com
 
@@ -755,8 +762,8 @@
 0.0.0.0 cryptoxix.com
 
 # Added by Docker Desktop
-192.168.1.7 host.docker.internal
-192.168.1.7 gateway.docker.internal
+192.168.1.9 host.docker.internal
+192.168.1.9 gateway.docker.internal
 # To allow the same kube context to work on the host and the container:
 127.0.0.1 kubernetes.docker.internal
 # End of section
