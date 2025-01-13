@@ -95,6 +95,9 @@
 #0.0.0.0 images-fe.ssl-images-amazon.com
 #0.0.0.0 m.media-amazon.com
 
+#a-mo.net
+0.0.0.0 sync.a-mo.net
+
 #ancientact.com noDNS
 0.0.0.0 ancientact.com
 
@@ -175,6 +178,9 @@
 
 #cookielaw.org
 0.0.0.0 cdn.cookielaw.org
+
+#cootlogix.com
+0.0.0.0 sync.cootlogix.com
 
 #criteo.net
 0.0.0.0 static.criteo.net
@@ -356,6 +362,9 @@
 #indexww.com
 0.0.0.0 js-sec.indexww.com
 
+#inmobi.com
+0.0.0.0 cmp.inmobi.com
+
 #ismcdn.jp
 #東洋経済のCSS
 #0.0.0.0 tk.ismcdn.jp
@@ -419,8 +428,14 @@
 #ml314.com  noDNS
 0.0.0.0 vi.ml314.com
 
+#mmt.delivery
+0.0.0.0 fastly.mmt.delivery
+
 #moatads.com
 0.0.0.0 z.moatads.com
+
+#monu.delivery
+0.0.0.0 monu.delivery
 
 #moshimo.com
 0.0.0.0 i.moshimo.com
@@ -455,8 +470,12 @@
 #newrelic
 0.0.0.0 js-agent.newrelic.com
 
+#nextmillmedia.com
+0.0.0.0 cookies.nextmillmedia.com
+
 #nhk.or.jp
-0.0.0.0 apps.nhk.or.jp location.nhk.or.jp
+#0.0.0.0 apps.nhk.or.jp location.nhk.or.jp
+0.0.0.0 location.nhk.or.jp
 
 #nikkei  noDNS
 0.0.0.0 nkis.nikkei.com r.nikkei.com
@@ -479,6 +498,9 @@
 
 #omnisnippet1.com
 0.0.0.0 omnisnippet1.com
+
+#omnitagjs.com
+0.0.0.0 visitor.omnitagjs.com
 
 #onesignal.com
 0.0.0.0 cdn.onesignal.com
@@ -575,11 +597,14 @@
 #sail-horizon.com
 0.0.0.0 ak.sail-horizon.com
 
-#shema.org
+#schema.org
 0.0.0.0 schema.org
 
 #scorecardresearch.com
 0.0.0.0 b.scorecardresearch.com sb.scorecardresearch.com
+
+#seedtag.com
+0.0.0.0 cs.seedtag.com
 
 #segment.com
 0.0.0.0 cdn.segment.com
@@ -587,11 +612,17 @@
 #sentry-cdn.com
 0.0.0.0 browser.sentry-cdn.com
 
+#serverbid.com
+0.0.0.0 sync.serverbid.com
+
 #serving-sys
 0.0.0.0 secure-ds.serving-sys.com
 
 #sharethrough.com noDNS
 0.0.0.0 sdk.sharethrough.com
+
+#sitescout.com
+0.0.0.0 pixel-sync.sitescout.com
 
 #socdm.com
 0.0.0.0 frtn.socdm.com tg.socdm.com
