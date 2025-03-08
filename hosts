@@ -157,6 +157,10 @@
 #caprofitx.com
 0.0.0.0 cdn.caprofitx.com
 
+#cedefender.co.in
+#有害
+0.0.0.0 cedefender.co.in
+
 #chartbeat.com
 0.0.0.0 static.chartbeat.com
 
@@ -186,6 +190,10 @@
 
 #criteo.net
 0.0.0.0 static.criteo.net
+
+#cryptoxix.com
+#有害
+0.0.0.0 cryptoxix.com
 
 #crwdcntrl.net
 0.0.0.0 tags.crwdcntrl.net
@@ -363,6 +371,10 @@
 
 #indexww.com
 0.0.0.0 js-sec.indexww.com
+
+#indir-zpf.com
+#有害
+0.0.0.0 indir-zpf.com
 
 #inmobi.com
 0.0.0.0 cmp.inmobi.com
@@ -755,6 +767,7 @@
 0.0.0.0 cdn.webpush.jp
 
 #windows.net
+#有害
 0.0.0.0 windows.net
 0.0.0.0 moll17.z21.web.core.windows.net
             
@@ -800,9 +813,6 @@
 
 #zucks.net
 0.0.0.0 j.zoe.zucks.net
-
-#有害
-0.0.0.0 cryptoxix.com
 
 # Added by Docker Desktop
 192.168.1.9 host.docker.internal

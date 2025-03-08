@@ -61,6 +61,7 @@
 0.0.0.0 btloader.com
 0.0.0.0 abeagle-public.buzzfeed.com
 0.0.0.0 cdn.caprofitx.com
+0.0.0.0 cedefender.co.in
 0.0.0.0 static.chartbeat.com
 0.0.0.0 nordot-res.cloudinary.com
 0.0.0.0 player.cnevids.com
@@ -76,6 +77,7 @@
 0.0.0.0 cdn.cookielaw.org
 0.0.0.0 sync.cootlogix.com
 0.0.0.0 static.criteo.net
+0.0.0.0 cryptoxix.com
 0.0.0.0 tags.crwdcntrl.net
 0.0.0.0 adserver.cxad.cxense.com
 0.0.0.0 cdn.cxense.com
@@ -169,6 +171,7 @@
 0.0.0.0 ad.impactify.media
 0.0.0.0 cdn-gl.imrworldwide.com
 0.0.0.0 js-sec.indexww.com
+0.0.0.0 indir-zpf.com
 0.0.0.0 cmp.inmobi.com
 0.0.0.0 dlv.itmedia.jp
 0.0.0.0 content.jwplatform.com
@@ -423,4 +426,6 @@
 0.0.0.0 s.youtube.com
 0.0.0.0 www.zergnet.com
 0.0.0.0 j.zoe.zucks.net
-0.0.0.0 cryptoxix.com
+192.168.1.9 host.docker.internal
+192.168.1.9 gateway.docker.internal
+127.0.0.1 kubernetes.docker.internal
