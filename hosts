@@ -801,7 +801,7 @@
 #zucks.net
 0.0.0.0 j.zoe.zucks.net
 
-*有害
+#有害
 0.0.0.0 cryptoxix.com
 
 # Added by Docker Desktop
