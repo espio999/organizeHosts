@@ -27,8 +27,15 @@
 #3lift.com
 0.0.0.0 eb2.3lift.com ib.3lift.com
 
+#33across.com
+0.0.0.0 cdn-ima.33across.com
+
 #4dex.io
 0.0.0.0 script.4dex.io
+
+#ad.gt
+0.0.0.0 a.ad.gt ids.ad.gt p.ad.gt
+0.0.0.0 pixels.ad.gt
 
 #ad999.biz
 0.0.0.0 ad999.biz
@@ -44,7 +51,7 @@
 0.0.0.0 ad.poly.admatrix.jp
 
 #adnxs
-0.0.0.0 acdn.adnxs.com ib.adnxs.com
+0.0.0.0 acdn.adnxs.com cdn.adnxs.com ib.adnxs.com
 0.0.0.0 sin3-ib.adnxs-simple.com
 
 #adpon.jp
@@ -52,6 +59,10 @@
 
 #adsafeprotected.com
 0.0.0.0 cdn.adsafeprotected.com dt.adsafeprotected.com pixel.adsafeprotected.com static.adsafeprotected.com
+
+#adtechus.com
+0.0.0.0	adserver.adtechus.com
+0.0.0.0	www.adserver.adtechus.com
 
 #ad-delivery.net
 0.0.0.0 ad-delivery.net
@@ -80,12 +91,20 @@
 
 #amazon
 #0.0.0.0 completion.amazon.com
-0.0.0.0 aax-fe-sin.amazon-adsystem.com c.amazon-adsystem.com
+#0.0.0.0 aax-fe-sin.amazon-adsystem.com c.amazon-adsystem.com
 #0.0.0.0 images-fe.ssl-images-amazon.com
 #0.0.0.0 m.media-amazon.com
+0.0.0.0 aax-fe.amazon.co.jp
+0.0.0.0 aes.fe.ono.axp.amazon-adsystem.com
+
+#a-mo.net
+0.0.0.0 sync.a-mo.net
 
 #ancientact.com noDNS
 0.0.0.0 ancientact.com
+
+#player.aniview.com
+0.0.0.0 player.aniview.com
 
 #anymind360.com
 0.0.0.0 anymind360.com
@@ -104,6 +123,10 @@
 
 #asahiinteractive.com noDNS
 0.0.0.0 push.asahiinteractive.com
+
+
+#avantisvideo.com
+0.0.0.0 cdn.avantisvideo.com
 
 #bigmining.com
 0.0.0.0 cdn.bigmining.com
@@ -158,8 +181,14 @@
 #cookielaw.org
 0.0.0.0 cdn.cookielaw.org
 
+#cootlogix.com
+0.0.0.0 sync.cootlogix.com
+
 #criteo.net
 0.0.0.0 static.criteo.net
+
+#crwdcntrl.net
+0.0.0.0 tags.crwdcntrl.net
 
 #cxense.com
 0.0.0.0 adserver.cxad.cxense.com cdn.cxense.com scdn.cxense.com
@@ -186,14 +215,28 @@
 #durationmedia.net
 0.0.0.0 tag.durationmedia.net
 
+#edgekey.net
+0.0.0.0	cdn.taboola.com esd-secure.taboola.com.edgekey.net
+0.0.0.0	taboola.com.edgekey.net
+0.0.0.0	www.esd-secure.taboola.com.edgekey.net
+0.0.0.0	www.taboola.com.edgekey.net
+
+#engageya.com
+0.0.0.0	ecs4.engageya.com
+0.0.0.0	engageya.com
+0.0.0.0	images9.engageya.com
+
 #enhance.co.jp noDNS
-rise.enhance.co.jp
+0.0.0.0 rise.enhance.co.jp
 
 #facebook.net
 0.0.0.0 connect.facebook.net
 
 #fam-8.net
 0.0.0.0 fam-8.net
+
+#fastclick.net
+0.0.0.0 secure.cdn.fastclick.net
 
 #fc2.com
 0.0.0.0 analyzer51.fc2.com counter.fc2.com counter1.fc2.com media.fc2.com media5.fc2.com static.fc2.com vip.chps-api.fc2.com
@@ -230,6 +273,9 @@ rise.enhance.co.jp
 
 #genieesspv
 0.0.0.0 aladdin.genieesspv.jp
+
+#geoedge.be
+0.0.0.0 rumcdn.geoedge.be
 
 #gfx.ms
 0.0.0.0 mem.gfx.ms
@@ -269,7 +315,7 @@ rise.enhance.co.jp
 0.0.0.0 secure.gravatar.com
 
 #gsspcln
-0.0.0.0 js.gsspcln.jp
+0.0.0.0 js.gsspcln.jp works.gsspcln.jp
 
 #gstatic.com
 #CAPTCHAに利用される
@@ -278,15 +324,20 @@ rise.enhance.co.jp
 #gumgum.com
 0.0.0.0 js.gumgum.com
 
+#hadronid.net
+0.0.0.0 cdn.hadronid.net
+
 #hatena
 0.0.0.0 cdn.ad-hatena.com
-0.0.0.0 cdn.pool.st-hatena.com
 
 #i2ad.jp
 0.0.0.0 i2ad.jp
 
 #iasds01.com
 0.0.0.0 sc.iasds01.com
+
+#id5-sync.com
+0.0.0.0 cdn.id5-sync.com
 
 #iid.jp
 0.0.0.0 deliver.ads2.iid.jp front-api-gateway.account.media.iid.jp recruitbox.media.iid.jp
@@ -312,6 +363,9 @@ rise.enhance.co.jp
 
 #indexww.com
 0.0.0.0 js-sec.indexww.com
+
+#inmobi.com
+0.0.0.0 cmp.inmobi.com
 
 #ismcdn.jp
 #東洋経済のCSS
@@ -357,6 +411,9 @@ rise.enhance.co.jp
 #loom-app.com  noDNS
 0.0.0.0 media.loom-app.com
 
+#luckyorange.com
+0.0.0.0 tools.luckyorange.com
+
 #media.net  noDNS
 0.0.0.0 contextual.media.net warp.media.net
 
@@ -376,11 +433,20 @@ rise.enhance.co.jp
 #ml314.com  noDNS
 0.0.0.0 vi.ml314.com
 
+#mmt.delivery
+0.0.0.0 fastly.mmt.delivery
+
 #moatads.com
 0.0.0.0 z.moatads.com
 
+#monu.delivery
+0.0.0.0 monu.delivery
+
 #moshimo.com
 0.0.0.0 i.moshimo.com
+
+#msedge.net
+0.0.0.0	fp.msedge.net
 
 #msfstatic.com
 0.0.0.0 r.msfstatic.com
@@ -390,7 +456,7 @@ rise.enhance.co.jp
 #msnポータルの画像が失われる --> img-s-msn-com.akamaized.net
 #0.0.0.0 assets.msn.com
 #0.0.0.0 img-s-msn-com.akamaized.net
-0.0.0.0 api.msn.com browser.events.data.msn.com c.msn.com ent-api.msn.com srtb.msn.com 
+0.0.0.0 api.msn.com browser.events.data.msn.com c.msn.com ent-api.msn.com mobileads.msn.com srtb.msn.com
 0.0.0.0 c.msn.cn
 0.0.0.0 static-global-s-msn-com.akamaized.net
 
@@ -409,8 +475,12 @@ rise.enhance.co.jp
 #newrelic
 0.0.0.0 js-agent.newrelic.com
 
+#nextmillmedia.com
+0.0.0.0 cookies.nextmillmedia.com
+
 #nhk.or.jp
 #0.0.0.0 apps.nhk.or.jp location.nhk.or.jp
+0.0.0.0 location.nhk.or.jp
 
 #nikkei  noDNS
 0.0.0.0 nkis.nikkei.com r.nikkei.com
@@ -434,18 +504,40 @@ rise.enhance.co.jp
 #omnisnippet1.com
 0.0.0.0 omnisnippet1.com
 
+#omnitagjs.com
+0.0.0.0 visitor.omnitagjs.com
+
 #onesignal.com
 0.0.0.0 cdn.onesignal.com
 
+#oooutbrain.com
+0.0.0.0	oooutbrain.com
+
 #opecloud.com  noDNS
-cdn.opecloud.com
+0.0.0.0 cdn.opecloud.com
 
 #openx
-0.0.0.0 u.openx.net
+0.0.0.0 u.openx.net us-u.openx.net www.us-u.openx.net
 
 #outbrain
-0.0.0.0 outbrain.com amplifypixel.outbrain.com widgets.outbrain.com
+0.0.0.0 outbrain.com
+0.0.0.0 amplify.outbrain.com
+0.0.0.0 amplifypixel.outbrain.com
+0.0.0.0 images.outbrain.com
+0.0.0.0 log.outbrain.com
+0.0.0.0 widgets.outbrain.com
+0.0.0.0	odb.outbrain.com
+0.0.0.0	paid.outbrain.com
+0.0.0.0	sync.outbrain.com
+0.0.0.0	tr.outbrain.com
+0.0.0.0	traffic.outbrain.com
+0.0.0.0	vra.outbrain.com
+0.0.0.0	vrp.outbrain.com
+0.0.0.0	vrt.outbrain.com
+0.0.0.0	widgets.outbrain.com
+0.0.0.0	www.outbrain.com
 0.0.0.0 zem.outbrainimg.com
+0.0.0.0	amplifypixel.outbrain.com
 
 #p-n.io
 0.0.0.0 cdn.p-n.io
@@ -510,20 +602,32 @@ cdn.opecloud.com
 #sail-horizon.com
 0.0.0.0 ak.sail-horizon.com
 
-#shema.org
+#schema.org
 0.0.0.0 schema.org
 
 #scorecardresearch.com
 0.0.0.0 b.scorecardresearch.com sb.scorecardresearch.com
 
+#seedtag.com
+0.0.0.0 cs.seedtag.com
+
 #segment.com
 0.0.0.0 cdn.segment.com
+
+#sentry-cdn.com
+0.0.0.0 browser.sentry-cdn.com
+
+#serverbid.com
+0.0.0.0 sync.serverbid.com
 
 #serving-sys
 0.0.0.0 secure-ds.serving-sys.com
 
 #sharethrough.com noDNS
 0.0.0.0 sdk.sharethrough.com
+
+#sitescout.com
+0.0.0.0 pixel-sync.sitescout.com
 
 #socdm.com
 0.0.0.0 frtn.socdm.com tg.socdm.com
@@ -540,6 +644,9 @@ cdn.opecloud.com
 #speedcurve.com noDNS
 0.0.0.0 cdn.speedcurve.com
 
+#spotxcdn.com
+0.0.0.0	cdn.spotxcdn.com
+
 #stamped.io
 0.0.0.0 cdn1.stamped.io
 
@@ -547,13 +654,43 @@ cdn.opecloud.com
 0.0.0.0 ads.stickyadstv.com
 
 #taboola.com
-0.0.0.0 cdn.taboola.com
+0.0.0.0	api.taboola.com
+0.0.0.0	c2.taboola.com
+0.0.0.0	cdn.taboola.com
+0.0.0.0	images.taboola.com
+0.0.0.0	imprammp.taboola.com
+0.0.0.0	nr.taboola.com
+0.0.0.0	popup.taboola.com
+0.0.0.0	taboola.com
+0.0.0.0	trc.taboola.com
+0.0.0.0	vidstat.taboola.com
+0.0.0.0	vidstatb.taboola.com
+0.0.0.0	www.api.taboola.com
+0.0.0.0	www.c2.taboola.com
+0.0.0.0	www.cdn.taboola.com
+0.0.0.0	www.popup.taboola.com
+0.0.0.0	www.taboola.com
+0.0.0.0	www.trc.taboola.com
+
+#taboolasyndication.com
+0.0.0.0	cdn.taboolasyndication.co
+0.0.0.0	cdn.taboolasyndication.com
+0.0.0.0	taboolasyndication.com
+0.0.0.0	trc.taboolasyndication.com
+0.0.0.0	urc.taboolasyndication.com
+0.0.0.0	www.cdn.taboolasyndication.com
+0.0.0.0	www.taboolasyndication.com
+0.0.0.0	www.urc.taboolasyndication.com
 
 #taxel.jp
 0.0.0.0 widgets.taxel.jp
 
 #teads.tv
 0.0.0.0 a.teads.tv cm.teads.tv s8t.teads.tv
+
+#tgstc.com
+#togetterを正常に表示する
+#0.0.0.0 s.tgstc.com
 
 #themoneytizer.com
 0.0.0.0 ads.themoneytizer.com
@@ -563,6 +700,9 @@ cdn.opecloud.com
 
 #trvdp.com
 0.0.0.0 go.trvdp.com vid.trvdp.com
+
+#trafficmanager.net
+0.0.0.0	msmonplat.trafficmanager.net
 
 #treasuredata.com noDNS
 0.0.0.0 cdn.treasuredata.com cdp.in.treasuredata.com docs.treasuredata.com in.treasuredata.com
@@ -605,11 +745,21 @@ cdn.opecloud.com
 #vidible.tv
 0.0.0.0 cdn.vidible.tv
 
+#vungle.com
+0.0.0.0	ads.api.vungle.com
+
 #w.org
 0.0.0.0 s.w.org
 
 #webpush.jp
 0.0.0.0 cdn.webpush.jp
+
+#windows.net
+0.0.0.0 windows.net
+0.0.0.0 moll17.z21.web.core.windows.net
+            
+#winudf.com
+0.0.0.0 static-sg.winudf.com
 
 #wordpress, wp.com
 #0.0.0.0 c0.wp.com  画像
@@ -655,8 +805,8 @@ cdn.opecloud.com
 0.0.0.0 cryptoxix.com
 
 # Added by Docker Desktop
-192.168.1.7 host.docker.internal
-192.168.1.7 gateway.docker.internal
+192.168.1.9 host.docker.internal
+192.168.1.9 gateway.docker.internal
 # To allow the same kube context to work on the host and the container:
 127.0.0.1 kubernetes.docker.internal
 # End of section
