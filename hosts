@@ -85,6 +85,9 @@
 #advertising.com
 0.0.0.0 cdn.cmp.advertising.com
 
+#adups.com
+0.0.0.0 fota5p.adups.com
+
 #akamai.net
 #0.0.0.0 a248.e.akamai.net
 0.0.0.0 speee-ad.akamaized.net
@@ -99,6 +102,10 @@
 
 #a-mo.net
 0.0.0.0 sync.a-mo.net
+
+#amoad.com
+0.0.0.0 a.amoad.com b.amoad.com c.amoad.com d.amoad.com e.amoad.com f.amoad.com g.amoad.com h.amoad.com i.amoad.com j.amoad.com k.amoad.com l.amoad.com m.amoad.com n.amoad.com o.amoad.com p.amoad.com q.amoad.com r.amoad.com s.amoad.com t.amoad.com u.amoad.com v.amoad.com w.amoad.com x.amoad.com y.amoad.com z.amoad.com
+0.0.0.0 frtn.amoad.com tg.amoad.com
 
 #ancientact.com noDNS
 0.0.0.0 ancientact.com
@@ -157,6 +164,9 @@
 #caprofitx.com
 0.0.0.0 cdn.caprofitx.com
 
+#cdn77.org
+0.0.0.0 1183467342.rsc.cdn77.org
+
 #cedefender.co.in
 #有害
 0.0.0.0 cedefender.co.in
@@ -187,6 +197,9 @@
 
 #cootlogix.com
 0.0.0.0 sync.cootlogix.com
+
+#crashlytics.com
+0.0.0.0 firebase-settings.crashlytics.com
 
 #criteo.net
 0.0.0.0 static.criteo.net
@@ -426,6 +439,9 @@
 #luckyorange.com
 0.0.0.0 tools.luckyorange.com
 
+#machi.to
+0.0.0.0 machi.to
+
 #media.net  noDNS
 0.0.0.0 contextual.media.net warp.media.net
 
@@ -563,6 +579,9 @@
 #playfulriver.com
 0.0.0.0 playfulriver.com
 
+#poiful.com
+0.0.0.0 asset.poiful.com
+
 #polyfill.io
 0.0.0.0 polyfill.io
 
@@ -642,6 +661,7 @@
 0.0.0.0 pixel-sync.sitescout.com
 
 #socdm.com
+0.0.0.0 a.socdm.com b.socdm.com c.socdm.com d.socdm.com e.socdm.com f.socdm.com g.socdm.com h.socdm.com i.socdm.com j.socdm.com k.socdm.com l.socdm.com m.socdm.com n.socdm.com o.socdm.com p.socdm.com q.socdm.com r.socdm.com s.socdm.com t.socdm.com u.socdm.com v.socdm.com w.socdm.com x.socdm.com y.socdm.com z.socdm.com
 0.0.0.0 frtn.socdm.com tg.socdm.com
 
 #solutionshindsight.net noDNS
@@ -664,6 +684,9 @@
 
 #stickyadstv.com
 0.0.0.0 ads.stickyadstv.com
+
+#syoboi.jp
+0.0.0.0 ngid.syoboi.jp
 
 #taboola.com
 0.0.0.0	api.taboola.com
@@ -756,6 +779,9 @@
 
 #vidible.tv
 0.0.0.0 cdn.vidible.tv
+
+#vrizead.com
+0.0.0.0 api.adserver.vrizead.com
 
 #vungle.com
 0.0.0.0	ads.api.vungle.com
