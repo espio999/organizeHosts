@@ -567,6 +567,9 @@
 0.0.0.0 zem.outbrainimg.com
 0.0.0.0	amplifypixel.outbrain.com
 
+#parklogic.com
+0.0.0.0 parking3.parklogic.com
+
 #p-n.io
 0.0.0.0 cdn.p-n.io
 
@@ -638,6 +641,12 @@
 
 #scorecardresearch.com
 0.0.0.0 b.scorecardresearch.com sb.scorecardresearch.com
+
+#sedo.com
+0.0.0.0 www.sedo.com
+
+#sedoparking.com
+0.0.0.0 sedoparking.com
 
 #seedtag.com
 0.0.0.0 cs.seedtag.com

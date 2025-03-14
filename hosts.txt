@@ -284,6 +284,7 @@
 0.0.0.0 www.outbrain.com
 0.0.0.0 zem.outbrainimg.com
 0.0.0.0 amplifypixel.outbrain.com
+0.0.0.0 parking3.parklogic.com
 0.0.0.0 cdn.p-n.io
 0.0.0.0 api-esp-ap.piano.io
 0.0.0.0 buy-ap.piano.io
@@ -318,6 +319,8 @@
 0.0.0.0 schema.org
 0.0.0.0 b.scorecardresearch.com
 0.0.0.0 sb.scorecardresearch.com
+0.0.0.0 www.sedo.com
+0.0.0.0 sedoparking.com
 0.0.0.0 cs.seedtag.com
 0.0.0.0 cdn.segment.com
 0.0.0.0 browser.sentry-cdn.com
