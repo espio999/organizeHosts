@@ -37,6 +37,10 @@
 0.0.0.0 aka-cdn.adtechus.com
 0.0.0.0 cdn.cmp.advertising.com
 0.0.0.0 fota5p.adups.com
+0.0.0.0 arm.appoersig.com.akadns.net
+0.0.0.0 jprtb.c.appier.net.akadns.net
+0.0.0.0 ss-sg2.appiersig.com.akadns.net
+0.0.0.0 www.tm.prd.ags.akadns.net
 0.0.0.0 speee-ad.akamaized.net
 0.0.0.0 aax-fe.amazon.co.jp
 0.0.0.0 aes.fe.ono.axp.amazon-adsystem.com
@@ -72,6 +76,12 @@
 0.0.0.0 ancientact.com
 0.0.0.0 player.aniview.com
 0.0.0.0 anymind360.com
+0.0.0.0 ad.appier.net
+0.0.0.0 jprtb.c.appier.net
+0.0.0.0 vst.c.appier.net
+0.0.0.0 arm.appoersig.com
+0.0.0.0 ss-kp2.appiersig.com
+0.0.0.0 ss-sg2.appiersig.com
 0.0.0.0 guidesites.appspot.com
 0.0.0.0 tag.aticdn.net
 0.0.0.0 push.asahiinteractive.com
@@ -83,6 +93,7 @@
 0.0.0.0 bat.bing.com
 0.0.0.0 th.bing.com
 0.0.0.0 organizer.bizzabo.com
+0.0.0.0 sg-trk.bluevoox.com
 0.0.0.0 cs.boost-next.co.jp
 0.0.0.0 edayo.boost-next.co.jp
 0.0.0.0 js.boost-next.co.jp
@@ -203,6 +214,7 @@
 0.0.0.0 cdn-gl.imrworldwide.com
 0.0.0.0 js-sec.indexww.com
 0.0.0.0 indir-zpf.com
+0.0.0.0 impression-east.liftoff.io
 0.0.0.0 cmp.inmobi.com
 0.0.0.0 dlv.itmedia.jp
 0.0.0.0 content.jwplatform.com
@@ -389,6 +401,7 @@
 0.0.0.0 www.cdn.taboolasyndication.com
 0.0.0.0 www.taboolasyndication.com
 0.0.0.0 www.urc.taboolasyndication.com
+0.0.0.0 www.tm.prd.ags.trafficmanager.net
 0.0.0.0 widgets.taxel.jp
 0.0.0.0 a.teads.tv
 0.0.0.0 cm.teads.tv

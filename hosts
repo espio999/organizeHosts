@@ -88,6 +88,12 @@
 #adups.com
 0.0.0.0 fota5p.adups.com
 
+#akadns.net
+0.0.0.0 arm.appoersig.com.akadns.net
+0.0.0.0 jprtb.c.appier.net.akadns.net
+0.0.0.0 ss-sg2.appiersig.com.akadns.net
+0.0.0.0 www.tm.prd.ags.akadns.net
+
 #akamai.net
 #0.0.0.0 a248.e.akamai.net
 0.0.0.0 speee-ad.akamaized.net
@@ -110,7 +116,7 @@
 #ancientact.com noDNS
 0.0.0.0 ancientact.com
 
-#player.aniview.com
+#aniview.com
 0.0.0.0 player.aniview.com
 
 #anymind360.com
@@ -118,6 +124,16 @@
 
 #aolcdn.com
 #0.0.0.0 s.aolcdn.com
+
+#appier.net
+0.0.0.0 ad.appier.net
+0.0.0.0 jprtb.c.appier.net
+0.0.0.0 vst.c.appier.net
+
+#appiersig.com
+0.0.0.0 arm.appoersig.com
+0.0.0.0 ss-kp2.appiersig.com
+0.0.0.0 ss-sg2.appiersig.com
 
 #appspot.com
 0.0.0.0 guidesites.appspot.com
@@ -144,6 +160,9 @@
 
 #bizzabo.com
 0.0.0.0 organizer.bizzabo.com
+
+#bluevoox.com
+0.0.0.0 sg-trk.bluevoox.com
 
 #boost-next.co.jp
 0.0.0.0 cs.boost-next.co.jp edayo.boost-next.co.jp js.boost-next.co.jp
@@ -388,6 +407,9 @@
 #indir-zpf.com
 #有害
 0.0.0.0 indir-zpf.com
+
+#liftoff.io
+0.0.0.0 impression-east.liftoff.io
 
 #inmobi.com
 0.0.0.0 cmp.inmobi.com
@@ -725,6 +747,9 @@
 0.0.0.0	www.cdn.taboolasyndication.com
 0.0.0.0	www.taboolasyndication.com
 0.0.0.0	www.urc.taboolasyndication.com
+
+#trafficmanager.net
+0.0.0.0 www.tm.prd.ags.trafficmanager.net
 
 #taxel.jp
 0.0.0.0 widgets.taxel.jp
