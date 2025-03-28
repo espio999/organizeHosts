@@ -32,6 +32,7 @@
 0.0.0.0 edayo.ad-drop.jp
 0.0.0.0 js.ad-drop.jp
 0.0.0.0 img.ad-nex.com
+0.0.0.0 cr.adsappier.com
 0.0.0.0 cdn-f.adsmocolo.com
 0.0.0.0 js.ad-spire.net
 0.0.0.0 ad.ad-stir.com
