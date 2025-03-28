@@ -47,6 +47,9 @@
 #adlightning.com
 0.0.0.0 tagan.adlightning.com
 
+#adjust.com
+0.0.0.0 view.adjust.com
+
 #admatrix.jp
 0.0.0.0 ad.poly.admatrix.jp
 
@@ -72,6 +75,9 @@
 
 #ad-nex.com
 0.0.0.0 img.ad-nex.com
+
+#adsmoloco.com
+0.0.0.0 cdn-f.adsmocolo.com
 
 #ad-spire
 0.0.0.0 js.ad-spire.net
@@ -278,6 +284,9 @@
 #fastclick.net
 0.0.0.0 secure.cdn.fastclick.net
 
+#fastly.net
+0.0.0.0 global.moloco.map.fastly.net
+
 #fc2.com
 0.0.0.0 analyzer51.fc2.com counter.fc2.com counter1.fc2.com media.fc2.com media5.fc2.com static.fc2.com vip.chps-api.fc2.com
 
@@ -391,6 +400,9 @@
 
 #im-apps
 0.0.0.0 dmp.im-apps.net
+
+#impress.co.jp
+0.0.0.0 asset.watch.impress.co.jp
 
 #impact-ad
 0.0.0.0 aw.dw.impact-ad.jp img.ak.impact-ad.jp penta.a.one.impact-ad.jp v.one.impact-ad.jp y.one.impact-ad.jp
