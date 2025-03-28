@@ -208,7 +208,6 @@
 0.0.0.0 imp-adedge.i-mobile.co.jp
 0.0.0.0 cdn.id5-sync.com/
 0.0.0.0 dmp.im-apps.net
-0.0.0.0 asset.watch.impress.co.jp
 0.0.0.0 aw.dw.impact-ad.jp
 0.0.0.0 img.ak.impact-ad.jp
 0.0.0.0 penta.a.one.impact-ad.jp

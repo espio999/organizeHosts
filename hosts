@@ -402,7 +402,8 @@
 0.0.0.0 dmp.im-apps.net
 
 #impress.co.jp
-0.0.0.0 asset.watch.impress.co.jp
+#impress系サイトで画像が表示されない
+#0.0.0.0 asset.watch.impress.co.jp
 
 #impact-ad
 0.0.0.0 aw.dw.impact-ad.jp img.ak.impact-ad.jp penta.a.one.impact-ad.jp v.one.impact-ad.jp y.one.impact-ad.jp
