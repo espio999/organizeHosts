@@ -802,6 +802,9 @@
 #treasuredata.com noDNS
 0.0.0.0 cdn.treasuredata.com cdp.in.treasuredata.com docs.treasuredata.com in.treasuredata.com
 
+#tresensa.com
+0.0.0.0 games.tresensa.com sdk.tresensa.com
+
 #tru.am
 0.0.0.0 tru.am
 
@@ -825,7 +828,7 @@
 0.0.0.0 ae-iads.unity.com cdn.iads.unity3d.com o.iads.unity3d.com
 0.0.0.0 gw-is.iads.unity3d.com gw-rv.iads.unity3d.com
 0.0.0.0 unityads.unity3d.com scar.unityads.unity3d.com thind.unityads.unity3d.com
-0.0.0.0 gw.mediation.unity3d.com o-iad-notifications.mediation.unity3d.com
+0.0.0.0 gw.mediation.unity3d.com o-iab-notifications.mediation.unity3d.com o-sdk.mediation.unity3d.com
 
 #uplynk.com
 0.0.0.0 content.uplynk.com

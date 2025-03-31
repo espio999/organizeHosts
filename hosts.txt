@@ -423,6 +423,8 @@
 0.0.0.0 cdp.in.treasuredata.com
 0.0.0.0 docs.treasuredata.com
 0.0.0.0 in.treasuredata.com
+0.0.0.0 games.tresensa.com
+0.0.0.0 sdk.tresensa.com
 0.0.0.0 tru.am
 0.0.0.0 rtd.tubemogul.com
 0.0.0.0 cdn.syndication.twimg.com
@@ -439,7 +441,8 @@
 0.0.0.0 scar.unityads.unity3d.com
 0.0.0.0 thind.unityads.unity3d.com
 0.0.0.0 gw.mediation.unity3d.com
-0.0.0.0 o-iad-notifications.mediation.unity3d.com
+0.0.0.0 o-iab-notifications.mediation.unity3d.com
+0.0.0.0 o-sdk.mediation.unity3d.com
 0.0.0.0 content.uplynk.com
 0.0.0.0 adjs.ust-ad.com
 0.0.0.0 aml.valuecommerce.com
