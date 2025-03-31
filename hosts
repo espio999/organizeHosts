@@ -454,6 +454,9 @@
 #kuzen.io
 0.0.0.0 dialog.kuzen.io
 
+#liftoff-creatives.io
+0.0.0.0 cdn.liftoff-creatives.io
+
 #line
 0.0.0.0 scdn.line-apps.com
 
@@ -811,6 +814,11 @@
 
 #unblockia.com
 0.0.0.0 cdn.unblockia.com
+
+#unity3d.com
+0.0.0.0 ae-iads.unity.com cdn.iads.unity3d.com o.iads.unity3d.com
+0.0.0.0 gw-is.iads.unity3d.com gw-rv.iads.unity3d.com
+0.0.0.0 unityads.unity3d.com scar.unityads.unity3d.com thind.unityads.unity3d.com
 
 #uplynk.com
 0.0.0.0 content.uplynk.com

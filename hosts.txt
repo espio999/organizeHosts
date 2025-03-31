@@ -226,6 +226,7 @@
 0.0.0.0 global.ketchcdn.com
 0.0.0.0 cdn.ketchjs.com
 0.0.0.0 dialog.kuzen.io
+0.0.0.0 cdn.liftoff-creatives.io
 0.0.0.0 scdn.line-apps.com
 0.0.0.0 automate-frontend.linksynergy.com
 0.0.0.0 parts.blog.livedoor.jp
@@ -427,6 +428,14 @@
 0.0.0.0 platform.twitter.com
 0.0.0.0 use.typekit.net
 0.0.0.0 cdn.unblockia.com
+0.0.0.0 ae-iads.unity.com
+0.0.0.0 cdn.iads.unity3d.com
+0.0.0.0 o.iads.unity3d.com
+0.0.0.0 gw-is.iads.unity3d.com
+0.0.0.0 gw-rv.iads.unity3d.com
+0.0.0.0 unityads.unity3d.com
+0.0.0.0 scar.unityads.unity3d.com
+0.0.0.0 thind.unityads.unity3d.com
 0.0.0.0 content.uplynk.com
 0.0.0.0 adjs.ust-ad.com
 0.0.0.0 aml.valuecommerce.com
