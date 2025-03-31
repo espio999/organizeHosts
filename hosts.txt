@@ -14,6 +14,7 @@
 0.0.0.0 one.adingo.jp
 0.0.0.0 pdn.adingo.jp
 0.0.0.0 tagan.adlightning.com
+0.0.0.0 app.adjust.com
 0.0.0.0 view.adjust.com
 0.0.0.0 ad.poly.admatrix.jp
 0.0.0.0 acdn.adnxs.com
@@ -44,6 +45,7 @@
 0.0.0.0 arm.appiersig.com.akadns.net
 0.0.0.0 jprtb.c.appier.net.akadns.net
 0.0.0.0 ss-sg2.appiersig.com.akadns.net
+0.0.0.0 www.tm.a.prd.aadg.akadns.net
 0.0.0.0 www.tm.prd.ags.akadns.net
 0.0.0.0 speee-ad.akamaized.net
 0.0.0.0 aax-fe.amazon.co.jp
@@ -419,6 +421,7 @@
 0.0.0.0 go.trvdp.com
 0.0.0.0 vid.trvdp.com
 0.0.0.0 msmonplat.trafficmanager.net
+0.0.0.0 www.tm.a.prd.aadg.trafficmanager.net
 0.0.0.0 cdn.treasuredata.com
 0.0.0.0 cdp.in.treasuredata.com
 0.0.0.0 docs.treasuredata.com
@@ -432,6 +435,7 @@
 0.0.0.0 platform.twitter.com
 0.0.0.0 use.typekit.net
 0.0.0.0 cdn.unblockia.com
+0.0.0.0 ae.iads.unity.com
 0.0.0.0 ae-iads.unity.com
 0.0.0.0 cdn.iads.unity3d.com
 0.0.0.0 o.iads.unity3d.com
@@ -441,6 +445,7 @@
 0.0.0.0 scar.unityads.unity3d.com
 0.0.0.0 thind.unityads.unity3d.com
 0.0.0.0 gw.mediation.unity3d.com
+0.0.0.0 o-iab-imp-counters.mediation.unity3d.com
 0.0.0.0 o-iab-notifications.mediation.unity3d.com
 0.0.0.0 o-sdk.mediation.unity3d.com
 0.0.0.0 content.uplynk.com
