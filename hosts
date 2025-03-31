@@ -139,6 +139,9 @@
 #aolcdn.com
 #0.0.0.0 s.aolcdn.com
 
+#app-measurement.com
+0.0.0.0 app-measurement.com
+
 #appier.net
 0.0.0.0 ad.appier.net
 0.0.0.0 jprtb.c.appier.net

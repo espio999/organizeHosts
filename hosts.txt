@@ -82,6 +82,7 @@
 0.0.0.0 ancientact.com
 0.0.0.0 player.aniview.com
 0.0.0.0 anymind360.com
+0.0.0.0 app-measurement.com
 0.0.0.0 ad.appier.net
 0.0.0.0 jprtb.c.appier.net
 0.0.0.0 vst.c.appier.net
