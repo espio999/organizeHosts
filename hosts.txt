@@ -25,6 +25,7 @@
 0.0.0.0 dt.adsafeprotected.com
 0.0.0.0 pixel.adsafeprotected.com
 0.0.0.0 static.adsafeprotected.com
+0.0.0.0 cdn-f.adsmoloco.com
 0.0.0.0 adserver.adtechus.com
 0.0.0.0 www.adserver.adtechus.com
 0.0.0.0 ad-delivery.net
@@ -220,6 +221,7 @@
 0.0.0.0 js-sec.indexww.com
 0.0.0.0 indir-zpf.com
 0.0.0.0 impression-east.liftoff.io
+0.0.0.0 cdn.liftoff-creatives.io
 0.0.0.0 cmp.inmobi.com
 0.0.0.0 dlv.itmedia.jp
 0.0.0.0 content.jwplatform.com
@@ -436,6 +438,8 @@
 0.0.0.0 unityads.unity3d.com
 0.0.0.0 scar.unityads.unity3d.com
 0.0.0.0 thind.unityads.unity3d.com
+0.0.0.0 gw.mediation.unity3d.com
+0.0.0.0 o-iad-notifications.mediation.unity3d.com
 0.0.0.0 content.uplynk.com
 0.0.0.0 adjs.ust-ad.com
 0.0.0.0 aml.valuecommerce.com

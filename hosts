@@ -63,6 +63,9 @@
 #adsafeprotected.com
 0.0.0.0 cdn.adsafeprotected.com dt.adsafeprotected.com pixel.adsafeprotected.com static.adsafeprotected.com
 
+#adsmoloco.com
+0.0.0.0 cdn-f.adsmoloco.com
+
 #adtechus.com
 0.0.0.0	adserver.adtechus.com
 0.0.0.0	www.adserver.adtechus.com
@@ -427,6 +430,9 @@
 
 #liftoff.io
 0.0.0.0 impression-east.liftoff.io
+
+#liftoff-creatives.io
+0.0.0.0 cdn.liftoff-creatives.io
 
 #inmobi.com
 0.0.0.0 cmp.inmobi.com
@@ -819,6 +825,7 @@
 0.0.0.0 ae-iads.unity.com cdn.iads.unity3d.com o.iads.unity3d.com
 0.0.0.0 gw-is.iads.unity3d.com gw-rv.iads.unity3d.com
 0.0.0.0 unityads.unity3d.com scar.unityads.unity3d.com thind.unityads.unity3d.com
+0.0.0.0 gw.mediation.unity3d.com o-iad-notifications.mediation.unity3d.com
 
 #uplynk.com
 0.0.0.0 content.uplynk.com
