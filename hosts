@@ -105,8 +105,7 @@
 0.0.0.0 jprtb.c.appier.net.akadns.net
 0.0.0.0 ss-sg2.appiersig.com.akadns.net
 0.0.0.0 www.tm.a.prd.aadg.akadns.net
-0.0.0.0 www.tm.prd.ags.akadns.net
-
+#Microsoft Lensが使用できない 0.0.0.0 www.tm.prd.ags.akadns.net
 
 #akamai.net
 #0.0.0.0 a248.e.akamai.net

@@ -46,7 +46,6 @@
 0.0.0.0 jprtb.c.appier.net.akadns.net
 0.0.0.0 ss-sg2.appiersig.com.akadns.net
 0.0.0.0 www.tm.a.prd.aadg.akadns.net
-0.0.0.0 www.tm.prd.ags.akadns.net
 0.0.0.0 speee-ad.akamaized.net
 0.0.0.0 aax-fe.amazon.co.jp
 0.0.0.0 aes.fe.ono.axp.amazon-adsystem.com
