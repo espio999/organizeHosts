@@ -449,6 +449,9 @@
 0.0.0.0 dlv.itmedia.jp 
 #0.0.0.0  img.itmedia.jp
 
+#iws.vc
+0.0.0.0 tracker.iws.vc
+
 #jsdelivr.net
 #0.0.0.0 cdn.jsdelivr.net
 
@@ -863,8 +866,14 @@
 #w.org
 0.0.0.0 s.w.org
 
+#web-vitals.net
+0.0.0.0 free.users.web-vitals.net
+
 #webpush.jp
 0.0.0.0 cdn.webpush.jp
+
+#widgetlogic.org
+0.0.0.0 widgetlogic.org
 
 #windows.net
 #有害

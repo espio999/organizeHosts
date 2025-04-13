@@ -225,6 +225,7 @@
 0.0.0.0 cdn.liftoff-creatives.io
 0.0.0.0 cmp.inmobi.com
 0.0.0.0 dlv.itmedia.jp
+0.0.0.0 tracker.iws.vc
 0.0.0.0 content.jwplatform.com
 0.0.0.0 global.ketchcdn.com
 0.0.0.0 cdn.ketchjs.com
@@ -459,7 +460,9 @@
 0.0.0.0 api.adserver.vrizead.com
 0.0.0.0 ads.api.vungle.com
 0.0.0.0 s.w.org
+0.0.0.0 free.users.web-vitals.net
 0.0.0.0 cdn.webpush.jp
+0.0.0.0 widgetlogic.org
 0.0.0.0 windows.net
 0.0.0.0 moll17.z21.web.core.windows.net
 0.0.0.0 static-sg.winudf.com
