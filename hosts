@@ -168,6 +168,9 @@
 #avantisvideo.com
 0.0.0.0 cdn.avantisvideo.com
 
+#bance.jp
+0.0.0.0 js.ssp.bance.jp tr.ssp.bance.jp
+
 #bigmining.com
 0.0.0.0 cdn.bigmining.com
 
@@ -451,6 +454,9 @@
 
 #iws.vc
 0.0.0.0 tracker.iws.vc
+
+#jp1media.com
+0.0.0.0 server.jp1media.com/sync/boost
 
 #jsdelivr.net
 #0.0.0.0 cdn.jsdelivr.net

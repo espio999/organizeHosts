@@ -92,6 +92,8 @@
 0.0.0.0 tag.aticdn.net
 0.0.0.0 push.asahiinteractive.com
 0.0.0.0 cdn.avantisvideo.com
+0.0.0.0 js.ssp.bance.jp
+0.0.0.0 tr.ssp.bance.jp
 0.0.0.0 cdn.bigmining.com
 0.0.0.0 c.bing.com
 0.0.0.0 g.bing.com
@@ -226,6 +228,7 @@
 0.0.0.0 cmp.inmobi.com
 0.0.0.0 dlv.itmedia.jp
 0.0.0.0 tracker.iws.vc
+0.0.0.0 server.jp1media.com/sync/boost
 0.0.0.0 content.jwplatform.com
 0.0.0.0 global.ketchcdn.com
 0.0.0.0 cdn.ketchjs.com
