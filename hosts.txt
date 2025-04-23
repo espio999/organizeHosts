@@ -156,6 +156,7 @@
 0.0.0.0 rise.enhance.co.jp
 0.0.0.0 connect.facebook.net
 0.0.0.0 fam-8.net
+0.0.0.0 fam-ad.com
 0.0.0.0 secure.cdn.fastclick.net
 0.0.0.0 global.moloco.map.fastly.net
 0.0.0.0 analyzer51.fc2.com
@@ -202,6 +203,7 @@
 0.0.0.0 js.gsspcln.jp
 0.0.0.0 works.gsspcln.jp
 0.0.0.0 js.gumgum.com
+0.0.0.0 handgripknuckle.com
 0.0.0.0 cdn.hadronid.net
 0.0.0.0 cdn.ad-hatena.com
 0.0.0.0 i2ad.jp
@@ -253,6 +255,7 @@
 0.0.0.0 jsc.mgid.com
 0.0.0.0 j.microad.net
 0.0.0.0 d-cache.microad.jp
+0.0.0.0 mid-round.com
 0.0.0.0 vi.ml314.com
 0.0.0.0 fastly.mmt.delivery
 0.0.0.0 z.moatads.com
@@ -286,6 +289,7 @@
 0.0.0.0 omnisnippet1.com
 0.0.0.0 visitor.omnitagjs.com
 0.0.0.0 cdn.onesignal.com
+0.0.0.0 onijima.jp
 0.0.0.0 oooutbrain.com
 0.0.0.0 cdn.opecloud.com
 0.0.0.0 u.openx.net
@@ -323,6 +327,7 @@
 0.0.0.0 a.popin.cc
 0.0.0.0 api.popin.cc
 0.0.0.0 jp.popin.cc
+0.0.0.0 prime-ever.com
 0.0.0.0 printwhatyoulike.com
 0.0.0.0 ats-wrapper.privacymanager.io
 0.0.0.0 cdn.provesrc.com
@@ -353,6 +358,7 @@
 0.0.0.0 secure-ds.serving-sys.com
 0.0.0.0 sdk.sharethrough.com
 0.0.0.0 pixel-sync.sitescout.com
+0.0.0.0 smart-below.com
 0.0.0.0 a.socdm.com
 0.0.0.0 b.socdm.com
 0.0.0.0 c.socdm.com
@@ -514,6 +520,7 @@
 0.0.0.0 l.yimg.com
 0.0.0.0 cdn.yahoomedia.net
 0.0.0.0 jac.yahoosandbox.com
+0.0.0.0 ads.c.yimg.jp
 0.0.0.0 im.c.yimg.jp
 0.0.0.0 yads.c.yimg.jp
 0.0.0.0 b.yjtag.jp
@@ -522,7 +529,6 @@
 0.0.0.0 dsb.yahoo.co.jp
 0.0.0.0 cksync.yahoo.co.jp
 0.0.0.0 yads.yahoo.co.jp
-0.0.0.0 yads.c.yimg.jp
 0.0.0.0 ybx.yahoo.co.jp
 0.0.0.0 yjtag.yahoo.co.jp
 0.0.0.0 slink.west.edge.storage-yahoo.jp

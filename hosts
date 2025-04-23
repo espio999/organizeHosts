@@ -295,6 +295,10 @@
 #fam-8.net
 0.0.0.0 fam-8.net
 
+#fam-ad.com
+#有害
+0.0.0.0 fam-ad.com
+
 #fastclick.net
 0.0.0.0 secure.cdn.fastclick.net
 
@@ -386,6 +390,10 @@
 
 #gumgum.com
 0.0.0.0 js.gumgum.com
+
+#handgripknuckle.com
+#有害
+0.0.0.0 handgripknuckle.com
 
 #hadronid.net
 0.0.0.0 cdn.hadronid.net
@@ -519,6 +527,10 @@
 0.0.0.0 j.microad.net
 0.0.0.0 d-cache.microad.jp
 
+#mid-round.com
+#有害
+0.0.0.0 mid-round.com
+
 #ml314.com  noDNS
 0.0.0.0 vi.ml314.com
 
@@ -599,6 +611,10 @@
 #onesignal.com
 0.0.0.0 cdn.onesignal.com
 
+#onijima.jp
+#有害
+0.0.0.0 onijima.jp
+
 #oooutbrain.com
 0.0.0.0	oooutbrain.com
 
@@ -654,6 +670,10 @@
 
 #popin
 0.0.0.0 a.popin.cc api.popin.cc jp.popin.cc
+
+#prime-ever.com
+#有害
+0.0.0.0 prime-ever.com
 
 #printwhatyoulike.com
 0.0.0.0 printwhatyoulike.com
@@ -729,6 +749,10 @@
 
 #sitescout.com
 0.0.0.0 pixel-sync.sitescout.com
+
+#smart-below.com
+#有害
+0.0.0.0 smart-below.com
 
 #socdm.com
 0.0.0.0 a.socdm.com b.socdm.com c.socdm.com d.socdm.com e.socdm.com f.socdm.com g.socdm.com h.socdm.com i.socdm.com j.socdm.com k.socdm.com l.socdm.com m.socdm.com n.socdm.com o.socdm.com p.socdm.com q.socdm.com r.socdm.com s.socdm.com t.socdm.com u.socdm.com v.socdm.com w.socdm.com x.socdm.com y.socdm.com z.socdm.com
@@ -910,9 +934,11 @@
 #Yahoo Japan
 #Yahooへのログインができなくなる --> s.yimg.jp
 #ヤフオクの画像が表示されない --> auc-pctr.c.yimg.jp
-0.0.0.0 im.c.yimg.jp yads.c.yimg.jp
+0.0.0.0 ads.c.yimg.jp
+0.0.0.0 im.c.yimg.jp
+0.0.0.0 yads.c.yimg.jp
 0.0.0.0 b.yjtag.jp s.yjtag.jp
-0.0.0.0 b92.yahoo.co.jp dsb.yahoo.co.jp cksync.yahoo.co.jp yads.yahoo.co.jp yads.c.yimg.jp ybx.yahoo.co.jp yjtag.yahoo.co.jp
+0.0.0.0 b92.yahoo.co.jp dsb.yahoo.co.jp cksync.yahoo.co.jp yads.yahoo.co.jp ybx.yahoo.co.jp yjtag.yahoo.co.jp
 0.0.0.0 slink.west.edge.storage-yahoo.jp
 
 #yoast.com
