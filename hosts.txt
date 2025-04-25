@@ -252,6 +252,7 @@
 0.0.0.0 warp.media.net
 0.0.0.0 assets.media-platform.com
 0.0.0.0 mediaweaver.jp
+0.0.0.0 ktdphrrdk.meetfindsoul.com
 0.0.0.0 jsc.mgid.com
 0.0.0.0 j.microad.net
 0.0.0.0 d-cache.microad.jp
@@ -319,8 +320,10 @@
 0.0.0.0 buy-ap.piano.io
 0.0.0.0 code.piano.io
 0.0.0.0 experience-ap.piano.io
+0.0.0.0 arch.pin673.cyou
 0.0.0.0 placehold.jp
 0.0.0.0 playfulriver.com
+0.0.0.0 jp5282722.pljohkmh.click
 0.0.0.0 asset.poiful.com
 0.0.0.0 polyfill.io
 0.0.0.0 img.polymorphicads.jp
