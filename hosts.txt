@@ -390,6 +390,7 @@
 0.0.0.0 z.socdm.com
 0.0.0.0 frtn.socdm.com
 0.0.0.0 tg.socdm.com
+0.0.0.0 pv.sohu.com
 0.0.0.0 static.solutionshindsight.net
 0.0.0.0 get.s-onetag.com
 0.0.0.0 signal-beacon.s-onetag.com
@@ -429,6 +430,7 @@
 0.0.0.0 s8t.teads.tv
 0.0.0.0 ads.themoneytizer.com
 0.0.0.0 cdn.topsy.com
+0.0.0.0 tqjfn0om.cn
 0.0.0.0 go.trvdp.com
 0.0.0.0 vid.trvdp.com
 0.0.0.0 msmonplat.trafficmanager.net
@@ -535,11 +537,13 @@
 0.0.0.0 ybx.yahoo.co.jp
 0.0.0.0 yjtag.yahoo.co.jp
 0.0.0.0 slink.west.edge.storage-yahoo.jp
+0.0.0.0 ykksu.cn
 0.0.0.0 yoast.com
 0.0.0.0 ad.youtube.com
 0.0.0.0 ads.youtube.com
 0.0.0.0 s.youtube.com
 0.0.0.0 www.zergnet.com
+0.0.0.0 zlqwqf8r.cn
 0.0.0.0 j.zoe.zucks.net
 192.168.1.9 host.docker.internal
 192.168.1.9 gateway.docker.internal

@@ -770,6 +770,10 @@
 0.0.0.0 a.socdm.com b.socdm.com c.socdm.com d.socdm.com e.socdm.com f.socdm.com g.socdm.com h.socdm.com i.socdm.com j.socdm.com k.socdm.com l.socdm.com m.socdm.com n.socdm.com o.socdm.com p.socdm.com q.socdm.com r.socdm.com s.socdm.com t.socdm.com u.socdm.com v.socdm.com w.socdm.com x.socdm.com y.socdm.com z.socdm.com
 0.0.0.0 frtn.socdm.com tg.socdm.com
 
+#sohu.com
+#有害
+0.0.0.0 pv.sohu.com
+
 #solutionshindsight.net noDNS
 0.0.0.0 static.solutionshindsight.net
 
@@ -842,6 +846,10 @@
 
 #topsy.com
 0.0.0.0 cdn.topsy.com
+
+#tqjfn0om.cn
+#有害
+0.0.0.0 tqjfn0om.cn
 
 #trvdp.com
 0.0.0.0 go.trvdp.com vid.trvdp.com
@@ -953,6 +961,10 @@
 0.0.0.0 b92.yahoo.co.jp dsb.yahoo.co.jp cksync.yahoo.co.jp yads.yahoo.co.jp ybx.yahoo.co.jp yjtag.yahoo.co.jp
 0.0.0.0 slink.west.edge.storage-yahoo.jp
 
+#ykksu.cn
+#有害
+0.0.0.0 ykksu.cn
+
 #yoast.com
 0.0.0.0 yoast.com
 
@@ -963,6 +975,10 @@
 
 #zergnet
 0.0.0.0 www.zergnet.com
+
+#zlqwqf8r.cn
+#有害
+0.0.0.0 zlqwqf8r.cn
 
 #zucks.net
 0.0.0.0 j.zoe.zucks.net
