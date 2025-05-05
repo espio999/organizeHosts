@@ -4,6 +4,7 @@
 0.0.0.0 ib.3lift.com
 0.0.0.0 cdn-ima.33across.com
 0.0.0.0 script.4dex.io
+0.0.0.0 abe.ma
 0.0.0.0 a.ad.gt
 0.0.0.0 ids.ad.gt
 0.0.0.0 p.ad.gt
@@ -14,6 +15,7 @@
 0.0.0.0 one.adingo.jp
 0.0.0.0 pdn.adingo.jp
 0.0.0.0 tagan.adlightning.com
+0.0.0.0 p.adlooxtracking.com
 0.0.0.0 app.adjust.com
 0.0.0.0 view.adjust.com
 0.0.0.0 ad.poly.admatrix.jp
@@ -78,6 +80,8 @@
 0.0.0.0 frtn.amoad.com
 0.0.0.0 tg.amoad.com
 0.0.0.0 ancientact.com
+0.0.0.0 rtbcdn.andbeyond.media
+0.0.0.0 rtbpass-us.andbeyond.media
 0.0.0.0 player.aniview.com
 0.0.0.0 anymind360.com
 0.0.0.0 app-measurement.com
@@ -187,6 +191,7 @@
 0.0.0.0 cdn.gmossp-sp.jp
 0.0.0.0 sp.gmossp-sp.jp
 0.0.0.0 gmpg.org
+0.0.0.0 abema.go.link
 0.0.0.0 s.go-mpulse.net
 0.0.0.0 adcdn.goo.ne.jp
 0.0.0.0 img.news.goo.ne.jp
@@ -228,6 +233,7 @@
 0.0.0.0 impression-east.liftoff.io
 0.0.0.0 cdn.liftoff-creatives.io
 0.0.0.0 cmp.inmobi.com
+0.0.0.0 times-abema.ismcdn.jp
 0.0.0.0 dlv.itmedia.jp
 0.0.0.0 tracker.iws.vc
 0.0.0.0 server.jp1media.com/sync/boost
@@ -246,6 +252,7 @@
 0.0.0.0 l.logly.co.jp
 0.0.0.0 lt.logly.co.jp
 0.0.0.0 media.loom-app.com
+0.0.0.0 s.lucead.com
 0.0.0.0 tools.luckyorange.com
 0.0.0.0 machi.to
 0.0.0.0 contextual.media.net
@@ -424,6 +431,7 @@
 0.0.0.0 www.cdn.taboolasyndication.com
 0.0.0.0 www.taboolasyndication.com
 0.0.0.0 www.urc.taboolasyndication.com
+0.0.0.0 cdn.taxel.jp
 0.0.0.0 widgets.taxel.jp
 0.0.0.0 a.teads.tv
 0.0.0.0 cm.teads.tv
@@ -484,6 +492,7 @@
 0.0.0.0 stats.wp.com
 0.0.0.0 v0.wordpress.com
 0.0.0.0 x5.xxxxxxxx.jp
+0.0.0.0 headlines.yahoo.co.jp
 0.0.0.0 ads.yahoo.com
 0.0.0.0 fc.yahoo.com
 0.0.0.0 geo.yahoo.com

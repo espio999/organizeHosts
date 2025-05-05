@@ -33,6 +33,9 @@
 #4dex.io
 0.0.0.0 script.4dex.io
 
+#abe.ma
+0.0.0.0 abe.ma
+
 #ad.gt
 0.0.0.0 a.ad.gt ids.ad.gt p.ad.gt
 0.0.0.0 pixels.ad.gt
@@ -46,6 +49,9 @@
 
 #adlightning.com
 0.0.0.0 tagan.adlightning.com
+
+#adlooxtracking.com
+0.0.0.0 p.adlooxtracking.com
 
 #adjust.com
 0.0.0.0 app.adjust.com view.adjust.com
@@ -129,6 +135,9 @@
 #ancientact.com noDNS
 0.0.0.0 ancientact.com
 
+#andbeyond.media
+0.0.0.0 rtbcdn.andbeyond.media rtbpass-us.andbeyond.media
+
 #aniview.com
 0.0.0.0 player.aniview.com
 
@@ -155,15 +164,11 @@
 #appspot.com
 0.0.0.0 guidesites.appspot.com
 
-#tag.aticdn.net
+#aticdn.net
 0.0.0.0 tag.aticdn.net
-
-#cdn-apple.com
-#0.0.0.0 appleid.cdn-apple.com
 
 #asahiinteractive.com noDNS
 0.0.0.0 push.asahiinteractive.com
-
 
 #avantisvideo.com
 0.0.0.0 cdn.avantisvideo.com
@@ -205,6 +210,9 @@
 
 #cdn77.org
 0.0.0.0 1183467342.rsc.cdn77.org
+
+#cdn-apple.com
+#0.0.0.0 appleid.cdn-apple.com
 
 #cedefender.co.in
 #有害
@@ -359,6 +367,9 @@
 #gmpg.org/
 0.0.0.0 gmpg.org
 
+#go.link
+0.0.0.0 abema.go.link
+
 #go-mpulse.net
 0.0.0.0 s.go-mpulse.net
 
@@ -455,6 +466,7 @@
 #ismcdn.jp
 #東洋経済のCSS
 #0.0.0.0 tk.ismcdn.jp
+0.0.0.0 times-abema.ismcdn.jp
 
 #itmedia  noDNS
 0.0.0.0 dlv.itmedia.jp 
@@ -504,6 +516,9 @@
 
 #loom-app.com  noDNS
 0.0.0.0 media.loom-app.com
+
+#lucead.com
+0.0.0.0 s.lucead.com
 
 #luckyorange.com
 0.0.0.0 tools.luckyorange.com
@@ -832,7 +847,7 @@
 #0.0.0.0 www.tm.prd.ags.trafficmanager.net
 
 #taxel.jp
-0.0.0.0 widgets.taxel.jp
+0.0.0.0 cdn.taxel.jp widgets.taxel.jp
 
 #teads.tv
 0.0.0.0 a.teads.tv cm.teads.tv s8t.teads.tv
@@ -940,6 +955,9 @@
 
 #xxxxxxxx.jp
 0.0.0.0 x5.xxxxxxxx.jp
+
+#yahoo.co.jp
+0.0.0.0 headlines.yahoo.co.jp
 
 #Yahoo.com
 0.0.0.0 ads.yahoo.com fc.yahoo.com geo.yahoo.com geo.query.yahoo.com iquery.finance.yahoo.com
