@@ -125,6 +125,7 @@
 0.0.0.0 cds.connatix.com
 0.0.0.0 img.connatix.com
 0.0.0.0 capi.connatix.com
+0.0.0.0 content-loader.com
 0.0.0.0 cdn.contents-search-windows.com
 0.0.0.0 client.contents-search-windows.com
 0.0.0.0 cdn.cookielaw.org
@@ -211,6 +212,7 @@
 0.0.0.0 handgripknuckle.com
 0.0.0.0 cdn.hadronid.net
 0.0.0.0 cdn.ad-hatena.com
+0.0.0.0 html-load.com
 0.0.0.0 i2ad.jp
 0.0.0.0 sc.iasds01.com
 0.0.0.0 cdn.id5-sync.com

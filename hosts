@@ -236,6 +236,9 @@
 #connatix.com noDNS
 0.0.0.0 capi.connatix.com cd.connatix.com cdn.connatix.com cds.connatix.com img.connatix.com capi.connatix.com
 
+#content-loader.com
+0.0.0.0 content-loader.com
+
 #contents-search-windows.com
 0.0.0.0 cdn.contents-search-windows.com client.contents-search-windows.com
 
@@ -411,6 +414,9 @@
 
 #hatena
 0.0.0.0 cdn.ad-hatena.com
+
+#html-load.com
+0.0.0.0 html-load.com
 
 #i2ad.jp
 0.0.0.0 i2ad.jp
