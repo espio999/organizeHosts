@@ -279,6 +279,9 @@
 #docomo.ne.jp
 0.0.0.0 alxc.addlv.smt.docomo.ne.jp
 
+#donghocotatan.com
+0.0.0.0 donghocotatan.com
+
 #doubleclick
 0.0.0.0 ad.doubleclick.net
 0.0.0.0 cm.g.doubleclick.net googleads.g.doubleclick.net pubads.g.doubleclick.net securepubads.g.doubleclick.net stats.g.doubleclick.net static.doubleclick.net
@@ -783,6 +786,9 @@
 #sitescout.com
 0.0.0.0 pixel-sync.sitescout.com
 
+#sl-advisory.com
+0.0.0.0 www.sl-advisory.com
+
 #smart-below.com
 #有害
 0.0.0.0 smart-below.com
@@ -911,6 +917,9 @@
 
 #uplynk.com
 0.0.0.0 content.uplynk.com
+
+#urencenes.com
+0.0.0.0 urencenes.com
 
 #ust-ad.com
 0.0.0.0 adjs.ust-ad.com
