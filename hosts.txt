@@ -177,6 +177,7 @@
 0.0.0.0 flux-cdn.com
 0.0.0.0 pc-adroute.focas.jp
 0.0.0.0 static.pc-adroute.focas.jp
+0.0.0.0 fpjscdn.net
 0.0.0.0 functionalfeather.com
 0.0.0.0 search-api.fie.futurecdn.net
 0.0.0.0 vanilla.futurecdn.net
