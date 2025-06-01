@@ -241,6 +241,8 @@
 0.0.0.0 dlv.itmedia.jp
 0.0.0.0 tracker.iws.vc
 0.0.0.0 server.jp1media.com/sync/boost
+0.0.0.0 adserver.juicyads.com
+0.0.0.0 ads-g.juicyads.com
 0.0.0.0 content.jwplatform.com
 0.0.0.0 global.ketchcdn.com
 0.0.0.0 cdn.ketchjs.com

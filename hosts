@@ -493,6 +493,10 @@
 #jsdelivr.net
 #0.0.0.0 cdn.jsdelivr.net
 
+#juicyads.com
+0.0.0.0 adserver.juicyads.com 
+0.0.0.0 ads-g.juicyads.com
+
 #jwplatform.com
 0.0.0.0 content.jwplatform.com
 
