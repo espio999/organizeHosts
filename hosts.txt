@@ -7,7 +7,7 @@
 0.0.0.0 b.6sc.co
 0.0.0.0 c.6sc.co
 0.0.0.0 j.6sc.co
-0.0.0.0 opv6.6sc.co
+0.0.0.0 ipv6.6sc.co
 0.0.0.0 abe.ma
 0.0.0.0 a.ad.gt
 0.0.0.0 ids.ad.gt
@@ -365,8 +365,8 @@
 0.0.0.0 prime-ever.com
 0.0.0.0 printwhatyoulike.com
 0.0.0.0 ats-wrapper.privacymanager.io
-0.0.0.0 pbid.pro-market.com
-0.0.0.0 ads.pro-market.com
+0.0.0.0 pbid.pro-market.net
+0.0.0.0 ads.pro-market.net
 0.0.0.0 cdn.provesrc.com
 0.0.0.0 proxypy.org
 0.0.0.0 a.pub.network

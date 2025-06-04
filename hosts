@@ -35,7 +35,7 @@
 
 #6sc.co
 0.0.0.0 b.6sc.co c.6sc.co j.6sc.co
-0.0.0.0 opv6.6sc.co
+0.0.0.0 ipv6.6sc.co
 
 #abe.ma
 0.0.0.0 abe.ma
@@ -765,8 +765,8 @@
 #privacymanager.io
 0.0.0.0 ats-wrapper.privacymanager.io
 
-#pro-market.com
-0.0.0.0 pbid.pro-market.com ads.pro-market.com
+#pro-market.net
+0.0.0.0 pbid.pro-market.net ads.pro-market.net
 
 #provesrc.com
 0.0.0.0 cdn.provesrc.com
