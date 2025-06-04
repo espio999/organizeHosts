@@ -4,6 +4,10 @@
 0.0.0.0 ib.3lift.com
 0.0.0.0 cdn-ima.33across.com
 0.0.0.0 script.4dex.io
+0.0.0.0 b.6sc.co
+0.0.0.0 c.6sc.co
+0.0.0.0 j.6sc.co
+0.0.0.0 opv6.6sc.co
 0.0.0.0 abe.ma
 0.0.0.0 a.ad.gt
 0.0.0.0 ids.ad.gt
@@ -29,6 +33,7 @@
 0.0.0.0 pixel.adsafeprotected.com
 0.0.0.0 static.adsafeprotected.com
 0.0.0.0 cdn-f.adsmoloco.com
+0.0.0.0 match.adsrvr.org
 0.0.0.0 adserver.adtechus.com
 0.0.0.0 www.adserver.adtechus.com
 0.0.0.0 ad-delivery.net
@@ -41,6 +46,7 @@
 0.0.0.0 js.ad-spire.net
 0.0.0.0 ad.ad-stir.com
 0.0.0.0 js.ad-stir.com
+0.0.0.0 dsp-cookie.adfarm1.adition.com
 0.0.0.0 aka-cdn.adtechus.com
 0.0.0.0 cdn.cmp.advertising.com
 0.0.0.0 fota5p.adups.com
@@ -113,8 +119,10 @@
 0.0.0.0 btloader.com
 0.0.0.0 abeagle-public.buzzfeed.com
 0.0.0.0 cdn.caprofitx.com
+0.0.0.0 ssum-sec.casalemedia.com
 0.0.0.0 1183467342.rsc.cdn77.org
 0.0.0.0 cedefender.co.in
+0.0.0.0 api.channel.io
 0.0.0.0 static.chartbeat.com
 0.0.0.0 nordot-res.cloudinary.com
 0.0.0.0 player.cnevids.com
@@ -132,6 +140,7 @@
 0.0.0.0 sync.cootlogix.com
 0.0.0.0 firebase-settings.crashlytics.com
 0.0.0.0 static.criteo.net
+0.0.0.0 tag.crsspxl.com
 0.0.0.0 cryptoxix.com
 0.0.0.0 tags.crwdcntrl.net
 0.0.0.0 adserver.cxad.cxense.com
@@ -140,6 +149,7 @@
 0.0.0.0 csm.cxpublic.com
 0.0.0.0 cdn.d2-apps.net
 0.0.0.0 davidwalsh.name
+0.0.0.0 dpm.demdex.net
 0.0.0.0 rcv.ixd.dmm.com
 0.0.0.0 alxc.addlv.smt.docomo.ne.jp
 0.0.0.0 donghocotatan.com
@@ -160,11 +170,14 @@
 0.0.0.0 engageya.com
 0.0.0.0 images9.engageya.com
 0.0.0.0 rise.enhance.co.jp
+0.0.0.0 error-report.com
+0.0.0.0 ps.eyeota.net
 0.0.0.0 connect.facebook.net
 0.0.0.0 fam-8.net
 0.0.0.0 fam-ad.com
 0.0.0.0 secure.cdn.fastclick.net
 0.0.0.0 global.moloco.map.fastly.net
+0.0.0.0 jsdelivr.map.fastly.net
 0.0.0.0 analyzer51.fc2.com
 0.0.0.0 counter.fc2.com
 0.0.0.0 counter1.fc2.com
@@ -217,6 +230,7 @@
 0.0.0.0 html-load.com
 0.0.0.0 i2ad.jp
 0.0.0.0 sc.iasds01.com
+0.0.0.0 api.id5-sync.com
 0.0.0.0 cdn.id5-sync.com
 0.0.0.0 deliver.ads2.iid.jp
 0.0.0.0 front-api-gateway.account.media.iid.jp
@@ -234,6 +248,7 @@
 0.0.0.0 cdn-gl.imrworldwide.com
 0.0.0.0 js-sec.indexww.com
 0.0.0.0 indir-zpf.com
+0.0.0.0 api64.ipify.org
 0.0.0.0 impression-east.liftoff.io
 0.0.0.0 cdn.liftoff-creatives.io
 0.0.0.0 cmp.inmobi.com
@@ -258,6 +273,7 @@
 0.0.0.0 l.logly.co.jp
 0.0.0.0 lt.logly.co.jp
 0.0.0.0 media.loom-app.com
+0.0.0.0 csync.loopme.me
 0.0.0.0 s.lucead.com
 0.0.0.0 tools.luckyorange.com
 0.0.0.0 machi.to
@@ -270,6 +286,7 @@
 0.0.0.0 j.microad.net
 0.0.0.0 d-cache.microad.jp
 0.0.0.0 mid-round.com
+0.0.0.0 ml314.com
 0.0.0.0 vi.ml314.com
 0.0.0.0 fastly.mmt.delivery
 0.0.0.0 z.moatads.com
@@ -291,6 +308,7 @@
 0.0.0.0 ssfpc.news.mynavi.jp
 0.0.0.0 stg.ad.woman.mynavi.jp
 0.0.0.0 cs.nakanohito.jp
+0.0.0.0 io.narrative.io
 0.0.0.0 js-agent.newrelic.com
 0.0.0.0 cookies.nextmillmedia.com
 0.0.0.0 location.nhk.or.jp
@@ -327,6 +345,7 @@
 0.0.0.0 www.outbrain.com
 0.0.0.0 zem.outbrainimg.com
 0.0.0.0 amplifypixel.outbrain.com
+0.0.0.0 envoy-hl.envoy-csync.core-002-ew4.ov1o.com
 0.0.0.0 parking3.parklogic.com
 0.0.0.0 cdn.p-n.io
 0.0.0.0 api-esp-ap.piano.io
@@ -346,12 +365,16 @@
 0.0.0.0 prime-ever.com
 0.0.0.0 printwhatyoulike.com
 0.0.0.0 ats-wrapper.privacymanager.io
+0.0.0.0 pbid.pro-market.com
+0.0.0.0 ads.pro-market.com
 0.0.0.0 cdn.provesrc.com
 0.0.0.0 proxypy.org
 0.0.0.0 a.pub.network
 0.0.0.0 ads.pubmatic.com
 0.0.0.0 aktrack.pubmatic.com
+0.0.0.0 hbopenbid.pubmatic.com
 0.0.0.0 sshowads.pubmatic.com
+0.0.0.0 image6.pubmatic.com
 0.0.0.0 c0.pubmine.com
 0.0.0.0 static.quant.jp
 0.0.0.0 rules.quantcount.com
@@ -360,6 +383,7 @@
 0.0.0.0 cdn.rocket-push.com
 0.0.0.0 ads.rubiconproject.com
 0.0.0.0 eus.rubiconproject.com
+0.0.0.0 fastlane.rubiconproject.com
 0.0.0.0 micro.rubiconproject.com
 0.0.0.0 ak.sail-horizon.com
 0.0.0.0 schema.org
@@ -370,12 +394,18 @@
 0.0.0.0 cs.seedtag.com
 0.0.0.0 cdn.segment.com
 0.0.0.0 browser.sentry-cdn.com
+0.0.0.0 js.sentry-cdn.com
 0.0.0.0 sync.serverbid.com
 0.0.0.0 secure-ds.serving-sys.com
+0.0.0.0 match.sharethrough.com
 0.0.0.0 sdk.sharethrough.com
+0.0.0.0 match-ap-southeast-1-ecs.sharethrough.com
 0.0.0.0 pixel-sync.sitescout.com
 0.0.0.0 www.sl-advisory.com
 0.0.0.0 smart-below.com
+0.0.0.0 prg.smartadserver.com
+0.0.0.0 rtb-csync.smartadserver.com
+0.0.0.0 rtb-csync-apac1.smartadserver.com
 0.0.0.0 a.socdm.com
 0.0.0.0 b.socdm.com
 0.0.0.0 c.socdm.com

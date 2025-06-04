@@ -33,6 +33,10 @@
 #4dex.io
 0.0.0.0 script.4dex.io
 
+#6sc.co
+0.0.0.0 b.6sc.co c.6sc.co j.6sc.co
+0.0.0.0 opv6.6sc.co
+
 #abe.ma
 0.0.0.0 abe.ma
 
@@ -72,6 +76,9 @@
 #adsmoloco.com
 0.0.0.0 cdn-f.adsmoloco.com
 
+#adsrvr.org
+0.0.0.0 match.adsrvr.org
+
 #adtechus.com
 0.0.0.0	adserver.adtechus.com
 0.0.0.0	www.adserver.adtechus.com
@@ -96,6 +103,9 @@
 
 #ad-stir
 0.0.0.0 ad.ad-stir.com js.ad-stir.com
+
+#adition.com
+0.0.0.0 dsp-cookie.adfarm1.adition.com
 
 #adtechus.com
 0.0.0.0 aka-cdn.adtechus.com
@@ -208,6 +218,9 @@
 #caprofitx.com
 0.0.0.0 cdn.caprofitx.com
 
+#casalemedia.com
+0.0.0.0 ssum-sec.casalemedia.com
+
 #cdn77.org
 0.0.0.0 1183467342.rsc.cdn77.org
 
@@ -217,6 +230,9 @@
 #cedefender.co.in
 #有害
 0.0.0.0 cedefender.co.in
+
+#channel.io
+0.0.0.0 api.channel.io
 
 #chartbeat.com
 0.0.0.0 static.chartbeat.com
@@ -254,6 +270,9 @@
 #criteo.net
 0.0.0.0 static.criteo.net
 
+#crsspxl.com
+0.0.0.0 tag.crsspxl.com
+
 #cryptoxix.com
 #有害
 0.0.0.0 cryptoxix.com
@@ -272,6 +291,9 @@
 
 #davidwalsh.name
 0.0.0.0 davidwalsh.name
+
+#demdex.net
+0.0.0.0 dpm.demdex.net
 
 #dmm.com
 0.0.0.0 rcv.ixd.dmm.com
@@ -303,6 +325,12 @@
 #enhance.co.jp noDNS
 0.0.0.0 rise.enhance.co.jp
 
+#error-report.com
+0.0.0.0 error-report.com
+
+#eyeota.net
+0.0.0.0 ps.eyeota.net
+
 #facebook.net
 0.0.0.0 connect.facebook.net
 
@@ -318,6 +346,7 @@
 
 #fastly.net
 0.0.0.0 global.moloco.map.fastly.net
+0.0.0.0 jsdelivr.map.fastly.net
 
 #fc2.com
 0.0.0.0 analyzer51.fc2.com counter.fc2.com counter1.fc2.com media.fc2.com media5.fc2.com static.fc2.com vip.chps-api.fc2.com
@@ -431,7 +460,7 @@
 0.0.0.0 sc.iasds01.com
 
 #id5-sync.com
-0.0.0.0 cdn.id5-sync.com
+0.0.0.0 api.id5-sync.com cdn.id5-sync.com
 
 #iid.jp
 0.0.0.0 deliver.ads2.iid.jp front-api-gateway.account.media.iid.jp recruitbox.media.iid.jp
@@ -465,6 +494,9 @@
 #indir-zpf.com
 #有害
 0.0.0.0 indir-zpf.com
+
+#ipify.org
+0.0.0.0 api64.ipify.org
 
 #liftoff.io
 0.0.0.0 impression-east.liftoff.io
@@ -533,6 +565,9 @@
 #loom-app.com  noDNS
 0.0.0.0 media.loom-app.com
 
+#loopme.me
+0.0.0.0 csync.loopme.me
+
 #lucead.com
 0.0.0.0 s.lucead.com
 
@@ -567,7 +602,7 @@
 0.0.0.0 mid-round.com
 
 #ml314.com  noDNS
-0.0.0.0 vi.ml314.com
+0.0.0.0 ml314.com vi.ml314.com
 
 #mmt.delivery
 0.0.0.0 fastly.mmt.delivery
@@ -607,6 +642,9 @@
 
 #nakanohito.jp
 0.0.0.0 cs.nakanohito.jp
+
+#narrative.io
+0.0.0.0 io.narrative.io
 
 #newrelic
 0.0.0.0 js-agent.newrelic.com
@@ -679,6 +717,9 @@
 0.0.0.0 zem.outbrainimg.com
 0.0.0.0	amplifypixel.outbrain.com
 
+#ov1o.com
+0.0.0.0 envoy-hl.envoy-csync.core-002-ew4.ov1o.com
+
 #parklogic.com
 0.0.0.0 parking3.parklogic.com
 
@@ -724,6 +765,9 @@
 #privacymanager.io
 0.0.0.0 ats-wrapper.privacymanager.io
 
+#pro-market.com
+0.0.0.0 pbid.pro-market.com ads.pro-market.com
+
 #provesrc.com
 0.0.0.0 cdn.provesrc.com
 
@@ -734,7 +778,8 @@
 0.0.0.0 a.pub.network
 
 #pubmatic
-0.0.0.0 ads.pubmatic.com aktrack.pubmatic.com sshowads.pubmatic.com
+0.0.0.0 ads.pubmatic.com aktrack.pubmatic.com hbopenbid.pubmatic.com sshowads.pubmatic.com
+0.0.0.0 image6.pubmatic.com
 
 #pubmine.com
 0.0.0.0 c0.pubmine.com
@@ -755,7 +800,7 @@
 0.0.0.0 cdn.rocket-push.com
 
 #rubiconproject.com
-0.0.0.0 ads.rubiconproject.com eus.rubiconproject.com micro.rubiconproject.com
+0.0.0.0 ads.rubiconproject.com eus.rubiconproject.com fastlane.rubiconproject.com micro.rubiconproject.com
 
 #sail-horizon.com
 0.0.0.0 ak.sail-horizon.com
@@ -779,7 +824,7 @@
 0.0.0.0 cdn.segment.com
 
 #sentry-cdn.com
-0.0.0.0 browser.sentry-cdn.com
+0.0.0.0 browser.sentry-cdn.com js.sentry-cdn.com
 
 #serverbid.com
 0.0.0.0 sync.serverbid.com
@@ -788,7 +833,8 @@
 0.0.0.0 secure-ds.serving-sys.com
 
 #sharethrough.com noDNS
-0.0.0.0 sdk.sharethrough.com
+0.0.0.0 match.sharethrough.com sdk.sharethrough.com
+0.0.0.0 match-ap-southeast-1-ecs.sharethrough.com
 
 #sitescout.com
 0.0.0.0 pixel-sync.sitescout.com
@@ -799,6 +845,10 @@
 #smart-below.com
 #有害
 0.0.0.0 smart-below.com
+
+#smartadserver.com
+0.0.0.0 prg.smartadserver.com rtb-csync.smartadserver.com
+0.0.0.0 rtb-csync-apac1.smartadserver.com
 
 #socdm.com
 0.0.0.0 a.socdm.com b.socdm.com c.socdm.com d.socdm.com e.socdm.com f.socdm.com g.socdm.com h.socdm.com i.socdm.com j.socdm.com k.socdm.com l.socdm.com m.socdm.com n.socdm.com o.socdm.com p.socdm.com q.socdm.com r.socdm.com s.socdm.com t.socdm.com u.socdm.com v.socdm.com w.socdm.com x.socdm.com y.socdm.com z.socdm.com
