@@ -154,6 +154,7 @@
 0.0.0.0 rcv.ixd.dmm.com
 0.0.0.0 alxc.addlv.smt.docomo.ne.jp
 0.0.0.0 donghocotatan.com
+0.0.0.0 img.doppiocdn.com
 0.0.0.0 ad.doubleclick.net
 0.0.0.0 cm.g.doubleclick.net
 0.0.0.0 googleads.g.doubleclick.net
@@ -381,6 +382,8 @@
 0.0.0.0 rules.quantcount.com
 0.0.0.0 secure.quantserve.com
 0.0.0.0 api.relaido.jp
+0.0.0.0 creative.rmhfrtnd.com
+0.0.0.0 go.rmhfrtnd.com
 0.0.0.0 cdn.rocket-push.com
 0.0.0.0 ads.rubiconproject.com
 0.0.0.0 eus.rubiconproject.com
@@ -444,6 +447,7 @@
 0.0.0.0 cdn.spotxcdn.com
 0.0.0.0 cdn1.stamped.io
 0.0.0.0 ads.stickyadstv.com
+0.0.0.0 assets.strpst.com
 0.0.0.0 api.taboola.com
 0.0.0.0 c2.taboola.com
 0.0.0.0 cdn.taboola.com

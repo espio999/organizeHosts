@@ -307,6 +307,9 @@
 #donghocotatan.com
 0.0.0.0 donghocotatan.com
 
+#doppiocdn.com
+0.0.0.0 img.doppiocdn.com
+
 #doubleclick
 0.0.0.0 ad.doubleclick.net
 0.0.0.0 cm.g.doubleclick.net googleads.g.doubleclick.net pubads.g.doubleclick.net securepubads.g.doubleclick.net stats.g.doubleclick.net static.doubleclick.net
@@ -799,6 +802,9 @@
 #relaido.jp
 0.0.0.0 api.relaido.jp
 
+#rmhfrtnd.com
+0.0.0.0 creative.rmhfrtnd.com go.rmhfrtnd.com
+
 #rocket-push.com
 0.0.0.0 cdn.rocket-push.com
 
@@ -881,6 +887,9 @@
 
 #stickyadstv.com
 0.0.0.0 ads.stickyadstv.com
+
+#strpst.com
+0.0.0.0 assets.strpst.com
 
 #syoboi.jp
 #0.0.0.0 ngid.syoboi.jp
