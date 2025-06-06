@@ -396,6 +396,9 @@
 #geoedge.be
 0.0.0.0 rumcdn.geoedge.be
 
+#getallmedia.com
+0.0.0.0 cdn.getallmedia.com ssp.getallmedia.com
+
 #gfx.ms
 0.0.0.0 mem.gfx.ms
 
@@ -798,6 +801,9 @@
 
 #quantserve.com
 0.0.0.0 secure.quantserve.com
+
+#rakuten.co.jp
+0.0.0.0 hbb.afl.rakuten.co.jp
 
 #relaido.jp
 0.0.0.0 api.relaido.jp

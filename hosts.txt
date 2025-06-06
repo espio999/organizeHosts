@@ -203,6 +203,8 @@
 0.0.0.0 cpt.geniee.jp
 0.0.0.0 aladdin.genieesspv.jp
 0.0.0.0 rumcdn.geoedge.be
+0.0.0.0 cdn.getallmedia.com
+0.0.0.0 ssp.getallmedia.com
 0.0.0.0 mem.gfx.ms
 0.0.0.0 player.gliacloud.com
 0.0.0.0 js.glossom.jp
@@ -381,6 +383,7 @@
 0.0.0.0 static.quant.jp
 0.0.0.0 rules.quantcount.com
 0.0.0.0 secure.quantserve.com
+0.0.0.0 hbb.afl.rakuten.co.jp
 0.0.0.0 api.relaido.jp
 0.0.0.0 creative.rmhfrtnd.com
 0.0.0.0 go.rmhfrtnd.com
