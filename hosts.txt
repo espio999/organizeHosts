@@ -14,6 +14,7 @@
 0.0.0.0 p.ad.gt
 0.0.0.0 pixels.ad.gt
 0.0.0.0 ad999.biz
+0.0.0.0 cdn.adapex.io
 0.0.0.0 sh.adingo.jp
 0.0.0.0 cdn-fluct.sh.adingo.jp
 0.0.0.0 one.adingo.jp
@@ -50,6 +51,7 @@
 0.0.0.0 aka-cdn.adtechus.com
 0.0.0.0 cdn.cmp.advertising.com
 0.0.0.0 fota5p.adups.com
+0.0.0.0 cdn.aggle.net
 0.0.0.0 arm.appiersig.com.akadns.net
 0.0.0.0 jprtb.c.appier.net.akadns.net
 0.0.0.0 ss-sg2.appiersig.com.akadns.net
@@ -140,6 +142,7 @@
 0.0.0.0 sync.cootlogix.com
 0.0.0.0 firebase-settings.crashlytics.com
 0.0.0.0 static.criteo.net
+0.0.0.0 ads.as.criteo.com
 0.0.0.0 tag.crsspxl.com
 0.0.0.0 cryptoxix.com
 0.0.0.0 tags.crwdcntrl.net
@@ -200,6 +203,7 @@
 0.0.0.0 fwmrm.net
 0.0.0.0 2975c.v.fwmrm.net
 0.0.0.0 asset.fwpub1.com
+0.0.0.0 p.gcprivacy.com
 0.0.0.0 cpt.geniee.jp
 0.0.0.0 aladdin.genieesspv.jp
 0.0.0.0 rumcdn.geoedge.be

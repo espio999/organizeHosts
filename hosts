@@ -47,6 +47,9 @@
 #ad999.biz
 0.0.0.0 ad999.biz
 
+#adapex.io
+0.0.0.0 cdn.adapex.io
+
 #adingo.jp
 0.0.0.0 sh.adingo.jp
 0.0.0.0 cdn-fluct.sh.adingo.jp one.adingo.jp pdn.adingo.jp
@@ -115,6 +118,9 @@
 
 #adups.com
 0.0.0.0 fota5p.adups.com
+
+#aggle.net
+0.0.0.0 cdn.aggle.net
 
 #akadns.net
 0.0.0.0 arm.appiersig.com.akadns.net
@@ -269,6 +275,7 @@
 
 #criteo.net
 0.0.0.0 static.criteo.net
+0.0.0.0 ads.as.criteo.com
 
 #crsspxl.com
 0.0.0.0 tag.crsspxl.com
@@ -386,6 +393,9 @@
 
 #fwpub1.com
 0.0.0.0 asset.fwpub1.com
+
+#gcprivacy.com
+0.0.0.0 p.gcprivacy.com
 
 #geniee.jp
 0.0.0.0 cpt.geniee.jp
