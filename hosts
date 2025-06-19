@@ -557,6 +557,9 @@
 #ketchjs.com  noDNS
 0.0.0.0 cdn.ketchjs.com
 
+#kgl-systems.io
+0.0.0.0 webmedia-resource.kgl-systems.io
+
 #kuzen.io
 0.0.0.0 dialog.kuzen.io
 
