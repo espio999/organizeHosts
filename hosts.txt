@@ -269,6 +269,7 @@
 0.0.0.0 content.jwplatform.com
 0.0.0.0 global.ketchcdn.com
 0.0.0.0 cdn.ketchjs.com
+0.0.0.0 webmedia-resource.kgl-systems.io
 0.0.0.0 dialog.kuzen.io
 0.0.0.0 cdn.liftoff-creatives.io
 0.0.0.0 scdn.line-apps.com
