@@ -324,6 +324,9 @@
 #durationmedia.net
 0.0.0.0 tag.durationmedia.net
 
+#ebis.ne.jp
+0.0.0.0 rec.ebis.ne.jp taj1.ebis.ne.jp
+
 #edgekey.net
 0.0.0.0	cdn.taboola.com esd-secure.taboola.com.edgekey.net
 0.0.0.0	taboola.com.edgekey.net
