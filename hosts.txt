@@ -151,6 +151,7 @@
 0.0.0.0 scdn.cxense.com
 0.0.0.0 csm.cxpublic.com
 0.0.0.0 cdn.d2-apps.net
+0.0.0.0 static.dable.io
 0.0.0.0 i.daily.jp
 0.0.0.0 davidwalsh.name
 0.0.0.0 dpm.demdex.net
