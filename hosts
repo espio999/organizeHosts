@@ -218,6 +218,9 @@
 #bwbx.io
 #0.0.0.0 assets.bwbx.io
 
+#byteoversea.net
+0.0.0.0 api39.gtm.byteoversea.net
+
 #abeagle-public.buzzfeed.com
 0.0.0.0 abeagle-public.buzzfeed.com
 
@@ -747,6 +750,9 @@
 
 #ov1o.com
 0.0.0.0 envoy-hl.envoy-csync.core-002-ew4.ov1o.com
+
+#pangle.io
+0.0.0.0 api16-access-sg.pangle.io
 
 #parklogic.com
 0.0.0.0 parking3.parklogic.com
