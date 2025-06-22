@@ -119,6 +119,7 @@
 0.0.0.0 js.boost-next.co.jp
 0.0.0.0 cdn.browsiprod.com
 0.0.0.0 btloader.com
+0.0.0.0 api39.gtm.byteoversea.net
 0.0.0.0 abeagle-public.buzzfeed.com
 0.0.0.0 cdn.caprofitx.com
 0.0.0.0 ssum-sec.casalemedia.com
@@ -358,6 +359,7 @@
 0.0.0.0 zem.outbrainimg.com
 0.0.0.0 amplifypixel.outbrain.com
 0.0.0.0 envoy-hl.envoy-csync.core-002-ew4.ov1o.com
+0.0.0.0 api16-access-sg.pangle.io
 0.0.0.0 parking3.parklogic.com
 0.0.0.0 cdn.p-n.io
 0.0.0.0 api-esp-ap.piano.io
