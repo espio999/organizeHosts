@@ -100,6 +100,7 @@
 0.0.0.0 mt-usw.appiersig.com
 0.0.0.0 ss-kp2.appiersig.com
 0.0.0.0 ss-sg2.appiersig.com
+0.0.0.0 rt.applovin.com
 0.0.0.0 guidesites.appspot.com
 0.0.0.0 tag.aticdn.net
 0.0.0.0 push.asahiinteractive.com
@@ -395,6 +396,7 @@
 0.0.0.0 secure.quantserve.com
 0.0.0.0 hbb.afl.rakuten.co.jp
 0.0.0.0 api.relaido.jp
+0.0.0.0 api.revenuecat.com
 0.0.0.0 creative.rmhfrtnd.com
 0.0.0.0 go.rmhfrtnd.com
 0.0.0.0 cdn.rocket-push.com

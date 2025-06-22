@@ -177,6 +177,9 @@
 0.0.0.0 ss-kp2.appiersig.com
 0.0.0.0 ss-sg2.appiersig.com
 
+#applovin.com
+0.0.0.0 rt.applovin.com
+
 #appspot.com
 0.0.0.0 guidesites.appspot.com
 
@@ -832,6 +835,9 @@
 
 #relaido.jp
 0.0.0.0 api.relaido.jp
+
+#revenuecat.com
+0.0.0.0 api.revenuecat.com
 
 #rmhfrtnd.com
 0.0.0.0 creative.rmhfrtnd.com go.rmhfrtnd.com
