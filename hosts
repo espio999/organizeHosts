@@ -596,6 +596,9 @@
 #logly
 0.0.0.0 dsp.logly.co.jp l.logly.co.jp lt.logly.co.jp
 
+#lookverin.com
+0.0.0.0 serving.lookverin.com
+
 #loom-app.com  noDNS
 0.0.0.0 media.loom-app.com
 
@@ -830,8 +833,19 @@
 #quantserve.com
 0.0.0.0 secure.quantserve.com
 
+#r10s.jp
+0.0.0.0 r.r10s.jp
+
 #rakuten.co.jp
+#スタイルや画像などの表示
+#0.0.0.0 cdn.rmc.contents.rakuten.co.jp
+0.0.0.0 error.rakuten.co.jp
 0.0.0.0 hbb.afl.rakuten.co.jp
+0.0.0.0 rat.rakuten.co.jp
+0.0.0.0 s-cdn.rmp.rakuten.co.jp
+
+#rakuten-static.com
+0.0.0.0 jp.rakuten-static.com
 
 #relaido.jp
 0.0.0.0 api.relaido.jp
