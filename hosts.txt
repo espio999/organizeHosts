@@ -468,6 +468,7 @@
 0.0.0.0 cdn.spotxcdn.com
 0.0.0.0 cdn1.stamped.io
 0.0.0.0 ads.stickyadstv.com
+0.0.0.0 slink.west.edge.storage-yahoo.jp
 0.0.0.0 assets.strpst.com
 0.0.0.0 api.taboola.com
 0.0.0.0 c2.taboola.com
@@ -558,6 +559,7 @@
 0.0.0.0 v0.wordpress.com
 0.0.0.0 x5.xxxxxxxx.jp
 0.0.0.0 headlines.yahoo.co.jp
+0.0.0.0 dsb.yahoo.co.jp
 0.0.0.0 ads.yahoo.com
 0.0.0.0 fc.yahoo.com
 0.0.0.0 geo.yahoo.com

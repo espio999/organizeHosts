@@ -939,6 +939,9 @@
 #stickyadstv.com
 0.0.0.0 ads.stickyadstv.com
 
+#storage-yahoo.jp
+0.0.0.0 slink.west.edge.storage-yahoo.jp
+
 #strpst.com
 0.0.0.0 assets.strpst.com
 
@@ -1096,6 +1099,7 @@
 
 #yahoo.co.jp
 0.0.0.0 headlines.yahoo.co.jp
+0.0.0.0 dsb.yahoo.co.jp
 
 #Yahoo.com
 0.0.0.0 ads.yahoo.com fc.yahoo.com geo.yahoo.com geo.query.yahoo.com iquery.finance.yahoo.com
