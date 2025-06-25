@@ -101,6 +101,9 @@
 #adsmoloco.com
 0.0.0.0 cdn-f.adsmocolo.com
 
+#ad-drop.jp
+0.0.0.0 js.ad-drop.jp
+
 #ad-spire
 0.0.0.0 js.ad-spire.net
 
@@ -189,6 +192,9 @@
 #asahiinteractive.com noDNS
 0.0.0.0 push.asahiinteractive.com
 
+#assistads.net
+0.0.0.0 adserver.assistads.net media.assistads.net
+
 #avantisvideo.com
 0.0.0.0 cdn.avantisvideo.com
 
@@ -251,6 +257,9 @@
 
 #cloudflare noDNS
 #0.0.0.0 cdnjs.cloudflare.com
+
+#cloudflare.com
+0.0.0.0 cdnjs.cloudflare.com
 
 #cloudinary.com noDNS
 0.0.0.0 nordot-res.cloudinary.com
