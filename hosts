@@ -469,6 +469,9 @@
 #0.0.0.0 www.gstatic.com
 0.0.0.0 encrypted-tbn2.gstatic.com
 
+#goomaphy.com
+0.0.0.0 goomaphy.com
+
 #gravatar.com
 0.0.0.0 secure.gravatar.com
 
