@@ -51,8 +51,7 @@
 0.0.0.0 cdn.adapex.io
 
 #adingo.jp
-0.0.0.0 sh.adingo.jp
-0.0.0.0 cdn-fluct.sh.adingo.jp one.adingo.jp pdn.adingo.jp
+0.0.0.0 cdn-fluct.sh.adingo.jp fam.adingo.jp one.adingo.jp pdn.adingo.jp sh.adingo.jp
 
 #adlightning.com
 0.0.0.0 tagan.adlightning.com
@@ -72,6 +71,9 @@
 
 #adpon.jp
 0.0.0.0 ad.adpon.jp
+
+#adpushup.com
+0.0.0.0 cdn.adpushup.com
 
 #adsafeprotected.com
 0.0.0.0 cdn.adsafeprotected.com dt.adsafeprotected.com pixel.adsafeprotected.com static.adsafeprotected.com
@@ -687,7 +689,7 @@
 0.0.0.0 ad.woman.mynavi.jp ssfpc.news.mynavi.jp stg.ad.woman.mynavi.jp
 
 #nakanohito.jp
-0.0.0.0 cs.nakanohito.jp
+0.0.0.0 cm-widget.nakanohito.jp cs.nakanohito.jp
 
 #narrative.io
 0.0.0.0 io.narrative.io

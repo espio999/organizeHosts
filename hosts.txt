@@ -15,10 +15,11 @@
 0.0.0.0 pixels.ad.gt
 0.0.0.0 ad999.biz
 0.0.0.0 cdn.adapex.io
-0.0.0.0 sh.adingo.jp
 0.0.0.0 cdn-fluct.sh.adingo.jp
+0.0.0.0 fam.adingo.jp
 0.0.0.0 one.adingo.jp
 0.0.0.0 pdn.adingo.jp
+0.0.0.0 sh.adingo.jp
 0.0.0.0 tagan.adlightning.com
 0.0.0.0 p.adlooxtracking.com
 0.0.0.0 app.adjust.com
@@ -29,6 +30,7 @@
 0.0.0.0 ib.adnxs.com
 0.0.0.0 sin3-ib.adnxs-simple.com
 0.0.0.0 ad.adpon.jp
+0.0.0.0 cdn.adpushup.com
 0.0.0.0 cdn.adsafeprotected.com
 0.0.0.0 dt.adsafeprotected.com
 0.0.0.0 pixel.adsafeprotected.com
@@ -326,6 +328,7 @@
 0.0.0.0 ad.woman.mynavi.jp
 0.0.0.0 ssfpc.news.mynavi.jp
 0.0.0.0 stg.ad.woman.mynavi.jp
+0.0.0.0 cm-widget.nakanohito.jp
 0.0.0.0 cs.nakanohito.jp
 0.0.0.0 io.narrative.io
 0.0.0.0 js-agent.newrelic.com
