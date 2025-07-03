@@ -564,6 +564,7 @@
 0.0.0.0 c0.wp.com
 0.0.0.0 stats.wp.com
 0.0.0.0 v0.wordpress.com
+0.0.0.0 worldnaturenet.xyz
 0.0.0.0 x5.xxxxxxxx.jp
 0.0.0.0 headlines.yahoo.co.jp
 0.0.0.0 dsb.yahoo.co.jp
