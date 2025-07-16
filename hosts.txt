@@ -28,6 +28,7 @@
 0.0.0.0 acdn.adnxs.com
 0.0.0.0 cdn.adnxs.com
 0.0.0.0 ib.adnxs.com
+0.0.0.0 msft-ssp.adnxs.com
 0.0.0.0 sin3-ib.adnxs-simple.com
 0.0.0.0 ad.adpon.jp
 0.0.0.0 cdn.adpushup.com

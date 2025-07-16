@@ -67,6 +67,7 @@
 
 #adnxs
 0.0.0.0 acdn.adnxs.com cdn.adnxs.com ib.adnxs.com
+0.0.0.0 msft-ssp.adnxs.com
 0.0.0.0 sin3-ib.adnxs-simple.com
 
 #adpon.jp
