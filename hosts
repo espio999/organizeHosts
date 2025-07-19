@@ -261,9 +261,6 @@
 #cloudflare noDNS
 #0.0.0.0 cdnjs.cloudflare.com
 
-#cloudflare.com
-0.0.0.0 cdnjs.cloudflare.com
-
 #cloudinary.com noDNS
 0.0.0.0 nordot-res.cloudinary.com
 

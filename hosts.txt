@@ -134,7 +134,6 @@
 0.0.0.0 cedefender.co.in
 0.0.0.0 api.channel.io
 0.0.0.0 static.chartbeat.com
-0.0.0.0 cdnjs.cloudflare.com
 0.0.0.0 nordot-res.cloudinary.com
 0.0.0.0 player.cnevids.com
 0.0.0.0 cdn.confiant-integrations.net
