@@ -291,6 +291,9 @@
 #crashlytics.com
 0.0.0.0 firebase-settings.crashlytics.com
 
+#creativecdn.com
+0.0.0.0 creativecdn.com
+
 #criteo.net
 0.0.0.0 static.criteo.net
 0.0.0.0 ads.as.criteo.com
@@ -322,6 +325,9 @@
 
 #davidwalsh.name
 0.0.0.0 davidwalsh.name
+
+#dc-tag.jp
+0.0.0.0 s.dc-tag.jp
 
 #demdex.net
 0.0.0.0 dpm.demdex.net
@@ -444,6 +450,7 @@
 
 #gmossp-sp.jp
 0.0.0.0 cdn.gmossp-sp.jp sp.gmossp-sp.jp
+0.0.0.0 minerva-deliver.sp.gmossp-sp.jp
 
 #gmpg.org/
 0.0.0.0 gmpg.org
@@ -486,7 +493,7 @@
 #0.0.0.0 www.gstatic.com
 
 #gumgum.com
-0.0.0.0 js.gumgum.com
+0.0.0.0 js.gumgum.com usersync.gumgum.com
 
 #handgripknuckle.com
 #有害
