@@ -1,1173 +1,642 @@
-﻿# Copyright (c) 1993-2009 Microsoft Corp.
-#
-# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
-#
-# This file contains the mappings of IP addresses to host names. Each
-# entry should be kept on an individual line. The IP address should
-# be placed in the first column followed by the corresponding host name.
-# The IP address and the host name should be separated by at least one
-# space.
-#
-# Additionally, comments (such as these) may be inserted on individual
-# lines or following the machine name denoted by a '#' symbol.
-#
-# For example:
-#
-#      102.54.94.97     rhino.acme.com          # source server
-#       38.25.63.10     x.acme.com              # x client host
-
-# localhost name resolution is handled within DNS itself.
-#	127.0.0.1       localhost
-#	::1             localhost
-
-
-#2mdn.net
-0.0.0.0 2mdn.net s0.2mdn.net
-
-#3lift.com
-0.0.0.0 eb2.3lift.com ib.3lift.com
-
-#33across.com
+0.0.0.0 2mdn.net
+0.0.0.0 s0.2mdn.net
+0.0.0.0 eb2.3lift.com
+0.0.0.0 ib.3lift.com
 0.0.0.0 cdn-ima.33across.com
-
-#4dex.io
 0.0.0.0 script.4dex.io
-
-#6sc.co
-0.0.0.0 b.6sc.co c.6sc.co j.6sc.co
+0.0.0.0 b.6sc.co
+0.0.0.0 c.6sc.co
+0.0.0.0 j.6sc.co
 0.0.0.0 ipv6.6sc.co
-
-#abe.ma
 0.0.0.0 abe.ma
-
-#ad.gt
-0.0.0.0 a.ad.gt ids.ad.gt p.ad.gt
+0.0.0.0 a.ad.gt
+0.0.0.0 ids.ad.gt
+0.0.0.0 p.ad.gt
 0.0.0.0 pixels.ad.gt
-
-#ad999.biz
 0.0.0.0 ad999.biz
-
-#adapex.io
 0.0.0.0 cdn.adapex.io
-
-#adingo.jp
-0.0.0.0 cdn-fluct.sh.adingo.jp fam.adingo.jp one.adingo.jp pdn.adingo.jp sh.adingo.jp
-
-#adlightning.com
+0.0.0.0 cdn-fluct.sh.adingo.jp
+0.0.0.0 fam.adingo.jp
+0.0.0.0 one.adingo.jp
+0.0.0.0 pdn.adingo.jp
+0.0.0.0 sh.adingo.jp
 0.0.0.0 tagan.adlightning.com
-
-#adlooxtracking.com
 0.0.0.0 p.adlooxtracking.com
-
-#adjust.com
-0.0.0.0 app.adjust.com view.adjust.com
-
-#admatrix.jp
+0.0.0.0 app.adjust.com
+0.0.0.0 view.adjust.com
 0.0.0.0 ad.poly.admatrix.jp
-
-#adnxs
-0.0.0.0 acdn.adnxs.com cdn.adnxs.com ib.adnxs.com
+0.0.0.0 acdn.adnxs.com
+0.0.0.0 cdn.adnxs.com
+0.0.0.0 ib.adnxs.com
+0.0.0.0 msft-ssp.adnxs.com
 0.0.0.0 sin3-ib.adnxs-simple.com
-
-#adpon.jp
 0.0.0.0 ad.adpon.jp
-
-#adpushup.com
 0.0.0.0 cdn.adpushup.com
-
-#adsafeprotected.com
-0.0.0.0 cdn.adsafeprotected.com dt.adsafeprotected.com pixel.adsafeprotected.com static.adsafeprotected.com
-
-#adsmoloco.com
+0.0.0.0 cdn.adsafeprotected.com
+0.0.0.0 dt.adsafeprotected.com
+0.0.0.0 pixel.adsafeprotected.com
+0.0.0.0 static.adsafeprotected.com
 0.0.0.0 cdn-f.adsmoloco.com
-
-#adsrvr.org
 0.0.0.0 match.adsrvr.org
-
-#adtechus.com
-0.0.0.0	adserver.adtechus.com
-0.0.0.0	www.adserver.adtechus.com
-
-#ad-delivery.net
+0.0.0.0 adserver.adtechus.com
+0.0.0.0 www.adserver.adtechus.com
 0.0.0.0 ad-delivery.net
-
-#ad-drop.jp
-0.0.0.0 cs.ad-drop.jp edayo.ad-drop.jp js.ad-drop.jp
-
-#ad-nex.com
-0.0.0.0 img.ad-nex.com
-
-#adsappoer.com
-0.0.0.0 cr.adsappier.com
-
-#adsmoloco.com
-0.0.0.0 cdn-f.adsmocolo.com
-
-#ad-drop.jp
+0.0.0.0 cs.ad-drop.jp
+0.0.0.0 edayo.ad-drop.jp
 0.0.0.0 js.ad-drop.jp
-
-#ad-spire
+0.0.0.0 img.ad-nex.com
+0.0.0.0 cr.adsappier.com
+0.0.0.0 cdn-f.adsmocolo.com
+0.0.0.0 js.ad-drop.jp
 0.0.0.0 js.ad-spire.net
-
-#ad-stir
-0.0.0.0 ad.ad-stir.com js.ad-stir.com
-
-#adition.com
+0.0.0.0 ad.ad-stir.com
+0.0.0.0 js.ad-stir.com
 0.0.0.0 dsp-cookie.adfarm1.adition.com
-
-#adtechus.com
 0.0.0.0 aka-cdn.adtechus.com
-
-#advertising.com
 0.0.0.0 cdn.cmp.advertising.com
-
-#adups.com
 0.0.0.0 fota5p.adups.com
-
-#aggle.net
 0.0.0.0 cdn.aggle.net
-
-#akadns.net
 0.0.0.0 arm.appiersig.com.akadns.net
 0.0.0.0 jprtb.c.appier.net.akadns.net
 0.0.0.0 ss-sg2.appiersig.com.akadns.net
-#Microsoft ToDoの動機に影響 0.0.0.0 www.tm.a.prd.aadg.akadns.net
-#Microsoft Lensが使用できない 0.0.0.0 www.tm.prd.ags.akadns.net
-
-#akamai.net
-#0.0.0.0 a248.e.akamai.net
 0.0.0.0 speee-ad.akamaized.net
-
-#amazon
-#0.0.0.0 completion.amazon.com
-#0.0.0.0 aax-fe-sin.amazon-adsystem.com c.amazon-adsystem.com
-#0.0.0.0 images-fe.ssl-images-amazon.com
-#0.0.0.0 m.media-amazon.com
 0.0.0.0 aax-fe.amazon.co.jp
 0.0.0.0 aes.fe.ono.axp.amazon-adsystem.com
-
-#a-mo.net
 0.0.0.0 sync.a-mo.net
-
-#amoad.com
-0.0.0.0 a.amoad.com b.amoad.com c.amoad.com d.amoad.com e.amoad.com f.amoad.com g.amoad.com h.amoad.com i.amoad.com j.amoad.com k.amoad.com l.amoad.com m.amoad.com n.amoad.com o.amoad.com p.amoad.com q.amoad.com r.amoad.com s.amoad.com t.amoad.com u.amoad.com v.amoad.com w.amoad.com x.amoad.com y.amoad.com z.amoad.com
-0.0.0.0 frtn.amoad.com tg.amoad.com
-
-#ancientact.com noDNS
+0.0.0.0 a.amoad.com
+0.0.0.0 b.amoad.com
+0.0.0.0 c.amoad.com
+0.0.0.0 d.amoad.com
+0.0.0.0 e.amoad.com
+0.0.0.0 f.amoad.com
+0.0.0.0 g.amoad.com
+0.0.0.0 h.amoad.com
+0.0.0.0 i.amoad.com
+0.0.0.0 j.amoad.com
+0.0.0.0 k.amoad.com
+0.0.0.0 l.amoad.com
+0.0.0.0 m.amoad.com
+0.0.0.0 n.amoad.com
+0.0.0.0 o.amoad.com
+0.0.0.0 p.amoad.com
+0.0.0.0 q.amoad.com
+0.0.0.0 r.amoad.com
+0.0.0.0 s.amoad.com
+0.0.0.0 t.amoad.com
+0.0.0.0 u.amoad.com
+0.0.0.0 v.amoad.com
+0.0.0.0 w.amoad.com
+0.0.0.0 x.amoad.com
+0.0.0.0 y.amoad.com
+0.0.0.0 z.amoad.com
+0.0.0.0 frtn.amoad.com
+0.0.0.0 tg.amoad.com
+0.0.0.0 cdn.ampproject.org
 0.0.0.0 ancientact.com
-
-#andbeyond.media
-0.0.0.0 rtbcdn.andbeyond.media rtbpass-us.andbeyond.media
-
-#aniview.com
+0.0.0.0 rtbcdn.andbeyond.media
+0.0.0.0 rtbpass-us.andbeyond.media
 0.0.0.0 player.aniview.com
-
-#anymind360.com
 0.0.0.0 anymind360.com
-
-#aolcdn.com
-#0.0.0.0 s.aolcdn.com
-
-#app-measurement.com
 0.0.0.0 app-measurement.com
-
-#appier.net
 0.0.0.0 ad.appier.net
 0.0.0.0 jprtb.c.appier.net
 0.0.0.0 vst.c.appier.net
-
-#appiersig.com
 0.0.0.0 arm.appiersig.com
 0.0.0.0 mt-usw.appiersig.com
 0.0.0.0 ss-kp2.appiersig.com
 0.0.0.0 ss-sg2.appiersig.com
-
-#applovin.com
 0.0.0.0 rt.applovin.com
-
-#appspot.com
 0.0.0.0 guidesites.appspot.com
-
-#aticdn.net
 0.0.0.0 tag.aticdn.net
-
-#asahiinteractive.com noDNS
 0.0.0.0 push.asahiinteractive.com
-
-#assistads.net
-0.0.0.0 adserver.assistads.net media.assistads.net
-
-#avantisvideo.com
+0.0.0.0 adserver.assistads.net
+0.0.0.0 media.assistads.net
 0.0.0.0 cdn.avantisvideo.com
-
-#bance.jp
-0.0.0.0 js.ssp.bance.jp tr.ssp.bance.jp
-
-#bigmining.com
+0.0.0.0 js.ssp.bance.jp
+0.0.0.0 tr.ssp.bance.jp
 0.0.0.0 cdn.bigmining.com
-
-#bing.com
-0.0.0.0 c.bing.com g.bing.com r.bing.com
-0.0.0.0 bat.bing.com th.bing.com
-
-#bizzabo.com
+0.0.0.0 c.bing.com
+0.0.0.0 g.bing.com
+0.0.0.0 r.bing.com
+0.0.0.0 bat.bing.com
+0.0.0.0 th.bing.com
 0.0.0.0 organizer.bizzabo.com
-
-#bluevoox.com
 0.0.0.0 sg-trk.bluevoox.com
-
-#boost-next.co.jp
-0.0.0.0 cs.boost-next.co.jp edayo.boost-next.co.jp js.boost-next.co.jp
-
-#browsiprod.com
+0.0.0.0 cs.boost-next.co.jp
+0.0.0.0 edayo.boost-next.co.jp
+0.0.0.0 js.boost-next.co.jp
 0.0.0.0 cdn.browsiprod.com
-
-#btloader.com
 0.0.0.0 btloader.com
-
-#bloombergの表示に必要
-#bwbx.io
-#0.0.0.0 assets.bwbx.io
-
-#byteoversea.net
 0.0.0.0 api39.gtm.byteoversea.net
-
-#abeagle-public.buzzfeed.com
 0.0.0.0 abeagle-public.buzzfeed.com
-
-#caprofitx.com
 0.0.0.0 cdn.caprofitx.com
-
-#casalemedia.com
 0.0.0.0 ssum-sec.casalemedia.com
-
-#cdn77.org
 0.0.0.0 1183467342.rsc.cdn77.org
-
-#cdn-apple.com
-#0.0.0.0 appleid.cdn-apple.com
-
-#cedefender.co.in
-#有害
 0.0.0.0 cedefender.co.in
-
-#channel.io
 0.0.0.0 api.channel.io
-
-#chartbeat.com
 0.0.0.0 static.chartbeat.com
-
-#cloudflare noDNS
-#0.0.0.0 cdnjs.cloudflare.com
-
-#cloudflare.com
-0.0.0.0 cdnjs.cloudflare.com
-
-#cloudinary.com noDNS
 0.0.0.0 nordot-res.cloudinary.com
-
-#cnevids.com
 0.0.0.0 player.cnevids.com
-
-#confiant-integrations.net noDNS
 0.0.0.0 cdn.confiant-integrations.net
-
-#connatix.com noDNS
-0.0.0.0 capi.connatix.com cd.connatix.com cdn.connatix.com cds.connatix.com img.connatix.com capi.connatix.com
-
-#content-loader.com
+0.0.0.0 capi.connatix.com
+0.0.0.0 cd.connatix.com
+0.0.0.0 cdn.connatix.com
+0.0.0.0 cds.connatix.com
+0.0.0.0 img.connatix.com
+0.0.0.0 capi.connatix.com
 0.0.0.0 content-loader.com
-
-#contents-search-windows.com
-0.0.0.0 cdn.contents-search-windows.com client.contents-search-windows.com
-
-#cookielaw.org
+0.0.0.0 cdn.contents-search-windows.com
+0.0.0.0 client.contents-search-windows.com
 0.0.0.0 cdn.cookielaw.org
-
-#cootlogix.com
 0.0.0.0 sync.cootlogix.com
-
-#crashlytics.com
 0.0.0.0 firebase-settings.crashlytics.com
-
-#criteo.net
+0.0.0.0 creativecdn.com
 0.0.0.0 static.criteo.net
 0.0.0.0 ads.as.criteo.com
-
-#crsspxl.com
 0.0.0.0 tag.crsspxl.com
-
-#cryptoxix.com
-#有害
 0.0.0.0 cryptoxix.com
-
-#crwdcntrl.net
 0.0.0.0 tags.crwdcntrl.net
-
-#cxense.com
-0.0.0.0 adserver.cxad.cxense.com cdn.cxense.com scdn.cxense.com
-
-#cxpublic.com
+0.0.0.0 adserver.cxad.cxense.com
+0.0.0.0 cdn.cxense.com
+0.0.0.0 scdn.cxense.com
 0.0.0.0 csm.cxpublic.com
-
-#d2-apps.net
 0.0.0.0 cdn.d2-apps.net
-
-#dable.io
 0.0.0.0 static.dable.io
-
-#daily.jp
 0.0.0.0 i.daily.jp
-
-#davidwalsh.name
 0.0.0.0 davidwalsh.name
-
-#demdex.net
+0.0.0.0 s.dc-tag.jp
 0.0.0.0 dpm.demdex.net
-
-#dmm.com
 0.0.0.0 rcv.ixd.dmm.com
-
-#docomo.ne.jp
 0.0.0.0 alxc.addlv.smt.docomo.ne.jp
-
-#donghocotatan.com
 0.0.0.0 donghocotatan.com
-
-#doppiocdn.com
 0.0.0.0 img.doppiocdn.com
-
-#doubleclick
 0.0.0.0 ad.doubleclick.net
 0.0.0.0 adclick.g.doubleclick.net
-0.0.0.0 cm.g.doubleclick.net googleads.g.doubleclick.net pubads.g.doubleclick.net securepubads.g.doubleclick.net stats.g.doubleclick.net static.doubleclick.net
-
-#durationmedia.net
+0.0.0.0 cm.g.doubleclick.net
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 pubads.g.doubleclick.net
+0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 stats.g.doubleclick.net
+0.0.0.0 static.doubleclick.net
 0.0.0.0 tag.durationmedia.net
-
-#ebis.ne.jp
-0.0.0.0 rec.ebis.ne.jp taj1.ebis.ne.jp
-
-#edgekey.net
-0.0.0.0	cdn.taboola.com esd-secure.taboola.com.edgekey.net
-0.0.0.0	taboola.com.edgekey.net
-0.0.0.0	www.esd-secure.taboola.com.edgekey.net
-0.0.0.0	www.taboola.com.edgekey.net
-
-#engageya.com
-0.0.0.0	ecs4.engageya.com
-0.0.0.0	engageya.com
-0.0.0.0	images9.engageya.com
-
-#enhance.co.jp noDNS
+0.0.0.0 rec.ebis.ne.jp
+0.0.0.0 taj1.ebis.ne.jp
+0.0.0.0 cdn.taboola.com
+0.0.0.0 esd-secure.taboola.com.edgekey.net
+0.0.0.0 taboola.com.edgekey.net
+0.0.0.0 www.esd-secure.taboola.com.edgekey.net
+0.0.0.0 www.taboola.com.edgekey.net
+0.0.0.0 ecs4.engageya.com
+0.0.0.0 engageya.com
+0.0.0.0 images9.engageya.com
 0.0.0.0 rise.enhance.co.jp
-
-#error-report.com
 0.0.0.0 error-report.com
-
-#eyeota.net
 0.0.0.0 ps.eyeota.net
-
-#facebook.net
 0.0.0.0 connect.facebook.net
-
-#fam-8.net
 0.0.0.0 fam-8.net
-
-#fam-ad.com
-#有害
 0.0.0.0 fam-ad.com
-
-#fastclick.net
 0.0.0.0 secure.cdn.fastclick.net
-
-#fastly.net
 0.0.0.0 global.moloco.map.fastly.net
 0.0.0.0 jsdelivr.map.fastly.net
-
-#fc2.com
-0.0.0.0 analyzer51.fc2.com counter.fc2.com counter1.fc2.com media.fc2.com media5.fc2.com static.fc2.com vip.chps-api.fc2.com
-
-#firework.tv
+0.0.0.0 analyzer51.fc2.com
+0.0.0.0 counter.fc2.com
+0.0.0.0 counter1.fc2.com
+0.0.0.0 media.fc2.com
+0.0.0.0 media5.fc2.com
+0.0.0.0 static.fc2.com
+0.0.0.0 vip.chps-api.fc2.com
 0.0.0.0 firework.tv
-
-#fireworktv.com
 0.0.0.0 cdn4.fireworktv.com
-
-#flux-cdn.com
 0.0.0.0 flux-cdn.com
-
-#focas.jp
-0.0.0.0 pc-adroute.focas.jp static.pc-adroute.focas.jp
-
-#fpjscdn.net
+0.0.0.0 pc-adroute.focas.jp
+0.0.0.0 static.pc-adroute.focas.jp
 0.0.0.0 fpjscdn.net
-
-#functionalfeather.com
 0.0.0.0 functionalfeather.com
-
-#futurecdn.net
-0.0.0.0 search-api.fie.futurecdn.net vanilla.futurecdn.net
-
-#fwcdn2
+0.0.0.0 search-api.fie.futurecdn.net
+0.0.0.0 vanilla.futurecdn.net
 0.0.0.0 asset.fwcdn2.com
-
-#fwmrm.net
-0.0.0.0 fwmrm.net 2975c.v.fwmrm.net
-
-#fwpub1.com
+0.0.0.0 fwmrm.net
+0.0.0.0 2975c.v.fwmrm.net
 0.0.0.0 asset.fwpub1.com
-
-#gcprivacy.com
 0.0.0.0 p.gcprivacy.com
-
-#geniee.jp
 0.0.0.0 cpt.geniee.jp
-
-#genieesspv
 0.0.0.0 aladdin.genieesspv.jp
-
-#geoedge.be
 0.0.0.0 rumcdn.geoedge.be
-
-#getallmedia.com
-0.0.0.0 cdn.getallmedia.com ssp.getallmedia.com
-
-#gfx.ms
+0.0.0.0 cdn.getallmedia.com
+0.0.0.0 ssp.getallmedia.com
 0.0.0.0 mem.gfx.ms
-
-#gliacloud.com
 0.0.0.0 player.gliacloud.com
-
-#glossom.jp
 0.0.0.0 js.glossom.jp
-
-#gmossp-sp.jp
-0.0.0.0 cdn.gmossp-sp.jp sp.gmossp-sp.jp
-
-#gmpg.org/
+0.0.0.0 cdn.gmossp-sp.jp
+0.0.0.0 sp.gmossp-sp.jp
+0.0.0.0 minerva-deliver.sp.gmossp-sp.jp
 0.0.0.0 gmpg.org
-
-#go.link
 0.0.0.0 abema.go.link
-
-#go-mpulse.net
 0.0.0.0 s.go-mpulse.net
-
-#goo
-0.0.0.0 adcdn.goo.ne.jp img.news.goo.ne.jp log000.goo.ne.jp ranking.goo.ne.jp
+0.0.0.0 adcdn.goo.ne.jp
+0.0.0.0 img.news.goo.ne.jp
+0.0.0.0 log000.goo.ne.jp
+0.0.0.0 ranking.goo.ne.jp
 0.0.0.0 imagegooranking.rank-king.jp
-
-#google
 0.0.0.0 yt3.ggpht.com
-#0.0.0.0 apis.google.com
 0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 www.googleadservices.com
-0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 www.googletagmanager.com
-#googleusercontent.com --> YouTubeの広告画像、FeedlyやGoogle newsなどのサムネイル画像
-# 0.0.0.0 lh1.googleusercontent.com lh2.googleusercontent.com lh3.googleusercontent.com lh4.googleusercontent.com lh5.googleusercontent.com lh6.googleusercontent.com lh7.googleusercontent.com lh8.googleusercontent.com lh9.googleusercontent.com lh0.googleusercontent.com
-#0.0.0.0 www.gstatic.com
 0.0.0.0 encrypted-tbn2.gstatic.com
-
-#goomaphy.com
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 goomaphy.com
-
-#gravatar.com
 0.0.0.0 secure.gravatar.com
-
-#gsspcln
-0.0.0.0 js.gsspcln.jp works.gsspcln.jp
-
-#gstatic.com
-#CAPTCHAに利用される
-#0.0.0.0 www.gstatic.com
-
-#gumgum.com
+0.0.0.0 js.gsspcln.jp
+0.0.0.0 works.gsspcln.jp
 0.0.0.0 js.gumgum.com
-
-#handgripknuckle.com
-#有害
+0.0.0.0 usersync.gumgum.com
 0.0.0.0 handgripknuckle.com
-
-#hadronid.net
 0.0.0.0 cdn.hadronid.net
-
-#hatena
 0.0.0.0 cdn.ad-hatena.com
-
-#html-load.com
 0.0.0.0 html-load.com
-
-#i2ad.jp
 0.0.0.0 i2ad.jp
-
-#iasds01.com
 0.0.0.0 sc.iasds01.com
-
-#id5-sync.com
-0.0.0.0 api.id5-sync.com cdn.id5-sync.com
-
-#iid.jp
-0.0.0.0 deliver.ads2.iid.jp front-api-gateway.account.media.iid.jp recruitbox.media.iid.jp
+0.0.0.0 api.id5-sync.com
+0.0.0.0 cdn.id5-sync.com
+0.0.0.0 deliver.ads2.iid.jp
+0.0.0.0 front-api-gateway.account.media.iid.jp
+0.0.0.0 recruitbox.media.iid.jp
 0.0.0.0 widget.iid-network.jp
-
-#i-mobile
 0.0.0.0 imp-adedge.i-mobile.co.jp
-
-#id5-sync.com
 0.0.0.0 cdn.id5-sync.com/
-
-#im-apps
 0.0.0.0 dmp.im-apps.net
-
-#impress.co.jp
-#impress系サイトで画像が表示されない
-#0.0.0.0 asset.watch.impress.co.jp
-
-#impact-ad
-0.0.0.0 aw.dw.impact-ad.jp img.ak.impact-ad.jp penta.a.one.impact-ad.jp v.one.impact-ad.jp y.one.impact-ad.jp
-
-#impactify.media
+0.0.0.0 aw.dw.impact-ad.jp
+0.0.0.0 img.ak.impact-ad.jp
+0.0.0.0 penta.a.one.impact-ad.jp
+0.0.0.0 v.one.impact-ad.jp
+0.0.0.0 y.one.impact-ad.jp
 0.0.0.0 ad.impactify.media
-
-#imrworldwide.com
 0.0.0.0 cdn-gl.imrworldwide.com
-
-#indexww.com
 0.0.0.0 js-sec.indexww.com
-
-#indir-zpf.com
-#有害
 0.0.0.0 indir-zpf.com
-
-#ipify.org
 0.0.0.0 api64.ipify.org
-
-#liftoff.io
 0.0.0.0 impression-east.liftoff.io
-
-#liftoff-creatives.io
 0.0.0.0 cdn.liftoff-creatives.io
-
-#inmobi.com
 0.0.0.0 cmp.inmobi.com
-
-#ismcdn.jp
-#東洋経済のCSS
-#0.0.0.0 tk.ismcdn.jp
 0.0.0.0 times-abema.ismcdn.jp
-
-#itmedia  noDNS
-0.0.0.0 dlv.itmedia.jp 
-#0.0.0.0  img.itmedia.jp
-
-#iws.vc
+0.0.0.0 dlv.itmedia.jp
 0.0.0.0 tracker.iws.vc
-
-#jp1media.com
 0.0.0.0 server.jp1media.com/sync/boost
-
-#jsdelivr.net
-#0.0.0.0 cdn.jsdelivr.net
-
-#juicyads.com
-0.0.0.0 adserver.juicyads.com 
+0.0.0.0 adserver.juicyads.com
 0.0.0.0 ads-g.juicyads.com
-
-#jwplatform.com
 0.0.0.0 content.jwplatform.com
-
-#ketchcdn.com  noDNS
 0.0.0.0 global.ketchcdn.com
-
-#ketchjs.com  noDNS
 0.0.0.0 cdn.ketchjs.com
-
-#kgl-systems.io
 0.0.0.0 webmedia-resource.kgl-systems.io
-
-#kuzen.io
 0.0.0.0 dialog.kuzen.io
-
-#liftoff-creatives.io
 0.0.0.0 cdn.liftoff-creatives.io
-
-#line
 0.0.0.0 scdn.line-apps.com
-
-#linksynergy.com
 0.0.0.0 automate-frontend.linksynergy.com
- 
-#livedoor.jp  noDNS
 0.0.0.0 parts.blog.livedoor.jp
-0.0.0.0 t.blog.livedoor.jp
-
-#livelog.biz
 0.0.0.0 blog.livelog.biz
-
-#lmadps.jp
-0.0.0.0 img.lmadps.jp tck.lmadps.jp
-
-#logly
-0.0.0.0 dsp.logly.co.jp l.logly.co.jp lt.logly.co.jp
-
-#lookverin.com
+0.0.0.0 img.lmadps.jp
+0.0.0.0 tck.lmadps.jp
+0.0.0.0 dsp.logly.co.jp
+0.0.0.0 l.logly.co.jp
+0.0.0.0 lt.logly.co.jp
 0.0.0.0 serving.lookverin.com
-
-#loom-app.com  noDNS
 0.0.0.0 media.loom-app.com
-
-#loopme.me
 0.0.0.0 csync.loopme.me
-
-#lucead.com
 0.0.0.0 s.lucead.com
-
-#luckyorange.com
 0.0.0.0 tools.luckyorange.com
-
-#machi.to
 0.0.0.0 machi.to
-
-#media.net  noDNS
-0.0.0.0 contextual.media.net warp.media.net
-
-#mediago.io
-0.0.0.0 cdn.mediago.io images.mediago.io trace-jp.mediago.io
-
-#media-platform.com  noDNS
+0.0.0.0 contextual.media.net
+0.0.0.0 warp.media.net
 0.0.0.0 assets.media-platform.com
-
-#mediaweaver.jp
 0.0.0.0 mediaweaver.jp
-
-#meetfindsoul.com
-#有害
 0.0.0.0 ktdphrrdk.meetfindsoul.com
-
-#mgid.com
 0.0.0.0 jsc.mgid.com
-
-#microad
 0.0.0.0 j.microad.net
 0.0.0.0 d-cache.microad.jp
-
-#mid-round.com
-#有害
 0.0.0.0 mid-round.com
-
-#ml314.com  noDNS
-0.0.0.0 ml314.com vi.ml314.com
-
-#mmt.delivery
+0.0.0.0 ml314.com
+0.0.0.0 vi.ml314.com
 0.0.0.0 fastly.mmt.delivery
-
-#moatads.com
 0.0.0.0 z.moatads.com
-
-#monu.delivery
 0.0.0.0 monu.delivery
-
-#moshimo.com
 0.0.0.0 i.moshimo.com
-
-#msedge.net
-0.0.0.0	fp.msedge.net
-
-#msfstatic.com
+0.0.0.0 fp.msedge.net
 0.0.0.0 r.msfstatic.com
-
-#msn.com
-#msnポータルの機能が失われる --> assets.msn.com
-#msnポータルの画像が失われる --> img-s-msn-com.akamaized.net
-#0.0.0.0 assets.msn.com
-#0.0.0.0 img-s-msn-com.akamaized.net
-0.0.0.0 api.msn.com browser.events.data.msn.com c.msn.com ent-api.msn.com mobileads.msn.com srtb.msn.com
+0.0.0.0 api.msn.com
+0.0.0.0 browser.events.data.msn.com
+0.0.0.0 c.msn.com
+0.0.0.0 ent-api.msn.com
+0.0.0.0 mobileads.msn.com
+0.0.0.0 srtb.msn.com
 0.0.0.0 c.msn.cn
 0.0.0.0 static-global-s-msn-com.akamaized.net
-
-#mrf.io
 0.0.0.0 sdk.mrf.io
-
-#mulan.cloud
 0.0.0.0 js.mulan.cloud
-
-#mynavi  noDNS
-0.0.0.0 ad.woman.mynavi.jp ssfpc.news.mynavi.jp stg.ad.woman.mynavi.jp
-
-#nakanohito.jp
-0.0.0.0 cm-widget.nakanohito.jp cs.nakanohito.jp
-
-#narrative.io
+0.0.0.0 ad.woman.mynavi.jp
+0.0.0.0 ssfpc.news.mynavi.jp
+0.0.0.0 stg.ad.woman.mynavi.jp
+0.0.0.0 cm-widget.nakanohito.jp
+0.0.0.0 cs.nakanohito.jp
 0.0.0.0 io.narrative.io
-
-#newrelic
 0.0.0.0 js-agent.newrelic.com
-
-#nextmillmedia.com
 0.0.0.0 cookies.nextmillmedia.com
-
-#nhk.or.jp
-#0.0.0.0 apps.nhk.or.jp location.nhk.or.jp
 0.0.0.0 location.nhk.or.jp
-
-#nikkei  noDNS
-0.0.0.0 nkis.nikkei.com r.nikkei.com
-
-#nordot  noDNS
-#KYODOの記事が表示されなくなる --> nordot.app
+0.0.0.0 nkis.nikkei.com
+0.0.0.0 r.nikkei.com
 0.0.0.0 log.nordot.jp
-
-#npttech.com  noDNS
 0.0.0.0 www.npttech.com
-
-#nr-data
 0.0.0.0 bam.nr-data.net
-
-#oath.com
 0.0.0.0 consent.cmp.oath.com
-
-#ogp.me  noDNS
-#0.0.0.0 ogp.me
-
-#omnisnippet1.com
 0.0.0.0 omnisnippet1.com
-
-#omnitagjs.com
 0.0.0.0 visitor.omnitagjs.com
-
-#onesignal.com
 0.0.0.0 cdn.onesignal.com
-
-#onijima.jp
-#有害
 0.0.0.0 onijima.jp
-
-#oooutbrain.com
-0.0.0.0	oooutbrain.com
-
-#opecloud.com  noDNS
+0.0.0.0 oooutbrain.com
 0.0.0.0 cdn.opecloud.com
-
-#openx
-0.0.0.0 u.openx.net us-u.openx.net www.us-u.openx.net
-
-#outbrain
+0.0.0.0 u.openx.net
+0.0.0.0 us-u.openx.net
+0.0.0.0 www.us-u.openx.net
 0.0.0.0 outbrain.com
 0.0.0.0 amplify.outbrain.com
 0.0.0.0 amplifypixel.outbrain.com
 0.0.0.0 images.outbrain.com
 0.0.0.0 log.outbrain.com
 0.0.0.0 widgets.outbrain.com
-0.0.0.0	odb.outbrain.com
-0.0.0.0	paid.outbrain.com
-0.0.0.0	sync.outbrain.com
-0.0.0.0	tr.outbrain.com
-0.0.0.0	traffic.outbrain.com
-0.0.0.0	vra.outbrain.com
-0.0.0.0	vrp.outbrain.com
-0.0.0.0	vrt.outbrain.com
-0.0.0.0	widgets.outbrain.com
-0.0.0.0	www.outbrain.com
+0.0.0.0 odb.outbrain.com
+0.0.0.0 paid.outbrain.com
+0.0.0.0 sync.outbrain.com
+0.0.0.0 tr.outbrain.com
+0.0.0.0 traffic.outbrain.com
+0.0.0.0 vra.outbrain.com
+0.0.0.0 vrp.outbrain.com
+0.0.0.0 vrt.outbrain.com
+0.0.0.0 widgets.outbrain.com
+0.0.0.0 www.outbrain.com
 0.0.0.0 zem.outbrainimg.com
-0.0.0.0	amplifypixel.outbrain.com
-
-#ov1o.com
+0.0.0.0 amplifypixel.outbrain.com
 0.0.0.0 envoy-hl.envoy-csync.core-002-ew4.ov1o.com
-
-#pangle.io
 0.0.0.0 api16-access-sg.pangle.io
-
-#parklogic.com
 0.0.0.0 parking3.parklogic.com
-
-#p-n.io
 0.0.0.0 cdn.p-n.io
-
-#piano.io  noDNS
-0.0.0.0 api-esp-ap.piano.io buy-ap.piano.io code.piano.io experience-ap.piano.io
-
-#pin673.cyou
-#有害
+0.0.0.0 api-esp-ap.piano.io
+0.0.0.0 buy-ap.piano.io
+0.0.0.0 code.piano.io
+0.0.0.0 experience-ap.piano.io
 0.0.0.0 arch.pin673.cyou
-
-#placehold.jp
 0.0.0.0 placehold.jp
-
-#playfulriver.com
 0.0.0.0 playfulriver.com
-
-#pljohkmh.click
-#有害
 0.0.0.0 jp5282722.pljohkmh.click
-
-#poiful.com
 0.0.0.0 asset.poiful.com
-
-#polyfill.io
 0.0.0.0 polyfill.io
-
-#polymorphicads.jp
 0.0.0.0 img.polymorphicads.jp
-
-#popin
-0.0.0.0 a.popin.cc api.popin.cc jp.popin.cc trace.popin.cc imageaws.popin.cc
-
-#prime-ever.com
-#有害
+0.0.0.0 a.popin.cc
+0.0.0.0 api.popin.cc
+0.0.0.0 jp.popin.cc
 0.0.0.0 prime-ever.com
-
-#printwhatyoulike.com
 0.0.0.0 printwhatyoulike.com
-
-#privacymanager.io
 0.0.0.0 ats-wrapper.privacymanager.io
-
-#pro-market.net
-0.0.0.0 pbid.pro-market.net ads.pro-market.net
-
-#provesrc.com
+0.0.0.0 pbid.pro-market.net
+0.0.0.0 ads.pro-market.net
 0.0.0.0 cdn.provesrc.com
-
-#proxypy.org
 0.0.0.0 proxypy.org
-
-#pub.network
 0.0.0.0 a.pub.network
-
-#pubmatic
-0.0.0.0 ads.pubmatic.com aktrack.pubmatic.com hbopenbid.pubmatic.com sshowads.pubmatic.com
+0.0.0.0 ads.pubmatic.com
+0.0.0.0 aktrack.pubmatic.com
+0.0.0.0 hbopenbid.pubmatic.com
+0.0.0.0 sshowads.pubmatic.com
 0.0.0.0 image6.pubmatic.com
-
-#pubmine.com
 0.0.0.0 c0.pubmine.com
-
-#quant.jp
 0.0.0.0 static.quant.jp
-
-#quantcount.com
 0.0.0.0 rules.quantcount.com
-
-#quantserve.com
 0.0.0.0 secure.quantserve.com
-
-#r10s.jp
 0.0.0.0 r.r10s.jp
-
-#rakuten.co.jp
-#スタイルや画像などの表示
-#0.0.0.0 cdn.rmc.contents.rakuten.co.jp
 0.0.0.0 error.rakuten.co.jp
 0.0.0.0 hbb.afl.rakuten.co.jp
 0.0.0.0 rat.rakuten.co.jp
 0.0.0.0 s-cdn.rmp.rakuten.co.jp
-
-#rakuten-static.com
 0.0.0.0 jp.rakuten-static.com
-
-#relaido.jp
 0.0.0.0 api.relaido.jp
-
-#revenuecat.com
 0.0.0.0 api.revenuecat.com
-
-#rmhfrtnd.com
-0.0.0.0 creative.rmhfrtnd.com go.rmhfrtnd.com
-
-#rocket-push.com
+0.0.0.0 creative.rmhfrtnd.com
+0.0.0.0 go.rmhfrtnd.com
 0.0.0.0 cdn.rocket-push.com
-
-#rubiconproject.com
-0.0.0.0 ads.rubiconproject.com eus.rubiconproject.com fastlane.rubiconproject.com micro.rubiconproject.com
-
-#sail-horizon.com
+0.0.0.0 ads.rubiconproject.com
+0.0.0.0 eus.rubiconproject.com
+0.0.0.0 fastlane.rubiconproject.com
+0.0.0.0 micro.rubiconproject.com
 0.0.0.0 ak.sail-horizon.com
-
-#schema.org
 0.0.0.0 schema.org
-
-#scorecardresearch.com
-0.0.0.0 b.scorecardresearch.com sb.scorecardresearch.com
-
-#sedo.com
+0.0.0.0 b.scorecardresearch.com
+0.0.0.0 sb.scorecardresearch.com
 0.0.0.0 www.sedo.com
-
-#sedoparking.com
 0.0.0.0 sedoparking.com
-
-#seedtag.com
 0.0.0.0 cs.seedtag.com
-
-#segment.com
 0.0.0.0 cdn.segment.com
-
-#sentry-cdn.com
-0.0.0.0 browser.sentry-cdn.com js.sentry-cdn.com
-
-#serverbid.com
+0.0.0.0 browser.sentry-cdn.com
+0.0.0.0 js.sentry-cdn.com
 0.0.0.0 sync.serverbid.com
-
-#serving-sys
 0.0.0.0 secure-ds.serving-sys.com
-
-#sharethrough.com noDNS
-0.0.0.0 match.sharethrough.com sdk.sharethrough.com
+0.0.0.0 match.sharethrough.com
+0.0.0.0 sdk.sharethrough.com
 0.0.0.0 match-ap-southeast-1-ecs.sharethrough.com
-
-#sitescout.com
 0.0.0.0 pixel-sync.sitescout.com
-
-#sl-advisory.com
 0.0.0.0 www.sl-advisory.com
-
-#smart-below.com
-#有害
 0.0.0.0 smart-below.com
-
-#smartadserver.com
-0.0.0.0 prg.smartadserver.com rtb-csync.smartadserver.com
+0.0.0.0 prg.smartadserver.com
+0.0.0.0 rtb-csync.smartadserver.com
 0.0.0.0 rtb-csync-apac1.smartadserver.com
-
-#socdm.com
-0.0.0.0 a.socdm.com b.socdm.com c.socdm.com d.socdm.com e.socdm.com f.socdm.com g.socdm.com h.socdm.com i.socdm.com j.socdm.com k.socdm.com l.socdm.com m.socdm.com n.socdm.com o.socdm.com p.socdm.com q.socdm.com r.socdm.com s.socdm.com t.socdm.com u.socdm.com v.socdm.com w.socdm.com x.socdm.com y.socdm.com z.socdm.com
-0.0.0.0 frtn.socdm.com tg.socdm.com
-
-#sohu.com
-#有害
+0.0.0.0 a.socdm.com
+0.0.0.0 b.socdm.com
+0.0.0.0 c.socdm.com
+0.0.0.0 d.socdm.com
+0.0.0.0 e.socdm.com
+0.0.0.0 f.socdm.com
+0.0.0.0 g.socdm.com
+0.0.0.0 h.socdm.com
+0.0.0.0 i.socdm.com
+0.0.0.0 j.socdm.com
+0.0.0.0 k.socdm.com
+0.0.0.0 l.socdm.com
+0.0.0.0 m.socdm.com
+0.0.0.0 n.socdm.com
+0.0.0.0 o.socdm.com
+0.0.0.0 p.socdm.com
+0.0.0.0 q.socdm.com
+0.0.0.0 r.socdm.com
+0.0.0.0 s.socdm.com
+0.0.0.0 t.socdm.com
+0.0.0.0 u.socdm.com
+0.0.0.0 v.socdm.com
+0.0.0.0 w.socdm.com
+0.0.0.0 x.socdm.com
+0.0.0.0 y.socdm.com
+0.0.0.0 z.socdm.com
+0.0.0.0 frtn.socdm.com
+0.0.0.0 tg.socdm.com
 0.0.0.0 pv.sohu.com
-
-#solutionshindsight.net noDNS
 0.0.0.0 static.solutionshindsight.net
-
-#s-onetag.com
-0.0.0.0 get.s-onetag.com signal-beacon.s-onetag.com
-
-#speee-ad.jp
+0.0.0.0 get.s-onetag.com
+0.0.0.0 signal-beacon.s-onetag.com
 0.0.0.0 click.speee-ad.jp
-
-#speedcurve.com noDNS
 0.0.0.0 cdn.speedcurve.com
-
-#spotxcdn.com
-0.0.0.0	cdn.spotxcdn.com
-
-#stamped.io
+0.0.0.0 cdn.spotxcdn.com
 0.0.0.0 cdn1.stamped.io
-
-#stickyadstv.com
 0.0.0.0 ads.stickyadstv.com
-
-#storage-yahoo.jp
 0.0.0.0 slink.west.edge.storage-yahoo.jp
-
-#strpst.com
 0.0.0.0 assets.strpst.com
-
-#syoboi.jp
-#0.0.0.0 ngid.syoboi.jp
-
-#taboola.com
-0.0.0.0	api.taboola.com
-0.0.0.0	c2.taboola.com
-0.0.0.0	cdn.taboola.com
-0.0.0.0	images.taboola.com
-0.0.0.0	imprammp.taboola.com
-0.0.0.0	nr.taboola.com
-0.0.0.0	popup.taboola.com
-0.0.0.0	taboola.com
-0.0.0.0	trc.taboola.com
-0.0.0.0	vidstat.taboola.com
-0.0.0.0	vidstatb.taboola.com
-0.0.0.0	www.api.taboola.com
-0.0.0.0	www.c2.taboola.com
-0.0.0.0	www.cdn.taboola.com
-0.0.0.0	www.popup.taboola.com
-0.0.0.0	www.taboola.com
-0.0.0.0	www.trc.taboola.com
-
-#taboolasyndication.com
-0.0.0.0	cdn.taboolasyndication.co
-0.0.0.0	cdn.taboolasyndication.com
-0.0.0.0	taboolasyndication.com
-0.0.0.0	trc.taboolasyndication.com
-0.0.0.0	urc.taboolasyndication.com
-0.0.0.0	www.cdn.taboolasyndication.com
-0.0.0.0	www.taboolasyndication.com
-0.0.0.0	www.urc.taboolasyndication.com
-
-#teads.tv
+0.0.0.0 api.taboola.com
+0.0.0.0 c2.taboola.com
+0.0.0.0 cdn.taboola.com
+0.0.0.0 images.taboola.com
+0.0.0.0 imprammp.taboola.com
+0.0.0.0 nr.taboola.com
+0.0.0.0 popup.taboola.com
+0.0.0.0 taboola.com
+0.0.0.0 trc.taboola.com
+0.0.0.0 vidstat.taboola.com
+0.0.0.0 vidstatb.taboola.com
+0.0.0.0 www.api.taboola.com
+0.0.0.0 www.c2.taboola.com
+0.0.0.0 www.cdn.taboola.com
+0.0.0.0 www.popup.taboola.com
+0.0.0.0 www.taboola.com
+0.0.0.0 www.trc.taboola.com
+0.0.0.0 cdn.taboolasyndication.co
+0.0.0.0 cdn.taboolasyndication.com
+0.0.0.0 taboolasyndication.com
+0.0.0.0 trc.taboolasyndication.com
+0.0.0.0 urc.taboolasyndication.com
+0.0.0.0 www.cdn.taboolasyndication.com
+0.0.0.0 www.taboolasyndication.com
+0.0.0.0 www.urc.taboolasyndication.com
 0.0.0.0 a.teads.tv
-
-#trafficmanager.net
-#Microsoft ToDoの動機に影響する
-#0.0.0.0 www.tm.prd.ags.trafficmanager.net
-
-#taxel.jp
-0.0.0.0 cdn.taxel.jp widgets.taxel.jp
-
-#teads.tv
-0.0.0.0 a.teads.tv cm.teads.tv s8t.teads.tv
-
-#tgstc.com
-#togetterを正常に表示する
-#0.0.0.0 s.tgstc.com
-
-#themoneytizer.com
+0.0.0.0 cdn.taxel.jp
+0.0.0.0 widgets.taxel.jp
+0.0.0.0 a.teads.tv
+0.0.0.0 cm.teads.tv
+0.0.0.0 s8t.teads.tv
 0.0.0.0 ads.themoneytizer.com
-
-#topsy.com
 0.0.0.0 cdn.topsy.com
-
-#tqjfn0om.cn
-#有害
 0.0.0.0 tqjfn0om.cn
-
-#trvdp.com
-0.0.0.0 go.trvdp.com vid.trvdp.com
-
-#trafficmanager.net
-0.0.0.0	msmonplat.trafficmanager.net www.tm.a.prd.aadg.trafficmanager.net 
-
-#treasuredata.com noDNS
-0.0.0.0 cdn.treasuredata.com cdp.in.treasuredata.com docs.treasuredata.com in.treasuredata.com
-
-#tresensa.com
-0.0.0.0 games.tresensa.com sdk.tresensa.com
-
-#tru.am
+0.0.0.0 go.trvdp.com
+0.0.0.0 vid.trvdp.com
+0.0.0.0 msmonplat.trafficmanager.net
+0.0.0.0 www.tm.a.prd.aadg.trafficmanager.net
+0.0.0.0 cdn.treasuredata.com
+0.0.0.0 cdp.in.treasuredata.com
+0.0.0.0 docs.treasuredata.com
+0.0.0.0 in.treasuredata.com
+0.0.0.0 games.tresensa.com
+0.0.0.0 sdk.tresensa.com
 0.0.0.0 tru.am
-
-#tubemogul.com
 0.0.0.0 rtd.tubemogul.com
-
-#twimg.com
 0.0.0.0 cdn.syndication.twimg.com
-
-#twitter
 0.0.0.0 static.ads-twitter.com
 0.0.0.0 platform.twitter.com
-
-#typekit.net
 0.0.0.0 use.typekit.net
-
-#unblockia.com
 0.0.0.0 cdn.unblockia.com
-
-#unity3d.com
-0.0.0.0 ae.iads.unity.com ae-iads.unity.com cdn.iads.unity3d.com o.iads.unity3d.com
-0.0.0.0 gw-is.iads.unity3d.com gw-rv.iads.unity3d.com
-0.0.0.0 unityads.unity3d.com scar.unityads.unity3d.com thind.unityads.unity3d.com
-0.0.0.0 gw.mediation.unity3d.com o-iab-imp-counters.mediation.unity3d.com o-iab-notifications.mediation.unity3d.com o-sdk.mediation.unity3d.com
-
-#uplynk.com
+0.0.0.0 ae.iads.unity.com
+0.0.0.0 ae-iads.unity.com
+0.0.0.0 cdn.iads.unity3d.com
+0.0.0.0 o.iads.unity3d.com
+0.0.0.0 gw-is.iads.unity3d.com
+0.0.0.0 gw-rv.iads.unity3d.com
+0.0.0.0 unityads.unity3d.com
+0.0.0.0 scar.unityads.unity3d.com
+0.0.0.0 thind.unityads.unity3d.com
+0.0.0.0 gw.mediation.unity3d.com
+0.0.0.0 o-iab-imp-counters.mediation.unity3d.com
+0.0.0.0 o-iab-notifications.mediation.unity3d.com
+0.0.0.0 o-sdk.mediation.unity3d.com
 0.0.0.0 content.uplynk.com
-
-#urencenes.com
 0.0.0.0 urencenes.com
-
-#ust-ad.com
 0.0.0.0 adjs.ust-ad.com
-
-#valuecommerce.com  noDNS
-0.0.0.0 aml.valuecommerce.com dalb.valuecommerce.com dalc.valuecommerce.com vpj.valuecommerce.com
+0.0.0.0 aml.valuecommerce.com
+0.0.0.0 dalb.valuecommerce.com
+0.0.0.0 dalc.valuecommerce.com
+0.0.0.0 vpj.valuecommerce.com
 0.0.0.0 ad.jp.ap.valuecommerce.com
-
-#verizonmedia.com
 0.0.0.0 adjp.apacact.verizonmedia.com
-
-#videojs.com
 0.0.0.0 videojs.com
-
-#vidible.tv
 0.0.0.0 cdn.vidible.tv
-
-#vrizead.com
 0.0.0.0 api.adserver.vrizead.com
-
-#vungle.com
-0.0.0.0	ads.api.vungle.com
-
-#w.org
+0.0.0.0 ads.api.vungle.com
 0.0.0.0 s.w.org
-
-#web-vitals.net
 0.0.0.0 free.users.web-vitals.net
-
-#webpush.jp
 0.0.0.0 cdn.webpush.jp
-
-#widgetlogic.org
 0.0.0.0 widgetlogic.org
-
-#windows.net
-#有害
 0.0.0.0 windows.net
 0.0.0.0 moll17.z21.web.core.windows.net
-            
-#winudf.com
 0.0.0.0 static-sg.winudf.com
-
-#wordpress, wp.com
-#0.0.0.0 c0.wp.com  画像
-0.0.0.0 c0.wp.com stats.wp.com
+0.0.0.0 c0.wp.com
+0.0.0.0 stats.wp.com
 0.0.0.0 v0.wordpress.com
-
-#worldnaturenet.xyz
 0.0.0.0 worldnaturenet.xyz
-
-#xxxxxxxx.jp
 0.0.0.0 x5.xxxxxxxx.jp
-
-#yahoo.co.jp
 0.0.0.0 headlines.yahoo.co.jp
 0.0.0.0 dsb.yahoo.co.jp
-
-#Yahoo.com
-0.0.0.0 ads.yahoo.com fc.yahoo.com geo.yahoo.com geo.query.yahoo.com iquery.finance.yahoo.com
-0.0.0.0 a.beap.gemini.yahoo.com b.beap.gemini.yahoo.com c.beap.gemini.yahoo.com d.beap.gemini.yahoo.com e.beap.gemini.yahoo.com f.beap.gemini.yahoo.com g.beap.gemini.yahoo.com h.beap.gemini.yahoo.com i.beap.gemini.yahoo.com j.beap.gemini.yahoo.com k.beap.gemini.yahoo.com l.beap.gemini.yahoo.com m.beap.gemini.yahoo.com n.beap.gemini.yahoo.com o.beap.gemini.yahoo.com p.beap.gemini.yahoo.com q.beap.gemini.yahoo.com r.beap.gemini.yahoo.com s.beap.gemini.yahoo.com t.beap.gemini.yahoo.com u.beap.gemini.yahoo.com v.beap.gemini.yahoo.com w.beap.gemini.yahoo.com x.beap.gemini.yahoo.com y.beap.gemini.yahoo.com z.beap.gemini.yahoo.com
-0.0.0.0 beap.gemini.yahoo.com jill.fc.yahoo.com csm.analytics.yahoo.com opus.analytics.yahoo.com sp.analytics.yahoo.com video-api.yql.yahoo.com
+0.0.0.0 ads.yahoo.com
+0.0.0.0 fc.yahoo.com
+0.0.0.0 geo.yahoo.com
+0.0.0.0 geo.query.yahoo.com
+0.0.0.0 iquery.finance.yahoo.com
+0.0.0.0 a.beap.gemini.yahoo.com
+0.0.0.0 b.beap.gemini.yahoo.com
+0.0.0.0 c.beap.gemini.yahoo.com
+0.0.0.0 d.beap.gemini.yahoo.com
+0.0.0.0 e.beap.gemini.yahoo.com
+0.0.0.0 f.beap.gemini.yahoo.com
+0.0.0.0 g.beap.gemini.yahoo.com
+0.0.0.0 h.beap.gemini.yahoo.com
+0.0.0.0 i.beap.gemini.yahoo.com
+0.0.0.0 j.beap.gemini.yahoo.com
+0.0.0.0 k.beap.gemini.yahoo.com
+0.0.0.0 l.beap.gemini.yahoo.com
+0.0.0.0 m.beap.gemini.yahoo.com
+0.0.0.0 n.beap.gemini.yahoo.com
+0.0.0.0 o.beap.gemini.yahoo.com
+0.0.0.0 p.beap.gemini.yahoo.com
+0.0.0.0 q.beap.gemini.yahoo.com
+0.0.0.0 r.beap.gemini.yahoo.com
+0.0.0.0 s.beap.gemini.yahoo.com
+0.0.0.0 t.beap.gemini.yahoo.com
+0.0.0.0 u.beap.gemini.yahoo.com
+0.0.0.0 v.beap.gemini.yahoo.com
+0.0.0.0 w.beap.gemini.yahoo.com
+0.0.0.0 x.beap.gemini.yahoo.com
+0.0.0.0 y.beap.gemini.yahoo.com
+0.0.0.0 z.beap.gemini.yahoo.com
+0.0.0.0 beap.gemini.yahoo.com
+0.0.0.0 jill.fc.yahoo.com
+0.0.0.0 csm.analytics.yahoo.com
+0.0.0.0 opus.analytics.yahoo.com
+0.0.0.0 sp.analytics.yahoo.com
+0.0.0.0 video-api.yql.yahoo.com
 0.0.0.0 hb.yahoo.net
 0.0.0.0 l.yimg.com
-#0.0.0.0  s.yimg.com --> Yahoo Financeが表示されなくなる
 0.0.0.0 cdn.yahoomedia.net
 0.0.0.0 jac.yahoosandbox.com
-
-#Yahoo Japan
-#Yahooへのログインができなくなる --> s.yimg.jp
-#ヤフオクの画像が表示されない --> auc-pctr.c.yimg.jp
 0.0.0.0 ads.c.yimg.jp
 0.0.0.0 im.c.yimg.jp
 0.0.0.0 yads.c.yimg.jp
-0.0.0.0 b.yjtag.jp s.yjtag.jp
-0.0.0.0 b92.yahoo.co.jp dsb.yahoo.co.jp cksync.yahoo.co.jp yads.yahoo.co.jp ybx.yahoo.co.jp yjtag.yahoo.co.jp
+0.0.0.0 b.yjtag.jp
+0.0.0.0 s.yjtag.jp
+0.0.0.0 b92.yahoo.co.jp
+0.0.0.0 dsb.yahoo.co.jp
+0.0.0.0 cksync.yahoo.co.jp
+0.0.0.0 yads.yahoo.co.jp
+0.0.0.0 ybx.yahoo.co.jp
+0.0.0.0 yjtag.yahoo.co.jp
 0.0.0.0 slink.west.edge.storage-yahoo.jp
-
-#ykksu.cn
-#有害
 0.0.0.0 ykksu.cn
-
-#yoast.com
 0.0.0.0 yoast.com
-
-#YouTube
-0.0.0.0 ad.youtube.com ads.youtube.com s.youtube.com
-#ytimg.com --> YouTubeのサムネイル画像
-#0.0.0.0 a.ytimg.com b.ytimg.com c.ytimg.com d.ytimg.com e.ytimg.com f.ytimg.com g.ytimg.com h.ytimg.com i.ytimg.com j.ytimg.com k.ytimg.com l.ytimg.com m.ytimg.com n.ytimg.com o.ytimg.com p.ytimg.com q.ytimg.com r.ytimg.com s.ytimg.com t.ytimg.com u.ytimg.com v.ytimg.com w.ytimg.com x.ytimg.com y.ytimg.com z.ytimg.com
-
-#zergnet
+0.0.0.0 ad.youtube.com
+0.0.0.0 ads.youtube.com
+0.0.0.0 s.youtube.com
 0.0.0.0 www.zergnet.com
-
-#zlqwqf8r.cn
-#有害
 0.0.0.0 zlqwqf8r.cn
-
-#zucks.net
 0.0.0.0 j.zoe.zucks.net
-
-# Added by Docker Desktop
 192.168.1.9 host.docker.internal
 192.168.1.9 gateway.docker.internal
-# To allow the same kube context to work on the host and the container:
 127.0.0.1 kubernetes.docker.internal
-# End of section
