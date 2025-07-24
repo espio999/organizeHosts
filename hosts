@@ -154,6 +154,9 @@
 0.0.0.0 a.amoad.com b.amoad.com c.amoad.com d.amoad.com e.amoad.com f.amoad.com g.amoad.com h.amoad.com i.amoad.com j.amoad.com k.amoad.com l.amoad.com m.amoad.com n.amoad.com o.amoad.com p.amoad.com q.amoad.com r.amoad.com s.amoad.com t.amoad.com u.amoad.com v.amoad.com w.amoad.com x.amoad.com y.amoad.com z.amoad.com
 0.0.0.0 frtn.amoad.com tg.amoad.com
 
+#ampproject.org
+0.0.0.0 cdn.ampproject.org
+
 #ancientact.com noDNS
 0.0.0.0 ancientact.com
 
@@ -336,7 +339,7 @@
 0.0.0.0 img.doppiocdn.com
 
 #doubleclick
-0.0.0.0 ad.doubleclick.net
+0.0.0.0 ad.doubleclick.net adclick.g.doubleclick.net
 0.0.0.0 cm.g.doubleclick.net googleads.g.doubleclick.net pubads.g.doubleclick.net securepubads.g.doubleclick.net stats.g.doubleclick.net static.doubleclick.net
 
 #durationmedia.net
@@ -460,12 +463,14 @@
 #0.0.0.0 apis.google.com
 0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 www.googleadservices.com
-0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 www.googletagmanager.com
 #googleusercontent.com --> YouTubeの広告画像、FeedlyやGoogle newsなどのサムネイル画像
 # 0.0.0.0 lh1.googleusercontent.com lh2.googleusercontent.com lh3.googleusercontent.com lh4.googleusercontent.com lh5.googleusercontent.com lh6.googleusercontent.com lh7.googleusercontent.com lh8.googleusercontent.com lh9.googleusercontent.com lh0.googleusercontent.com
 #0.0.0.0 www.gstatic.com
 0.0.0.0 encrypted-tbn2.gstatic.com
+
+#googlesyndication.com
+0.0.0.0 pagead2.googlesyndication.com tpc.googlesyndication.com
 
 #goomaphy.com
 0.0.0.0 goomaphy.com
