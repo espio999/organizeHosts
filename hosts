@@ -37,6 +37,10 @@
 0.0.0.0 b.6sc.co c.6sc.co j.6sc.co
 0.0.0.0 ipv6.6sc.co
 
+#a8.net
+0.0.0.0 px.a8.net 
+0.0.0.0 www13.a8.net www25.a8.net
+
 #abe.ma
 0.0.0.0 abe.ma
 
@@ -855,7 +859,7 @@
 0.0.0.0 rules.quantcount.com
 
 #quantserve.com
-0.0.0.0 secure.quantserve.com
+0.0.0.0 cms.quantserve.com secure.quantserve.com
 
 #r10s.jp
 0.0.0.0 r.r10s.jp
