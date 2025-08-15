@@ -117,6 +117,7 @@
 0.0.0.0 cdn.avantisvideo.com
 0.0.0.0 js.ssp.bance.jp
 0.0.0.0 tr.ssp.bance.jp
+0.0.0.0 api.bestzpagelearnnextzone.com
 0.0.0.0 cdn.bigmining.com
 0.0.0.0 c.bing.com
 0.0.0.0 g.bing.com
@@ -213,6 +214,8 @@
 0.0.0.0 flux-cdn.com
 0.0.0.0 pc-adroute.focas.jp
 0.0.0.0 static.pc-adroute.focas.jp
+0.0.0.0 fox-news.in
+0.0.0.0 fox-news.top
 0.0.0.0 fpjscdn.net
 0.0.0.0 functionalfeather.com
 0.0.0.0 search-api.fie.futurecdn.net
@@ -279,6 +282,7 @@
 0.0.0.0 js-sec.indexww.com
 0.0.0.0 indir-zpf.com
 0.0.0.0 api64.ipify.org
+0.0.0.0 lemonade.ltd
 0.0.0.0 impression-east.liftoff.io
 0.0.0.0 cdn.liftoff-creatives.io
 0.0.0.0 cmp.inmobi.com
@@ -357,6 +361,7 @@
 0.0.0.0 onijima.jp
 0.0.0.0 oooutbrain.com
 0.0.0.0 cdn.opecloud.com
+0.0.0.0 openfpcdn.io
 0.0.0.0 u.openx.net
 0.0.0.0 us-u.openx.net
 0.0.0.0 www.us-u.openx.net
@@ -484,6 +489,7 @@
 0.0.0.0 signal-beacon.s-onetag.com
 0.0.0.0 click.speee-ad.jp
 0.0.0.0 cdn.speedcurve.com
+0.0.0.0 spiegel.agency
 0.0.0.0 cdn.spotxcdn.com
 0.0.0.0 cdn1.stamped.io
 0.0.0.0 ads.stickyadstv.com
@@ -567,6 +573,7 @@
 0.0.0.0 api.adserver.vrizead.com
 0.0.0.0 ads.api.vungle.com
 0.0.0.0 s.w.org
+0.0.0.0 washingtonpot.pm
 0.0.0.0 free.users.web-vitals.net
 0.0.0.0 cdn.webpush.jp
 0.0.0.0 widgetlogic.org

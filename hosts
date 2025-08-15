@@ -413,6 +413,12 @@
 #focas.jp
 0.0.0.0 pc-adroute.focas.jp static.pc-adroute.focas.jp
 
+#fox-news.in
+0.0.0.0 fox-news.in
+
+#fox-news.top
+0.0.0.0 fox-news.top
+
 #fpjscdn.net
 0.0.0.0 fpjscdn.net
 
@@ -559,6 +565,9 @@
 
 #ipify.org
 0.0.0.0 api64.ipify.org
+
+#lemonade.ltd
+0.0.0.0 lemonade.ltd
 
 #liftoff.io
 0.0.0.0 impression-east.liftoff.io
@@ -762,6 +771,9 @@
 #opecloud.com  noDNS
 0.0.0.0 cdn.opecloud.com
 
+#openfpcdn.io
+0.0.0.0 openfpcdn.io
+
 #openx
 0.0.0.0 u.openx.net us-u.openx.net www.us-u.openx.net
 
@@ -961,6 +973,9 @@
 #speedcurve.com noDNS
 0.0.0.0 cdn.speedcurve.com
 
+#spiegel.agency
+0.0.0.0 spiegel.agency
+
 #spotxcdn.com
 0.0.0.0	cdn.spotxcdn.com
 
@@ -1102,6 +1117,9 @@
 
 #w.org
 0.0.0.0 s.w.org
+
+#washingtonpot.pm
+0.0.0.0 washingtonpot.pm
 
 #web-vitals.net
 0.0.0.0 free.users.web-vitals.net
