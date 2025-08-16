@@ -520,6 +520,7 @@
 0.0.0.0 www.cdn.taboolasyndication.com
 0.0.0.0 www.taboolasyndication.com
 0.0.0.0 www.urc.taboolasyndication.com
+0.0.0.0 cdn.taxel.jp
 0.0.0.0 a.teads.tv
 0.0.0.0 cdn.taxel.jp
 0.0.0.0 widgets.taxel.jp
