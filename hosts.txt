@@ -171,6 +171,7 @@
 0.0.0.0 s.dc-tag.jp
 0.0.0.0 dpm.demdex.net
 0.0.0.0 rcv.ixd.dmm.com
+0.0.0.0 widget-view.dmm.co.jp
 0.0.0.0 alxc.addlv.smt.docomo.ne.jp
 0.0.0.0 donghocotatan.com
 0.0.0.0 img.doppiocdn.com

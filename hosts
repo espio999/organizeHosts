@@ -341,6 +341,7 @@
 
 #dmm.com
 0.0.0.0 rcv.ixd.dmm.com
+0.0.0.0 widget-view.dmm.co.jp
 
 #docomo.ne.jp
 0.0.0.0 alxc.addlv.smt.docomo.ne.jp
@@ -1199,10 +1200,9 @@
 #zucks.net
 0.0.0.0 j.zoe.zucks.net
 
-# Standard host addresses
-127.0.0.1  localhost
-::1        localhost ip6-localhost ip6-loopback
-ff02::1    ip6-allnodes
-ff02::2    ip6-allrouters
-# This host address
-127.0.1.1  mume
+# Added by Docker Desktop
+192.168.1.9 host.docker.internal
+192.168.1.9 gateway.docker.internal
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+# End of section
