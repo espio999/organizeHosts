@@ -192,6 +192,14 @@
 
 #applovin.com
 0.0.0.0 rt.applovin.com
+0.0.0.0 d.applovin.com
+0.0.0.0 ms.applovin.com
+0.0.0.0 ms4.applovin.com
+0.0.0.0 prod-mediate-events.applovin.com
+
+#applvn.com
+0.0.0.0 a.applvn.com
+0.0.0.0 rt.applvn.com
 
 #appspot.com
 0.0.0.0 guidesites.appspot.com
@@ -341,7 +349,6 @@
 
 #dmm.com
 0.0.0.0 rcv.ixd.dmm.com
-0.0.0.0 widget-view.dmm.co.jp
 
 #docomo.ne.jp
 0.0.0.0 alxc.addlv.smt.docomo.ne.jp
@@ -413,12 +420,6 @@
 
 #focas.jp
 0.0.0.0 pc-adroute.focas.jp static.pc-adroute.focas.jp
-
-#fox-news.in
-0.0.0.0 fox-news.in
-
-#fox-news.top
-0.0.0.0 fox-news.top
 
 #fpjscdn.net
 0.0.0.0 fpjscdn.net
@@ -522,6 +523,9 @@
 #html-load.com
 0.0.0.0 html-load.com
 
+#i18n-pglstatp.com
+0.0.0.0 sf16-static.i18n-pglstatp.com
+
 #i2ad.jp
 0.0.0.0 i2ad.jp
 
@@ -567,9 +571,6 @@
 #ipify.org
 0.0.0.0 api64.ipify.org
 
-#lemonade.ltd
-0.0.0.0 lemonade.ltd
-
 #liftoff.io
 0.0.0.0 impression-east.liftoff.io
 
@@ -578,6 +579,9 @@
 
 #inmobi.com
 0.0.0.0 cmp.inmobi.com
+0.0.0.0 config-server-gke-gw3.ssp.inmobi.com
+0.0.0.0 telemetry.sdk.inmobi.com
+0.0.0.0 telemetry-gke-gw1.ssp.inmobi.com
 
 #ismcdn.jp
 #東洋経済のCSS
@@ -679,6 +683,9 @@
 #有害
 0.0.0.0 mid-round.com
 
+#mintegral.net
+0.0.0.0 analytics-tcp.mintegral.net
+
 #ml314.com  noDNS
 0.0.0.0 ml314.com vi.ml314.com
 
@@ -687,6 +694,9 @@
 
 #moatads.com
 0.0.0.0 z.moatads.com
+
+#moloco.com
+0.0.0.0 eventfnt-asia.dsp--api.moloco.com
 
 #monu.delivery
 0.0.0.0 monu.delivery
@@ -711,6 +721,12 @@
 
 #mrf.io
 0.0.0.0 sdk.mrf.io
+
+#mtgglobals.com
+0.0.0.0 configure.mtgglobals.com
+0.0.0.0 cdn-adn-https.mtgglobals.com
+0.0.0.0 cdn-adn-https-new.mtgglobals.com
+0.0.0.0 sg-new-ssplib-hb.mtgglobals.com
 
 #mulan.cloud
 0.0.0.0 js.mulan.cloud
@@ -772,9 +788,6 @@
 #opecloud.com  noDNS
 0.0.0.0 cdn.opecloud.com
 
-#openfpcdn.io
-0.0.0.0 openfpcdn.io
-
 #openx
 0.0.0.0 u.openx.net us-u.openx.net www.us-u.openx.net
 
@@ -803,6 +816,7 @@
 
 #pangle.io
 0.0.0.0 api16-access-sg.pangle.io
+0.0.0.0 api16-access-wf-sg.pangle.io
 
 #parklogic.com
 0.0.0.0 parking3.parklogic.com
@@ -878,8 +892,7 @@
 0.0.0.0 cms.quantserve.com secure.quantserve.com
 
 #r10s.jp
-#楽天のスタイルや画像などの表示
-#0.0.0.0 r.r10s.jp
+0.0.0.0 r.r10s.jp
 
 #rakuten.co.jp
 #スタイルや画像などの表示
@@ -891,6 +904,9 @@
 
 #rakuten-static.com
 0.0.0.0 jp.rakuten-static.com
+
+#rayjump.com
+0.0.0.0 cdn-settings.rayjump.com
 
 #relaido.jp
 0.0.0.0 api.relaido.jp
@@ -955,6 +971,9 @@
 0.0.0.0 prg.smartadserver.com rtb-csync.smartadserver.com
 0.0.0.0 rtb-csync-apac1.smartadserver.com
 
+#spadsync.com
+0.0.0.0 spadsync.com
+
 #socdm.com
 0.0.0.0 a.socdm.com b.socdm.com c.socdm.com d.socdm.com e.socdm.com f.socdm.com g.socdm.com h.socdm.com i.socdm.com j.socdm.com k.socdm.com l.socdm.com m.socdm.com n.socdm.com o.socdm.com p.socdm.com q.socdm.com r.socdm.com s.socdm.com t.socdm.com u.socdm.com v.socdm.com w.socdm.com x.socdm.com y.socdm.com z.socdm.com
 0.0.0.0 frtn.socdm.com tg.socdm.com
@@ -974,9 +993,6 @@
 
 #speedcurve.com noDNS
 0.0.0.0 cdn.speedcurve.com
-
-#spiegel.agency
-0.0.0.0 spiegel.agency
 
 #spotxcdn.com
 0.0.0.0	cdn.spotxcdn.com
@@ -1025,8 +1041,8 @@
 0.0.0.0	www.taboolasyndication.com
 0.0.0.0	www.urc.taboolasyndication.com
 
-#taxel.jp
-0.0.0.0 cdn.taxel.jp
+#tapad.com
+0.0.0.0 tapestry.tapad.com
 
 #teads.tv
 0.0.0.0 a.teads.tv
@@ -1047,6 +1063,9 @@
 
 #themoneytizer.com
 0.0.0.0 ads.themoneytizer.com
+
+#tiktokpangle.us
+0.0.0.0 api16-access-ttp.tiktokpangle.us
 
 #topsy.com
 0.0.0.0 cdn.topsy.com
@@ -1119,12 +1138,10 @@
 
 #vungle.com
 0.0.0.0	ads.api.vungle.com
+0.0.0.0 config.ads.vungle.com
 
 #w.org
 0.0.0.0 s.w.org
-
-#washingtonpot.pm
-0.0.0.0 washingtonpot.pm
 
 #web-vitals.net
 0.0.0.0 free.users.web-vitals.net
@@ -1200,9 +1217,10 @@
 #zucks.net
 0.0.0.0 j.zoe.zucks.net
 
-# Added by Docker Desktop
-192.168.1.9 host.docker.internal
-192.168.1.9 gateway.docker.internal
-# To allow the same kube context to work on the host and the container:
-127.0.0.1 kubernetes.docker.internal
-# End of section
+# Standard host addresses
+127.0.0.1  localhost
+::1        localhost ip6-localhost ip6-loopback
+ff02::1    ip6-allnodes
+ff02::2    ip6-allrouters
+# This host address
+127.0.1.1  cherry
