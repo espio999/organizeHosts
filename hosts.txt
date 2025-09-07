@@ -108,12 +108,17 @@
 0.0.0.0 mt-usw.appiersig.com
 0.0.0.0 ss-kp2.appiersig.com
 0.0.0.0 ss-sg2.appiersig.com
-0.0.0.0 rt.applovin.com
+0.0.0.0 d.applovin.com
 0.0.0.0 d.applovin.com
 0.0.0.0 ms.applovin.com
 0.0.0.0 ms4.applovin.com
 0.0.0.0 prod-mediate-events.applovin.com
+0.0.0.0 rt.applovin.com
+0.0.0.0 sts.applovin.com
 0.0.0.0 a.applvn.com
+0.0.0.0 d.applvn.com
+0.0.0.0 ms.applvn.com
+0.0.0.0 ms4.applvn.com
 0.0.0.0 rt.applvn.com
 0.0.0.0 guidesites.appspot.com
 0.0.0.0 tag.aticdn.net
@@ -348,6 +353,7 @@
 0.0.0.0 c.msn.cn
 0.0.0.0 static-global-s-msn-com.akamaized.net
 0.0.0.0 sdk.mrf.io
+0.0.0.0 analytics-tcp.mtgglobals.com
 0.0.0.0 configure.mtgglobals.com
 0.0.0.0 cdn-adn-https.mtgglobals.com
 0.0.0.0 cdn-adn-https-new.mtgglobals.com
@@ -465,6 +471,8 @@
 0.0.0.0 match-ap-southeast-1-ecs.sharethrough.com
 0.0.0.0 pixel-sync.sitescout.com
 0.0.0.0 www.sl-advisory.com
+0.0.0.0 bw-trk.smadex.com
+0.0.0.0 creatives.smadex.com
 0.0.0.0 smart-below.com
 0.0.0.0 prg.smartadserver.com
 0.0.0.0 rtb-csync.smartadserver.com
@@ -588,7 +596,9 @@
 0.0.0.0 cdn.vidible.tv
 0.0.0.0 api.adserver.vrizead.com
 0.0.0.0 ads.api.vungle.com
+0.0.0.0 cdn-lb.vungle.com
 0.0.0.0 config.ads.vungle.com
+0.0.0.0 logs.ads.vungle.com
 0.0.0.0 s.w.org
 0.0.0.0 free.users.web-vitals.net
 0.0.0.0 cdn.webpush.jp
