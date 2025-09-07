@@ -895,7 +895,7 @@
 0.0.0.0 cms.quantserve.com secure.quantserve.com
 
 #r10s.jp
-0.0.0.0 r.r10s.jp
+#0.0.0.0 r.r10s.jp
 
 #rakuten.co.jp
 #スタイルや画像などの表示

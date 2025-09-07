@@ -438,7 +438,6 @@
 0.0.0.0 rules.quantcount.com
 0.0.0.0 cms.quantserve.com
 0.0.0.0 secure.quantserve.com
-0.0.0.0 r.r10s.jp
 0.0.0.0 error.rakuten.co.jp
 0.0.0.0 hbb.afl.rakuten.co.jp
 0.0.0.0 rat.rakuten.co.jp
