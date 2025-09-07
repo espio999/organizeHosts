@@ -109,6 +109,12 @@
 0.0.0.0 ss-kp2.appiersig.com
 0.0.0.0 ss-sg2.appiersig.com
 0.0.0.0 rt.applovin.com
+0.0.0.0 d.applovin.com
+0.0.0.0 ms.applovin.com
+0.0.0.0 ms4.applovin.com
+0.0.0.0 prod-mediate-events.applovin.com
+0.0.0.0 a.applvn.com
+0.0.0.0 rt.applvn.com
 0.0.0.0 guidesites.appspot.com
 0.0.0.0 tag.aticdn.net
 0.0.0.0 push.asahiinteractive.com
@@ -171,7 +177,6 @@
 0.0.0.0 s.dc-tag.jp
 0.0.0.0 dpm.demdex.net
 0.0.0.0 rcv.ixd.dmm.com
-0.0.0.0 widget-view.dmm.co.jp
 0.0.0.0 alxc.addlv.smt.docomo.ne.jp
 0.0.0.0 donghocotatan.com
 0.0.0.0 img.doppiocdn.com
@@ -215,8 +220,6 @@
 0.0.0.0 flux-cdn.com
 0.0.0.0 pc-adroute.focas.jp
 0.0.0.0 static.pc-adroute.focas.jp
-0.0.0.0 fox-news.in
-0.0.0.0 fox-news.top
 0.0.0.0 fpjscdn.net
 0.0.0.0 functionalfeather.com
 0.0.0.0 search-api.fie.futurecdn.net
@@ -262,6 +265,7 @@
 0.0.0.0 cdn.hadronid.net
 0.0.0.0 cdn.ad-hatena.com
 0.0.0.0 html-load.com
+0.0.0.0 sf16-static.i18n-pglstatp.com
 0.0.0.0 i2ad.jp
 0.0.0.0 sc.iasds01.com
 0.0.0.0 api.id5-sync.com
@@ -283,10 +287,12 @@
 0.0.0.0 js-sec.indexww.com
 0.0.0.0 indir-zpf.com
 0.0.0.0 api64.ipify.org
-0.0.0.0 lemonade.ltd
 0.0.0.0 impression-east.liftoff.io
 0.0.0.0 cdn.liftoff-creatives.io
 0.0.0.0 cmp.inmobi.com
+0.0.0.0 config-server-gke-gw3.ssp.inmobi.com
+0.0.0.0 telemetry.sdk.inmobi.com
+0.0.0.0 telemetry-gke-gw1.ssp.inmobi.com
 0.0.0.0 times-abema.ismcdn.jp
 0.0.0.0 dlv.itmedia.jp
 0.0.0.0 tracker.iws.vc
@@ -323,10 +329,12 @@
 0.0.0.0 j.microad.net
 0.0.0.0 d-cache.microad.jp
 0.0.0.0 mid-round.com
+0.0.0.0 analytics-tcp.mintegral.net
 0.0.0.0 ml314.com
 0.0.0.0 vi.ml314.com
 0.0.0.0 fastly.mmt.delivery
 0.0.0.0 z.moatads.com
+0.0.0.0 eventfnt-asia.dsp--api.moloco.com
 0.0.0.0 monu.delivery
 0.0.0.0 i.moshimo.com
 0.0.0.0 fp.msedge.net
@@ -340,6 +348,10 @@
 0.0.0.0 c.msn.cn
 0.0.0.0 static-global-s-msn-com.akamaized.net
 0.0.0.0 sdk.mrf.io
+0.0.0.0 configure.mtgglobals.com
+0.0.0.0 cdn-adn-https.mtgglobals.com
+0.0.0.0 cdn-adn-https-new.mtgglobals.com
+0.0.0.0 sg-new-ssplib-hb.mtgglobals.com
 0.0.0.0 js.mulan.cloud
 0.0.0.0 ad.woman.mynavi.jp
 0.0.0.0 ssfpc.news.mynavi.jp
@@ -362,7 +374,6 @@
 0.0.0.0 onijima.jp
 0.0.0.0 oooutbrain.com
 0.0.0.0 cdn.opecloud.com
-0.0.0.0 openfpcdn.io
 0.0.0.0 u.openx.net
 0.0.0.0 us-u.openx.net
 0.0.0.0 www.us-u.openx.net
@@ -386,6 +397,7 @@
 0.0.0.0 amplifypixel.outbrain.com
 0.0.0.0 envoy-hl.envoy-csync.core-002-ew4.ov1o.com
 0.0.0.0 api16-access-sg.pangle.io
+0.0.0.0 api16-access-wf-sg.pangle.io
 0.0.0.0 parking3.parklogic.com
 0.0.0.0 cdn.p-n.io
 0.0.0.0 api-esp-ap.piano.io
@@ -420,11 +432,13 @@
 0.0.0.0 rules.quantcount.com
 0.0.0.0 cms.quantserve.com
 0.0.0.0 secure.quantserve.com
+0.0.0.0 r.r10s.jp
 0.0.0.0 error.rakuten.co.jp
 0.0.0.0 hbb.afl.rakuten.co.jp
 0.0.0.0 rat.rakuten.co.jp
 0.0.0.0 s-cdn.rmp.rakuten.co.jp
 0.0.0.0 jp.rakuten-static.com
+0.0.0.0 cdn-settings.rayjump.com
 0.0.0.0 api.relaido.jp
 0.0.0.0 api.revenuecat.com
 0.0.0.0 creative.rmhfrtnd.com
@@ -455,6 +469,7 @@
 0.0.0.0 prg.smartadserver.com
 0.0.0.0 rtb-csync.smartadserver.com
 0.0.0.0 rtb-csync-apac1.smartadserver.com
+0.0.0.0 spadsync.com
 0.0.0.0 a.socdm.com
 0.0.0.0 b.socdm.com
 0.0.0.0 c.socdm.com
@@ -489,7 +504,6 @@
 0.0.0.0 signal-beacon.s-onetag.com
 0.0.0.0 click.speee-ad.jp
 0.0.0.0 cdn.speedcurve.com
-0.0.0.0 spiegel.agency
 0.0.0.0 cdn.spotxcdn.com
 0.0.0.0 cdn1.stamped.io
 0.0.0.0 ads.stickyadstv.com
@@ -520,7 +534,7 @@
 0.0.0.0 www.cdn.taboolasyndication.com
 0.0.0.0 www.taboolasyndication.com
 0.0.0.0 www.urc.taboolasyndication.com
-0.0.0.0 cdn.taxel.jp
+0.0.0.0 tapestry.tapad.com
 0.0.0.0 a.teads.tv
 0.0.0.0 cdn.taxel.jp
 0.0.0.0 widgets.taxel.jp
@@ -528,6 +542,7 @@
 0.0.0.0 cm.teads.tv
 0.0.0.0 s8t.teads.tv
 0.0.0.0 ads.themoneytizer.com
+0.0.0.0 api16-access-ttp.tiktokpangle.us
 0.0.0.0 cdn.topsy.com
 0.0.0.0 tqjfn0om.cn
 0.0.0.0 go.trvdp.com
@@ -573,8 +588,8 @@
 0.0.0.0 cdn.vidible.tv
 0.0.0.0 api.adserver.vrizead.com
 0.0.0.0 ads.api.vungle.com
+0.0.0.0 config.ads.vungle.com
 0.0.0.0 s.w.org
-0.0.0.0 washingtonpot.pm
 0.0.0.0 free.users.web-vitals.net
 0.0.0.0 cdn.webpush.jp
 0.0.0.0 widgetlogic.org
@@ -649,6 +664,5 @@
 0.0.0.0 www.zergnet.com
 0.0.0.0 zlqwqf8r.cn
 0.0.0.0 j.zoe.zucks.net
-192.168.1.9 host.docker.internal
-192.168.1.9 gateway.docker.internal
-127.0.0.1 kubernetes.docker.internal
+127.0.0.1 localhost
+127.0.1.1 cherry
