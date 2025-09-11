@@ -66,6 +66,9 @@
 #adjust.com
 0.0.0.0 app.adjust.com view.adjust.com
 
+#adjust.io
+0.0.0.0 app.adjust.io
+
 #admatrix.jp
 0.0.0.0 ad.poly.admatrix.jp
 
@@ -202,6 +205,9 @@
 0.0.0.0 a.applvn.com d.applvn.com
 0.0.0.0 ms.applvn.com ms4.applvn.com
 0.0.0.0 rt.applvn.com
+
+#appsflyersdk.com
+0.0.0.0 4hrm0x-launches.appsflyersdk.com
 
 #appspot.com
 0.0.0.0 guidesites.appspot.com
@@ -416,6 +422,9 @@
 
 #fireworktv.com
 0.0.0.0 cdn4.fireworktv.com
+
+#flurry.com
+0.0.0.0 api.ads.flurry.com
 
 #flux-cdn.com
 0.0.0.0 flux-cdn.com
@@ -934,6 +943,7 @@
 
 #scorecardresearch.com
 0.0.0.0 b.scorecardresearch.com sb.scorecardresearch.com
+0.0.0.0 census-app.scorecardresearch.com
 
 #sedo.com
 0.0.0.0 www.sedo.com

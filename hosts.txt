@@ -27,6 +27,7 @@
 0.0.0.0 p.adlooxtracking.com
 0.0.0.0 app.adjust.com
 0.0.0.0 view.adjust.com
+0.0.0.0 app.adjust.io
 0.0.0.0 ad.poly.admatrix.jp
 0.0.0.0 acdn.adnxs.com
 0.0.0.0 cdn.adnxs.com
@@ -120,6 +121,7 @@
 0.0.0.0 ms.applvn.com
 0.0.0.0 ms4.applvn.com
 0.0.0.0 rt.applvn.com
+0.0.0.0 4hrm0x-launches.appsflyersdk.com
 0.0.0.0 guidesites.appspot.com
 0.0.0.0 tag.aticdn.net
 0.0.0.0 push.asahiinteractive.com
@@ -222,6 +224,7 @@
 0.0.0.0 vip.chps-api.fc2.com
 0.0.0.0 firework.tv
 0.0.0.0 cdn4.fireworktv.com
+0.0.0.0 api.ads.flurry.com
 0.0.0.0 flux-cdn.com
 0.0.0.0 pc-adroute.focas.jp
 0.0.0.0 static.pc-adroute.focas.jp
@@ -457,6 +460,7 @@
 0.0.0.0 schema.org
 0.0.0.0 b.scorecardresearch.com
 0.0.0.0 sb.scorecardresearch.com
+0.0.0.0 census-app.scorecardresearch.com
 0.0.0.0 www.sedo.com
 0.0.0.0 sedoparking.com
 0.0.0.0 cs.seedtag.com
