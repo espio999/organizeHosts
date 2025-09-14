@@ -303,6 +303,8 @@
 0.0.0.0 telemetry-gke-gw1.ssp.inmobi.com
 0.0.0.0 times-abema.ismcdn.jp
 0.0.0.0 dlv.itmedia.jp
+0.0.0.0 cs.iubenda.com
+0.0.0.0 cdn.iubenda.com
 0.0.0.0 tracker.iws.vc
 0.0.0.0 server.jp1media.com/sync/boost
 0.0.0.0 adserver.juicyads.com
@@ -519,6 +521,8 @@
 0.0.0.0 cdn1.stamped.io
 0.0.0.0 ads.stickyadstv.com
 0.0.0.0 slink.west.edge.storage-yahoo.jp
+0.0.0.0 js.stripe.com
+0.0.0.0 m.stripe.network
 0.0.0.0 assets.strpst.com
 0.0.0.0 api.taboola.com
 0.0.0.0 c2.taboola.com

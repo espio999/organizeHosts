@@ -603,6 +603,9 @@
 0.0.0.0 dlv.itmedia.jp 
 #0.0.0.0  img.itmedia.jp
 
+#iubenda.com
+0.0.0.0 cs.iubenda.com cdn.iubenda.com
+
 #iws.vc
 0.0.0.0 tracker.iws.vc
 
@@ -1022,6 +1025,12 @@
 
 #storage-yahoo.jp
 0.0.0.0 slink.west.edge.storage-yahoo.jp
+
+#stripe.com
+0.0.0.0 js.stripe.com
+
+#m.stripe.network
+0.0.0.0 m.stripe.network
 
 #strpst.com
 0.0.0.0 assets.strpst.com
