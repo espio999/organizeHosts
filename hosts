@@ -207,6 +207,7 @@
 0.0.0.0 rt.applvn.com
 
 #appsflyersdk.com
+0.0.0.0 4hrm0x-cdn-settings.appsflyersdk.com
 0.0.0.0 4hrm0x-launches.appsflyersdk.com
 
 #appspot.com
@@ -931,6 +932,9 @@
 #rayjump.com
 0.0.0.0 cdn-settings.rayjump.com
 
+#rdcnw.net
+0.0.0.0 lb-133-237-105-33.lbaas.jpe1a.rdcnw.net
+
 #relaido.jp
 0.0.0.0 api.relaido.jp
 
@@ -968,6 +972,8 @@
 #segment.com
 0.0.0.0 cdn.segment.com
 
+#sentry.io
+0.0.0.0 o115706.ingest.sentry.io
 #sentry-cdn.com
 0.0.0.0 browser.sentry-cdn.com js.sentry-cdn.com
 
