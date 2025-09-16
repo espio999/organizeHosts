@@ -145,6 +145,7 @@
 0.0.0.0 cdn.browsiprod.com
 0.0.0.0 btloader.com
 0.0.0.0 api39.gtm.byteoversea.net
+0.0.0.0 v16-ad.byteoversea.net
 0.0.0.0 abeagle-public.buzzfeed.com
 0.0.0.0 cdn.caprofitx.com
 0.0.0.0 ssum-sec.casalemedia.com
@@ -276,6 +277,8 @@
 0.0.0.0 sf16-static.i18n-pglstatp.com
 0.0.0.0 i2ad.jp
 0.0.0.0 sc.iasds01.com
+0.0.0.0 sf16-muse-va.ibytedtos.com
+0.0.0.0 p16-ttam-va.ibyteimg.com
 0.0.0.0 api.id5-sync.com
 0.0.0.0 cdn.id5-sync.com
 0.0.0.0 deliver.ads2.iid.jp
@@ -409,6 +412,7 @@
 0.0.0.0 envoy-hl.envoy-csync.core-002-ew4.ov1o.com
 0.0.0.0 api16-access-sg.pangle.io
 0.0.0.0 api16-access-wf-sg.pangle.io
+0.0.0.0 api16-log-va.pangle.io
 0.0.0.0 parking3.parklogic.com
 0.0.0.0 cdn.p-n.io
 0.0.0.0 api-esp-ap.piano.io
@@ -558,6 +562,7 @@
 0.0.0.0 s8t.teads.tv
 0.0.0.0 ads.themoneytizer.com
 0.0.0.0 api16-access-ttp.tiktokpangle.us
+0.0.0.0 gecko-sg.tiktokv.com
 0.0.0.0 cdn.topsy.com
 0.0.0.0 tqjfn0om.cn
 0.0.0.0 go.trvdp.com

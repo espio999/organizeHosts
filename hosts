@@ -258,8 +258,9 @@
 
 #byteoversea.net
 0.0.0.0 api39.gtm.byteoversea.net
+0.0.0.0 v16-ad.byteoversea.net
 
-#abeagle-public.buzzfeed.com
+#buzzfeed.com
 0.0.0.0 abeagle-public.buzzfeed.com
 
 #caprofitx.com
@@ -542,6 +543,12 @@
 
 #iasds01.com
 0.0.0.0 sc.iasds01.com
+
+#ibytedtos.com
+0.0.0.0 sf16-muse-va.ibytedtos.com
+
+#ibyteimg.com
+0.0.0.0 p16-ttam-va.ibyteimg.com
 
 #id5-sync.com
 0.0.0.0 api.id5-sync.com cdn.id5-sync.com
@@ -832,6 +839,7 @@
 #pangle.io
 0.0.0.0 api16-access-sg.pangle.io
 0.0.0.0 api16-access-wf-sg.pangle.io
+0.0.0.0 api16-log-va.pangle.io
 
 #parklogic.com
 0.0.0.0 parking3.parklogic.com
@@ -1090,8 +1098,14 @@
 #themoneytizer.com
 0.0.0.0 ads.themoneytizer.com
 
+#tiktokcdn.com
+p16-sign-sg.riktokcdn.com
+
 #tiktokpangle.us
 0.0.0.0 api16-access-ttp.tiktokpangle.us
+
+#tiktokv.com
+0.0.0.0 gecko-sg.tiktokv.com
 
 #topsy.com
 0.0.0.0 cdn.topsy.com
