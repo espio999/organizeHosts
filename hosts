@@ -257,6 +257,9 @@
 #bwbx.io
 #0.0.0.0 assets.bwbx.io
 
+#byteoversea.com
+0.0.0.0 v16-ad.byteoversea.com
+
 #byteoversea.net
 0.0.0.0 api39.gtm.byteoversea.net
 0.0.0.0 v16-ad.byteoversea.net
@@ -737,7 +740,8 @@
 #msnポータルの画像が失われる --> img-s-msn-com.akamaized.net
 #0.0.0.0 assets.msn.com
 #0.0.0.0 img-s-msn-com.akamaized.net
-0.0.0.0 api.msn.com browser.events.data.msn.com c.msn.com ent-api.msn.com mobileads.msn.com srtb.msn.com
+#0.0.0.0 api.msn.com
+0.0.0.0 browser.events.data.msn.com c.msn.com ent-api.msn.com mobileads.msn.com srtb.msn.com
 0.0.0.0 c.msn.cn
 0.0.0.0 static-global-s-msn-com.akamaized.net
 
@@ -840,6 +844,7 @@
 #pangle.io
 0.0.0.0 api16-access-sg.pangle.io
 0.0.0.0 api16-access-wf-sg.pangle.io
+0.0.0.0 api16-event-va.pangle.io
 0.0.0.0 api16-log-va.pangle.io
 
 #parklogic.com
@@ -923,7 +928,7 @@
 #0.0.0.0 cdn.rmc.contents.rakuten.co.jp
 0.0.0.0 error.rakuten.co.jp
 0.0.0.0 hbb.afl.rakuten.co.jp
-0.0.0.0 rat.rakuten.co.jp
+0.0.0.0 rat.rakuten.co.jp secure.rat.rakuten.co.jp
 0.0.0.0 s-cdn.rmp.rakuten.co.jp
 
 #rakuten-static.com
@@ -1105,7 +1110,7 @@
 0.0.0.0 ads.themoneytizer.com
 
 #tiktokcdn.com
-p16-sign-sg.riktokcdn.com
+0.0.0.0 p16-sign-sg.tiktokcdn.com
 
 #tiktokpangle.us
 0.0.0.0 api16-access-ttp.tiktokpangle.us

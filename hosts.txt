@@ -145,6 +145,7 @@
 0.0.0.0 js.boost-next.co.jp
 0.0.0.0 cdn.browsiprod.com
 0.0.0.0 btloader.com
+0.0.0.0 v16-ad.byteoversea.com
 0.0.0.0 api39.gtm.byteoversea.net
 0.0.0.0 v16-ad.byteoversea.net
 0.0.0.0 abeagle-public.buzzfeed.com
@@ -353,7 +354,6 @@
 0.0.0.0 i.moshimo.com
 0.0.0.0 fp.msedge.net
 0.0.0.0 r.msfstatic.com
-0.0.0.0 api.msn.com
 0.0.0.0 browser.events.data.msn.com
 0.0.0.0 c.msn.com
 0.0.0.0 ent-api.msn.com
@@ -413,6 +413,7 @@
 0.0.0.0 envoy-hl.envoy-csync.core-002-ew4.ov1o.com
 0.0.0.0 api16-access-sg.pangle.io
 0.0.0.0 api16-access-wf-sg.pangle.io
+0.0.0.0 api16-event-va.pangle.io
 0.0.0.0 api16-log-va.pangle.io
 0.0.0.0 parking3.parklogic.com
 0.0.0.0 cdn.p-n.io
@@ -451,6 +452,7 @@
 0.0.0.0 error.rakuten.co.jp
 0.0.0.0 hbb.afl.rakuten.co.jp
 0.0.0.0 rat.rakuten.co.jp
+0.0.0.0 secure.rat.rakuten.co.jp
 0.0.0.0 s-cdn.rmp.rakuten.co.jp
 0.0.0.0 jp.rakuten-static.com
 0.0.0.0 cdn-settings.rayjump.com
@@ -564,6 +566,7 @@
 0.0.0.0 cm.teads.tv
 0.0.0.0 s8t.teads.tv
 0.0.0.0 ads.themoneytizer.com
+0.0.0.0 p16-sign-sg.tiktokcdn.com
 0.0.0.0 api16-access-ttp.tiktokpangle.us
 0.0.0.0 gecko-sg.tiktokv.com
 0.0.0.0 cdn.topsy.com
