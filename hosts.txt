@@ -533,6 +533,7 @@
 0.0.0.0 js.stripe.com
 0.0.0.0 m.stripe.network
 0.0.0.0 assets.strpst.com
+0.0.0.0 global.dev.cftls.t.co
 0.0.0.0 api.taboola.com
 0.0.0.0 c2.taboola.com
 0.0.0.0 cdn.taboola.com
@@ -568,6 +569,7 @@
 0.0.0.0 ads.themoneytizer.com
 0.0.0.0 p16-sign-sg.tiktokcdn.com
 0.0.0.0 api16-access-ttp.tiktokpangle.us
+0.0.0.0 api16-access-ttp-b.tiktokpangle.us
 0.0.0.0 gecko-sg.tiktokv.com
 0.0.0.0 cdn.topsy.com
 0.0.0.0 tqjfn0om.cn

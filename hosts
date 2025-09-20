@@ -1057,6 +1057,9 @@
 #syoboi.jp
 #0.0.0.0 ngid.syoboi.jp
 
+#t.co
+0.0.0.0 global.dev.cftls.t.co
+
 #taboola.com
 0.0.0.0	api.taboola.com
 0.0.0.0	c2.taboola.com
@@ -1114,6 +1117,7 @@
 
 #tiktokpangle.us
 0.0.0.0 api16-access-ttp.tiktokpangle.us
+0.0.0.0 api16-access-ttp-b.tiktokpangle.us
 
 #tiktokv.com
 0.0.0.0 gecko-sg.tiktokv.com
