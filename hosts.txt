@@ -129,6 +129,7 @@
 0.0.0.0 adserver.assistads.net
 0.0.0.0 media.assistads.net
 0.0.0.0 cdn.avantisvideo.com
+0.0.0.0 ax-0003.ax-msedge.net
 0.0.0.0 js.ssp.bance.jp
 0.0.0.0 tr.ssp.bance.jp
 0.0.0.0 api.bestzpagelearnnextzone.com
@@ -140,6 +141,7 @@
 0.0.0.0 th.bing.com
 0.0.0.0 organizer.bizzabo.com
 0.0.0.0 sg-trk.bluevoox.com
+0.0.0.0 b-0005.b-msedge.net
 0.0.0.0 cs.boost-next.co.jp
 0.0.0.0 edayo.boost-next.co.jp
 0.0.0.0 js.boost-next.co.jp
@@ -206,6 +208,7 @@
 0.0.0.0 taboola.com.edgekey.net
 0.0.0.0 www.esd-secure.taboola.com.edgekey.net
 0.0.0.0 www.taboola.com.edgekey.net
+0.0.0.0 e-0014.e-msedge.net
 0.0.0.0 ecs4.engageya.com
 0.0.0.0 engageya.com
 0.0.0.0 images9.engageya.com
@@ -218,6 +221,7 @@
 0.0.0.0 secure.cdn.fastclick.net
 0.0.0.0 global.moloco.map.fastly.net
 0.0.0.0 jsdelivr.map.fastly.net
+0.0.0.0 s-part-0018.t-0009.fb-t-msedge.net
 0.0.0.0 analyzer51.fc2.com
 0.0.0.0 counter.fc2.com
 0.0.0.0 counter1.fc2.com
@@ -326,6 +330,7 @@
 0.0.0.0 blog.livelog.biz
 0.0.0.0 img.lmadps.jp
 0.0.0.0 tck.lmadps.jp
+0.0.0.0 ln-0007.ln-msedge.net
 0.0.0.0 dsp.logly.co.jp
 0.0.0.0 l.logly.co.jp
 0.0.0.0 lt.logly.co.jp
@@ -413,7 +418,9 @@
 0.0.0.0 envoy-hl.envoy-csync.core-002-ew4.ov1o.com
 0.0.0.0 api16-access-sg.pangle.io
 0.0.0.0 api16-access-wf-sg.pangle.io
+0.0.0.0 api16-event-sg2.pangle.io
 0.0.0.0 api16-event-va.pangle.io
+0.0.0.0 api16-log-sg2.pangle.io
 0.0.0.0 api16-log-va.pangle.io
 0.0.0.0 parking3.parklogic.com
 0.0.0.0 cdn.p-n.io
@@ -476,6 +483,7 @@
 0.0.0.0 cs.seedtag.com
 0.0.0.0 cdn.segment.com
 0.0.0.0 o115706.ingest.sentry.io
+0.0.0.0 o4508134825000960.ingest.us.sentry.io
 0.0.0.0 browser.sentry-cdn.com
 0.0.0.0 js.sentry-cdn.com
 0.0.0.0 sync.serverbid.com
@@ -527,6 +535,7 @@
 0.0.0.0 click.speee-ad.jp
 0.0.0.0 cdn.speedcurve.com
 0.0.0.0 cdn.spotxcdn.com
+0.0.0.0 dual-spov-0006.spov-msedge.net
 0.0.0.0 cdn1.stamped.io
 0.0.0.0 ads.stickyadstv.com
 0.0.0.0 slink.west.edge.storage-yahoo.jp
@@ -561,6 +570,7 @@
 0.0.0.0 www.urc.taboolasyndication.com
 0.0.0.0 tapestry.tapad.com
 0.0.0.0 a.teads.tv
+0.0.0.0 s-part-0018.t-0009.t-msedge.net
 0.0.0.0 cdn.taxel.jp
 0.0.0.0 widgets.taxel.jp
 0.0.0.0 a.teads.tv
@@ -600,9 +610,12 @@
 0.0.0.0 scar.unityads.unity3d.com
 0.0.0.0 thind.unityads.unity3d.com
 0.0.0.0 gw.mediation.unity3d.com
+0.0.0.0 gw1.mediation.unity3d.com
+0.0.0.0 0-adq.mediation.unity3d.com
 0.0.0.0 o-iab-imp-counters.mediation.unity3d.com
 0.0.0.0 o-iab-notifications.mediation.unity3d.com
 0.0.0.0 o-sdk.mediation.unity3d.com
+0.0.0.0 w.isx.unity3d.com
 0.0.0.0 content.uplynk.com
 0.0.0.0 urencenes.com
 0.0.0.0 adjs.ust-ad.com

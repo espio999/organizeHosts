@@ -225,6 +225,9 @@
 #avantisvideo.com
 0.0.0.0 cdn.avantisvideo.com
 
+#ax-msedge.net
+0.0.0.0 ax-0003.ax-msedge.net
+
 #bance.jp
 0.0.0.0 js.ssp.bance.jp tr.ssp.bance.jp
 
@@ -243,6 +246,9 @@
 
 #bluevoox.com
 0.0.0.0 sg-trk.bluevoox.com
+
+#b-msedge.net
+0.0.0.0 b-0005.b-msedge.net
 
 #boost-next.co.jp
 0.0.0.0 cs.boost-next.co.jp edayo.boost-next.co.jp js.boost-next.co.jp
@@ -388,6 +394,9 @@
 0.0.0.0	www.esd-secure.taboola.com.edgekey.net
 0.0.0.0	www.taboola.com.edgekey.net
 
+#e-msedge.net
+0.0.0.0 e-0014.e-msedge.net
+
 #engageya.com
 0.0.0.0	ecs4.engageya.com
 0.0.0.0	engageya.com
@@ -418,6 +427,9 @@
 #fastly.net
 0.0.0.0 global.moloco.map.fastly.net
 0.0.0.0 jsdelivr.map.fastly.net
+
+#fb-t-msedge.net
+0.0.0.0 s-part-0018.t-0009.fb-t-msedge.net
 
 #fc2.com
 0.0.0.0 analyzer51.fc2.com counter.fc2.com counter1.fc2.com media.fc2.com media5.fc2.com static.fc2.com vip.chps-api.fc2.com
@@ -663,6 +675,9 @@
 #lmadps.jp
 0.0.0.0 img.lmadps.jp tck.lmadps.jp
 
+#ln-msedge.net
+0.0.0.0 ln-0007.ln-msedge.net
+
 #logly
 0.0.0.0 dsp.logly.co.jp l.logly.co.jp lt.logly.co.jp
 
@@ -844,7 +859,9 @@
 #pangle.io
 0.0.0.0 api16-access-sg.pangle.io
 0.0.0.0 api16-access-wf-sg.pangle.io
+0.0.0.0 api16-event-sg2.pangle.io
 0.0.0.0 api16-event-va.pangle.io
+0.0.0.0 api16-log-sg2.pangle.io
 0.0.0.0 api16-log-va.pangle.io
 
 #parklogic.com
@@ -978,7 +995,8 @@
 0.0.0.0 cdn.segment.com
 
 #sentry.io
-0.0.0.0 o115706.ingest.sentry.io
+0.0.0.0 o115706.ingest.sentry.io o4508134825000960.ingest.us.sentry.io
+
 #sentry-cdn.com
 0.0.0.0 browser.sentry-cdn.com js.sentry-cdn.com
 
@@ -1035,6 +1053,9 @@
 
 #spotxcdn.com
 0.0.0.0	cdn.spotxcdn.com
+
+#spov-msedge.net
+0.0.0.0 dual-spov-0006.spov-msedge.net
 
 #stamped.io
 0.0.0.0 cdn1.stamped.io
@@ -1095,8 +1116,11 @@
 #teads.tv
 0.0.0.0 a.teads.tv
 
+#t-msedge.net
+0.0.0.0 s-part-0018.t-0009.t-msedge.net
+
 #trafficmanager.net
-#Microsoft ToDoの動機に影響する
+#Microsoft ToDoの同期に影響する
 #0.0.0.0 www.tm.prd.ags.trafficmanager.net
 
 #taxel.jp
@@ -1164,7 +1188,8 @@
 0.0.0.0 ae.iads.unity.com ae-iads.unity.com cdn.iads.unity3d.com o.iads.unity3d.com
 0.0.0.0 gw-is.iads.unity3d.com gw-rv.iads.unity3d.com
 0.0.0.0 unityads.unity3d.com scar.unityads.unity3d.com thind.unityads.unity3d.com
-0.0.0.0 gw.mediation.unity3d.com o-iab-imp-counters.mediation.unity3d.com o-iab-notifications.mediation.unity3d.com o-sdk.mediation.unity3d.com
+0.0.0.0 gw.mediation.unity3d.com gw1.mediation.unity3d.com 0-adq.mediation.unity3d.com o-iab-imp-counters.mediation.unity3d.com o-iab-notifications.mediation.unity3d.com o-sdk.mediation.unity3d.com
+0.0.0.0 w.isx.unity3d.com
 
 #uplynk.com
 0.0.0.0 content.uplynk.com
