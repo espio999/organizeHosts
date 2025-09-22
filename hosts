@@ -675,6 +675,9 @@
 #lmadps.jp
 0.0.0.0 img.lmadps.jp tck.lmadps.jp
 
+#l-msedge.net
+0.0.0.0 l-0003.msedge.net
+
 #ln-msedge.net
 0.0.0.0 ln-0007.ln-msedge.net
 
@@ -1054,8 +1057,9 @@
 #spotxcdn.com
 0.0.0.0	cdn.spotxcdn.com
 
+#onedriveの利用に関連
 #spov-msedge.net
-0.0.0.0 dual-spov-0006.spov-msedge.net
+#0.0.0.0 dual-spov-0006.spov-msedge.net
 
 #stamped.io
 0.0.0.0 cdn1.stamped.io
@@ -1145,6 +1149,9 @@
 
 #tiktokv.com
 0.0.0.0 gecko-sg.tiktokv.com
+
+#t-msedge.net
+0.0.0.0 part-0018.t-0009.t-msedge.net
 
 #topsy.com
 0.0.0.0 cdn.topsy.com

@@ -330,6 +330,7 @@
 0.0.0.0 blog.livelog.biz
 0.0.0.0 img.lmadps.jp
 0.0.0.0 tck.lmadps.jp
+0.0.0.0 l-0003.msedge.net
 0.0.0.0 ln-0007.ln-msedge.net
 0.0.0.0 dsp.logly.co.jp
 0.0.0.0 l.logly.co.jp
@@ -535,7 +536,6 @@
 0.0.0.0 click.speee-ad.jp
 0.0.0.0 cdn.speedcurve.com
 0.0.0.0 cdn.spotxcdn.com
-0.0.0.0 dual-spov-0006.spov-msedge.net
 0.0.0.0 cdn1.stamped.io
 0.0.0.0 ads.stickyadstv.com
 0.0.0.0 slink.west.edge.storage-yahoo.jp
@@ -581,6 +581,7 @@
 0.0.0.0 api16-access-ttp.tiktokpangle.us
 0.0.0.0 api16-access-ttp-b.tiktokpangle.us
 0.0.0.0 gecko-sg.tiktokv.com
+0.0.0.0 part-0018.t-0009.t-msedge.net
 0.0.0.0 cdn.topsy.com
 0.0.0.0 tqjfn0om.cn
 0.0.0.0 go.trvdp.com
