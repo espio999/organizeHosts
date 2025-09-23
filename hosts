@@ -679,7 +679,8 @@
 0.0.0.0 l-0003.msedge.net
 
 #ln-msedge.net
-0.0.0.0 ln-0007.ln-msedge.net
+#OneDriveの動作に影響する
+#0.0.0.0 ln-0007.ln-msedge.net
 
 #logly
 0.0.0.0 dsp.logly.co.jp l.logly.co.jp lt.logly.co.jp
@@ -1120,13 +1121,6 @@
 #teads.tv
 0.0.0.0 a.teads.tv
 
-#t-msedge.net
-0.0.0.0 s-part-0018.t-0009.t-msedge.net
-
-#trafficmanager.net
-#Microsoft ToDoの同期に影響する
-#0.0.0.0 www.tm.prd.ags.trafficmanager.net
-
 #taxel.jp
 0.0.0.0 cdn.taxel.jp widgets.taxel.jp
 
@@ -1152,6 +1146,7 @@
 
 #t-msedge.net
 0.0.0.0 part-0018.t-0009.t-msedge.net
+0.0.0.0 s-part-0018.t-0009.t-msedge.net
 
 #topsy.com
 0.0.0.0 cdn.topsy.com
@@ -1164,7 +1159,11 @@
 0.0.0.0 go.trvdp.com vid.trvdp.com
 
 #trafficmanager.net
-0.0.0.0	msmonplat.trafficmanager.net www.tm.a.prd.aadg.trafficmanager.net 
+#Microsoft ToDoの同期に影響する
+#OneDriveの動作に影響する
+#0.0.0.0 www.tm.prd.ags.trafficmanager.net
+#0.0.0.0 www.tm.a.prd.aadg.trafficmanager.net
+#0.0.0.0 msmonplat.trafficmanager.net 
 
 #treasuredata.com noDNS
 0.0.0.0 cdn.treasuredata.com cdp.in.treasuredata.com docs.treasuredata.com in.treasuredata.com

@@ -331,7 +331,6 @@
 0.0.0.0 img.lmadps.jp
 0.0.0.0 tck.lmadps.jp
 0.0.0.0 l-0003.msedge.net
-0.0.0.0 ln-0007.ln-msedge.net
 0.0.0.0 dsp.logly.co.jp
 0.0.0.0 l.logly.co.jp
 0.0.0.0 lt.logly.co.jp
@@ -570,7 +569,6 @@
 0.0.0.0 www.urc.taboolasyndication.com
 0.0.0.0 tapestry.tapad.com
 0.0.0.0 a.teads.tv
-0.0.0.0 s-part-0018.t-0009.t-msedge.net
 0.0.0.0 cdn.taxel.jp
 0.0.0.0 widgets.taxel.jp
 0.0.0.0 a.teads.tv
@@ -582,12 +580,11 @@
 0.0.0.0 api16-access-ttp-b.tiktokpangle.us
 0.0.0.0 gecko-sg.tiktokv.com
 0.0.0.0 part-0018.t-0009.t-msedge.net
+0.0.0.0 s-part-0018.t-0009.t-msedge.net
 0.0.0.0 cdn.topsy.com
 0.0.0.0 tqjfn0om.cn
 0.0.0.0 go.trvdp.com
 0.0.0.0 vid.trvdp.com
-0.0.0.0 msmonplat.trafficmanager.net
-0.0.0.0 www.tm.a.prd.aadg.trafficmanager.net
 0.0.0.0 cdn.treasuredata.com
 0.0.0.0 cdp.in.treasuredata.com
 0.0.0.0 docs.treasuredata.com
