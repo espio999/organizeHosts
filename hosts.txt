@@ -250,6 +250,7 @@
 0.0.0.0 cdn.getallmedia.com
 0.0.0.0 ssp.getallmedia.com
 0.0.0.0 mem.gfx.ms
+0.0.0.0 yt3.ggpht.com
 0.0.0.0 player.gliacloud.com
 0.0.0.0 js.glossom.jp
 0.0.0.0 cdn.gmossp-sp.jp
@@ -263,7 +264,10 @@
 0.0.0.0 log000.goo.ne.jp
 0.0.0.0 ranking.goo.ne.jp
 0.0.0.0 imagegooranking.rank-king.jp
-0.0.0.0 yt3.ggpht.com
+0.0.0.0 clients.l.google.com
+0.0.0.0 clients4.google.com
+0.0.0.0 mtalk.google.com
+0.0.0.0 mobile-gtalk.l.google.com
 0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 www.googleadservices.com
 0.0.0.0 www.googletagmanager.com
@@ -330,7 +334,8 @@
 0.0.0.0 blog.livelog.biz
 0.0.0.0 img.lmadps.jp
 0.0.0.0 tck.lmadps.jp
-0.0.0.0 l-0003.msedge.net
+0.0.0.0 l-0003.l-msedge.net
+0.0.0.0 ln-0007.ln-msedge.net
 0.0.0.0 dsp.logly.co.jp
 0.0.0.0 l.logly.co.jp
 0.0.0.0 lt.logly.co.jp
@@ -422,6 +427,7 @@
 0.0.0.0 api16-event-va.pangle.io
 0.0.0.0 api16-log-sg2.pangle.io
 0.0.0.0 api16-log-va.pangle.io
+0.0.0.0 ssdk-sg.pangle.io
 0.0.0.0 parking3.parklogic.com
 0.0.0.0 cdn.p-n.io
 0.0.0.0 api-esp-ap.piano.io
@@ -439,6 +445,7 @@
 0.0.0.0 api.popin.cc
 0.0.0.0 jp.popin.cc
 0.0.0.0 prime-ever.com
+0.0.0.0 ize02.print2brain.org
 0.0.0.0 printwhatyoulike.com
 0.0.0.0 ats-wrapper.privacymanager.io
 0.0.0.0 pbid.pro-market.net
@@ -483,6 +490,7 @@
 0.0.0.0 cs.seedtag.com
 0.0.0.0 cdn.segment.com
 0.0.0.0 o115706.ingest.sentry.io
+0.0.0.0 o4505071687041024.ingest.us.sentry.io
 0.0.0.0 o4508134825000960.ingest.us.sentry.io
 0.0.0.0 browser.sentry-cdn.com
 0.0.0.0 js.sentry-cdn.com
@@ -491,6 +499,7 @@
 0.0.0.0 match.sharethrough.com
 0.0.0.0 sdk.sharethrough.com
 0.0.0.0 match-ap-southeast-1-ecs.sharethrough.com
+0.0.0.0 s2s.singular.net
 0.0.0.0 pixel-sync.sitescout.com
 0.0.0.0 www.sl-advisory.com
 0.0.0.0 bw-trk.smadex.com
@@ -569,6 +578,7 @@
 0.0.0.0 www.urc.taboolasyndication.com
 0.0.0.0 tapestry.tapad.com
 0.0.0.0 a.teads.tv
+0.0.0.0 s-part-0018.t-0009.t-msedge.net
 0.0.0.0 cdn.taxel.jp
 0.0.0.0 widgets.taxel.jp
 0.0.0.0 a.teads.tv
@@ -580,11 +590,12 @@
 0.0.0.0 api16-access-ttp-b.tiktokpangle.us
 0.0.0.0 gecko-sg.tiktokv.com
 0.0.0.0 part-0018.t-0009.t-msedge.net
-0.0.0.0 s-part-0018.t-0009.t-msedge.net
 0.0.0.0 cdn.topsy.com
 0.0.0.0 tqjfn0om.cn
 0.0.0.0 go.trvdp.com
 0.0.0.0 vid.trvdp.com
+0.0.0.0 msmonplat.trafficmanager.net
+0.0.0.0 www.tm.a.prd.aadg.trafficmanager.net
 0.0.0.0 cdn.treasuredata.com
 0.0.0.0 cdp.in.treasuredata.com
 0.0.0.0 docs.treasuredata.com

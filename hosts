@@ -485,6 +485,9 @@
 #gfx.ms
 0.0.0.0 mem.gfx.ms
 
+#ggpht.com
+0.0.0.0 yt3.ggpht.com
+
 #gliacloud.com
 0.0.0.0 player.gliacloud.com
 
@@ -509,14 +512,25 @@
 0.0.0.0 imagegooranking.rank-king.jp
 
 #google
-0.0.0.0 yt3.ggpht.com
 #0.0.0.0 apis.google.com
+0.0.0.0 clients.l.google.com
+0.0.0.0 clients4.google.com
+0.0.0.0 mtalk.google.com
+0.0.0.0 mobile-gtalk.l.google.com
+
 0.0.0.0 fundingchoicesmessages.google.com
+
+#googleadservices.com
 0.0.0.0 www.googleadservices.com
+
+#googletagmanager.com
 0.0.0.0 www.googletagmanager.com
+
 #googleusercontent.com --> YouTubeの広告画像、FeedlyやGoogle newsなどのサムネイル画像
 # 0.0.0.0 lh1.googleusercontent.com lh2.googleusercontent.com lh3.googleusercontent.com lh4.googleusercontent.com lh5.googleusercontent.com lh6.googleusercontent.com lh7.googleusercontent.com lh8.googleusercontent.com lh9.googleusercontent.com lh0.googleusercontent.com
 #0.0.0.0 www.gstatic.com
+
+#gstatic.com
 0.0.0.0 encrypted-tbn2.gstatic.com
 
 #googlesyndication.com
@@ -676,11 +690,10 @@
 0.0.0.0 img.lmadps.jp tck.lmadps.jp
 
 #l-msedge.net
-0.0.0.0 l-0003.msedge.net
+0.0.0.0 l-0003.l-msedge.net
 
 #ln-msedge.net
-#OneDriveの動作に影響する
-#0.0.0.0 ln-0007.ln-msedge.net
+0.0.0.0 ln-0007.ln-msedge.net
 
 #logly
 0.0.0.0 dsp.logly.co.jp l.logly.co.jp lt.logly.co.jp
@@ -867,6 +880,7 @@
 0.0.0.0 api16-event-va.pangle.io
 0.0.0.0 api16-log-sg2.pangle.io
 0.0.0.0 api16-log-va.pangle.io
+0.0.0.0 ssdk-sg.pangle.io
 
 #parklogic.com
 0.0.0.0 parking3.parklogic.com
@@ -906,6 +920,9 @@
 #prime-ever.com
 #有害
 0.0.0.0 prime-ever.com
+
+#print2brain.org
+0.0.0.0 ize02.print2brain.org
 
 #printwhatyoulike.com
 0.0.0.0 printwhatyoulike.com
@@ -999,7 +1016,9 @@
 0.0.0.0 cdn.segment.com
 
 #sentry.io
-0.0.0.0 o115706.ingest.sentry.io o4508134825000960.ingest.us.sentry.io
+0.0.0.0 o115706.ingest.sentry.io
+0.0.0.0 o4505071687041024.ingest.us.sentry.io
+0.0.0.0 o4508134825000960.ingest.us.sentry.io
 
 #sentry-cdn.com
 0.0.0.0 browser.sentry-cdn.com js.sentry-cdn.com
@@ -1013,6 +1032,9 @@
 #sharethrough.com noDNS
 0.0.0.0 match.sharethrough.com sdk.sharethrough.com
 0.0.0.0 match-ap-southeast-1-ecs.sharethrough.com
+
+#singular.net
+0.0.0.0 s2s.singular.net
 
 #sitescout.com
 0.0.0.0 pixel-sync.sitescout.com
@@ -1121,6 +1143,13 @@
 #teads.tv
 0.0.0.0 a.teads.tv
 
+#t-msedge.net
+0.0.0.0 s-part-0018.t-0009.t-msedge.net
+
+#trafficmanager.net
+#Microsoft ToDoの同期に影響する
+#0.0.0.0 www.tm.prd.ags.trafficmanager.net
+
 #taxel.jp
 0.0.0.0 cdn.taxel.jp widgets.taxel.jp
 
@@ -1146,7 +1175,6 @@
 
 #t-msedge.net
 0.0.0.0 part-0018.t-0009.t-msedge.net
-0.0.0.0 s-part-0018.t-0009.t-msedge.net
 
 #topsy.com
 0.0.0.0 cdn.topsy.com
@@ -1159,11 +1187,7 @@
 0.0.0.0 go.trvdp.com vid.trvdp.com
 
 #trafficmanager.net
-#Microsoft ToDoの同期に影響する
-#OneDriveの動作に影響する
-#0.0.0.0 www.tm.prd.ags.trafficmanager.net
-#0.0.0.0 www.tm.a.prd.aadg.trafficmanager.net
-#0.0.0.0 msmonplat.trafficmanager.net 
+0.0.0.0	msmonplat.trafficmanager.net www.tm.a.prd.aadg.trafficmanager.net 
 
 #treasuredata.com noDNS
 0.0.0.0 cdn.treasuredata.com cdp.in.treasuredata.com docs.treasuredata.com in.treasuredata.com
