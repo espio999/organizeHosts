@@ -609,8 +609,8 @@
 0.0.0.0 platform.twitter.com
 0.0.0.0 use.typekit.net
 0.0.0.0 cdn.unblockia.com
-0.0.0.0 ae.iads.unity.com
-0.0.0.0 ae-iads.unity.com
+0.0.0.0 ae.iads.unity3d.com
+0.0.0.0 ae-iads.unity3d.com
 0.0.0.0 cdn.iads.unity3d.com
 0.0.0.0 o.iads.unity3d.com
 0.0.0.0 gw-is.iads.unity3d.com
@@ -623,6 +623,9 @@
 0.0.0.0 0-adq.mediation.unity3d.com
 0.0.0.0 o-iab-imp-counters.mediation.unity3d.com
 0.0.0.0 o-iab-notifications.mediation.unity3d.com
+0.0.0.0 i-adq.mediation.unity3d.com
+0.0.0.0 i-sdk.mediation.unity3d.com
+0.0.0.0 o-adq.mediation.unity3d.com
 0.0.0.0 o-sdk.mediation.unity3d.com
 0.0.0.0 w.isx.unity3d.com
 0.0.0.0 content.uplynk.com

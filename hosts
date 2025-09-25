@@ -1215,10 +1215,14 @@
 0.0.0.0 cdn.unblockia.com
 
 #unity3d.com
-0.0.0.0 ae.iads.unity.com ae-iads.unity.com cdn.iads.unity3d.com o.iads.unity3d.com
+0.0.0.0 ae.iads.unity3d.com ae-iads.unity3d.com cdn.iads.unity3d.com o.iads.unity3d.com
 0.0.0.0 gw-is.iads.unity3d.com gw-rv.iads.unity3d.com
 0.0.0.0 unityads.unity3d.com scar.unityads.unity3d.com thind.unityads.unity3d.com
-0.0.0.0 gw.mediation.unity3d.com gw1.mediation.unity3d.com 0-adq.mediation.unity3d.com o-iab-imp-counters.mediation.unity3d.com o-iab-notifications.mediation.unity3d.com o-sdk.mediation.unity3d.com
+0.0.0.0 gw.mediation.unity3d.com gw1.mediation.unity3d.com
+0.0.0.0 0-adq.mediation.unity3d.com
+0.0.0.0 o-iab-imp-counters.mediation.unity3d.com o-iab-notifications.mediation.unity3d.com
+0.0.0.0 i-adq.mediation.unity3d.com i-sdk.mediation.unity3d.com
+0.0.0.0 o-adq.mediation.unity3d.com o-sdk.mediation.unity3d.com
 0.0.0.0 w.isx.unity3d.com
 
 #uplynk.com
