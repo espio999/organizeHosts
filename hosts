@@ -513,8 +513,8 @@
 
 #google
 #0.0.0.0 apis.google.com
-0.0.0.0 clients.l.google.com
-0.0.0.0 clients4.google.com
+#0.0.0.0 clients.l.google.com →Googleサービスに必要
+#0.0.0.0 clients4.google.com →Googleサービスに必要
 0.0.0.0 mtalk.google.com
 0.0.0.0 mobile-gtalk.l.google.com
 
