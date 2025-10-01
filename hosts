@@ -629,16 +629,15 @@
 #godaddy.com
 0.0.0.0 ocsp.godaddy.com
 
-#goo
+#goo.ne.jp
 0.0.0.0 adcdn.goo.ne.jp img.news.goo.ne.jp log000.goo.ne.jp ranking.goo.ne.jp
-0.0.0.0 imagegooranking.rank-king.jp
 
-#google
+#google.com
 #0.0.0.0 apis.google.com
 #0.0.0.0 clients.l.google.com →Googleサービスに必要
 #0.0.0.0 clients4.google.com →Googleサービスに必要
 #0.0.0.0 mtalk.google.com
-0.0.0.0 mobile-gtalk.l.google.com
+#0.0.0.0 mobile-gtalk.l.google.com
 
 0.0.0.0 fundingchoicesmessages.google.com
 
@@ -1193,6 +1192,9 @@
 
 #rakuten-static.com
 #0.0.0.0 jp.rakuten-static.com
+
+#rank-king.jp
+0.0.0.0 imagegooranking.rank-king.jp
 
 #rayjump.com
 0.0.0.0 cdn-settings.rayjump.com

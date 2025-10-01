@@ -326,8 +326,6 @@
 0.0.0.0 img.news.goo.ne.jp
 0.0.0.0 log000.goo.ne.jp
 0.0.0.0 ranking.goo.ne.jp
-0.0.0.0 imagegooranking.rank-king.jp
-0.0.0.0 mobile-gtalk.l.google.com
 0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 www.googleadservices.com
 0.0.0.0 www.googletagmanager.com
@@ -590,6 +588,7 @@
 0.0.0.0 rat.rakuten.co.jp
 0.0.0.0 secure.rat.rakuten.co.jp
 0.0.0.0 s-cdn.rmp.rakuten.co.jp
+0.0.0.0 imagegooranking.rank-king.jp
 0.0.0.0 cdn-settings.rayjump.com
 0.0.0.0 lb-133-237-105-33.lbaas.jpe1a.rdcnw.net
 0.0.0.0 e.reddit.com
