@@ -585,8 +585,6 @@
 0.0.0.0 secure.quantserve.com
 0.0.0.0 px.qvdt3feo.com
 0.0.0.0 hbb.afl.rakuten.co.jp
-0.0.0.0 rat.rakuten.co.jp
-0.0.0.0 secure.rat.rakuten.co.jp
 0.0.0.0 s-cdn.rmp.rakuten.co.jp
 0.0.0.0 imagegooranking.rank-king.jp
 0.0.0.0 cdn-settings.rayjump.com
