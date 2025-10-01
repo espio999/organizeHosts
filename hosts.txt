@@ -753,7 +753,6 @@
 0.0.0.0 sdk.tresensa.com
 0.0.0.0 tru.am
 0.0.0.0 rtd.tubemogul.com
-0.0.0.0 abs-0.twimg.com
 0.0.0.0 cdn.syndication.twimg.com
 0.0.0.0 pbs.syndication.twimg.com
 0.0.0.0 video.twimg.com
