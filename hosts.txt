@@ -327,7 +327,6 @@
 0.0.0.0 log000.goo.ne.jp
 0.0.0.0 ranking.goo.ne.jp
 0.0.0.0 imagegooranking.rank-king.jp
-0.0.0.0 mtalk.google.com
 0.0.0.0 mobile-gtalk.l.google.com
 0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 www.googleadservices.com
