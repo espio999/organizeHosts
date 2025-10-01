@@ -211,7 +211,7 @@
 #0.0.0.0 s.aolcdn.com
 
 #app-measurement.com
-0.0.0.0 app-measurement.com
+#0.0.0.0 app-measurement.com
 
 #appier.net
 0.0.0.0 ad.appier.net
@@ -267,7 +267,7 @@
 0.0.0.0 cdn.avantisvideo.com
 
 #ax-msedge.net
-0.0.0.0 ax-0003.ax-msedge.net
+#0.0.0.0 ax-0003.ax-msedge.net
 
 #bance.jp
 0.0.0.0 js.ssp.bance.jp tr.ssp.bance.jp
@@ -384,7 +384,7 @@
 0.0.0.0 sync.cootlogix.com
 
 #crashlytics.com
-0.0.0.0 firebase-settings.crashlytics.com
+#0.0.0.0 firebase-settings.crashlytics.com
 
 #creativecdn.com
 0.0.0.0 creativecdn.com prebid-asia.creativecdn.com
@@ -874,7 +874,7 @@
 0.0.0.0 l-0003.l-msedge.net
 
 #ln-msedge.net
-0.0.0.0 ln-0007.ln-msedge.net
+#0.0.0.0 ln-0007.ln-msedge.net
 
 #logly
 0.0.0.0 dsp.logly.co.jp l.logly.co.jp lt.logly.co.jp
@@ -1186,13 +1186,13 @@
 #rakuten.co.jp
 #スタイルや画像などの表示
 #0.0.0.0 cdn.rmc.contents.rakuten.co.jp
-0.0.0.0 error.rakuten.co.jp
+#0.0.0.0 error.rakuten.co.jp
 0.0.0.0 hbb.afl.rakuten.co.jp
 0.0.0.0 rat.rakuten.co.jp secure.rat.rakuten.co.jp
 0.0.0.0 s-cdn.rmp.rakuten.co.jp
 
 #rakuten-static.com
-0.0.0.0 jp.rakuten-static.com
+#0.0.0.0 jp.rakuten-static.com
 
 #rayjump.com
 0.0.0.0 cdn-settings.rayjump.com
@@ -1398,13 +1398,6 @@
 #teads.tv
 0.0.0.0 a.teads.tv
 
-#t-msedge.net
-0.0.0.0 s-part-0018.t-0009.t-msedge.net
-
-#trafficmanager.net
-#Microsoft ToDoの同期に影響する
-#0.0.0.0 www.tm.prd.ags.trafficmanager.net
-
 #taxel.jp
 0.0.0.0 cdn.taxel.jp widgets.taxel.jp
 
@@ -1439,6 +1432,8 @@
 
 #t-msedge.net
 0.0.0.0 part-0018.t-0009.t-msedge.net
+0.0.0.0 s-part-0018.t-0009.t-msedge.net
+
 
 #topsy.com
 0.0.0.0 cdn.topsy.com
@@ -1451,7 +1446,10 @@
 0.0.0.0 go.trvdp.com vid.trvdp.com
 
 #trafficmanager.net
-0.0.0.0	msmonplat.trafficmanager.net www.tm.a.prd.aadg.trafficmanager.net 
+0.0.0.0	msmonplat.trafficmanager.net 
+0.0.0.0 www.tm.a.prd.aadg.trafficmanager.net 
+#Microsoft ToDoの同期に影響する
+#0.0.0.0 www.tm.prd.ags.trafficmanager.net
 
 #treasuredata.com noDNS
 0.0.0.0 ap01.records.in.treasuredata.com

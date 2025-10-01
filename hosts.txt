@@ -118,7 +118,6 @@
 0.0.0.0 rtbpass-us.andbeyond.media
 0.0.0.0 player.aniview.com
 0.0.0.0 anymind360.com
-0.0.0.0 app-measurement.com
 0.0.0.0 ad.appier.net
 0.0.0.0 jprtb.c.appier.net
 0.0.0.0 vst.c.appier.net
@@ -152,7 +151,6 @@
 0.0.0.0 media.assistads.net
 0.0.0.0 cdn.audiencedata.net
 0.0.0.0 cdn.avantisvideo.com
-0.0.0.0 ax-0003.ax-msedge.net
 0.0.0.0 js.ssp.bance.jp
 0.0.0.0 tr.ssp.bance.jp
 0.0.0.0 api.bestzpagelearnnextzone.com
@@ -203,7 +201,6 @@
 0.0.0.0 client.contents-search-windows.com
 0.0.0.0 cdn.cookielaw.org
 0.0.0.0 sync.cootlogix.com
-0.0.0.0 firebase-settings.crashlytics.com
 0.0.0.0 creativecdn.com
 0.0.0.0 prebid-asia.creativecdn.com
 0.0.0.0 ads.as.criteo.com
@@ -442,7 +439,6 @@
 0.0.0.0 img.lmadps.jp
 0.0.0.0 tck.lmadps.jp
 0.0.0.0 l-0003.l-msedge.net
-0.0.0.0 ln-0007.ln-msedge.net
 0.0.0.0 dsp.logly.co.jp
 0.0.0.0 l.logly.co.jp
 0.0.0.0 lt.logly.co.jp
@@ -591,12 +587,10 @@
 0.0.0.0 cms.quantserve.com
 0.0.0.0 secure.quantserve.com
 0.0.0.0 px.qvdt3feo.com
-0.0.0.0 error.rakuten.co.jp
 0.0.0.0 hbb.afl.rakuten.co.jp
 0.0.0.0 rat.rakuten.co.jp
 0.0.0.0 secure.rat.rakuten.co.jp
 0.0.0.0 s-cdn.rmp.rakuten.co.jp
-0.0.0.0 jp.rakuten-static.com
 0.0.0.0 cdn-settings.rayjump.com
 0.0.0.0 lb-133-237-105-33.lbaas.jpe1a.rdcnw.net
 0.0.0.0 e.reddit.com
@@ -723,7 +717,6 @@
 0.0.0.0 pixel.tapad.com
 0.0.0.0 tapestry.tapad.com
 0.0.0.0 a.teads.tv
-0.0.0.0 s-part-0018.t-0009.t-msedge.net
 0.0.0.0 cdn.taxel.jp
 0.0.0.0 widgets.taxel.jp
 0.0.0.0 a.teads.tv
@@ -738,6 +731,7 @@
 0.0.0.0 analytics-ipv6.tiktokw.us
 0.0.0.0 blog.tinect.jp
 0.0.0.0 part-0018.t-0009.t-msedge.net
+0.0.0.0 s-part-0018.t-0009.t-msedge.net
 0.0.0.0 cdn.topsy.com
 0.0.0.0 tqjfn0om.cn
 0.0.0.0 go.trvdp.com
