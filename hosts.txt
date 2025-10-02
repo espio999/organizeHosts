@@ -140,7 +140,11 @@
 0.0.0.0 4hho4v-cdn-settings.appsflyersdk.com
 0.0.0.0 4hrm0x-cdn-settings.appsflyersdk.com
 0.0.0.0 4hrm0x-launches.appsflyersdk.com
+0.0.0.0 kaxlcl-cdn-settings.appsflyersdk.com
 0.0.0.0 kaxlcl-inapps.appsflyersdk.com
+0.0.0.0 kaxlcl-launches.appsflyersdk.com
+0.0.0.0 kw3qbu-cdn-settings.appsflyersdk.com
+0.0.0.0 kw3qbu-launches.appsflyersdk.com
 0.0.0.0 kw3qbu.cdn-settings.appsflyersdk.com
 0.0.0.0 kw3qbu.launches.appsflyersdk.com
 0.0.0.0 xgxqh3-cdn.appsflyersdk.com
@@ -228,7 +232,7 @@
 0.0.0.0 meas.hera.d2c.ne.jp
 0.0.0.0 static.dable.io
 0.0.0.0 i.daily.jp
-0.0.0.0 api-sdk.#datadome.co
+0.0.0.0 api-sdk.datadome.co
 0.0.0.0 api-alb-ap-northeast-1.datadome.co
 0.0.0.0 davidwalsh.name
 0.0.0.0 s.dc-tag.jp
@@ -453,6 +457,7 @@
 0.0.0.0 prebid.media.net
 0.0.0.0 warp.media.net
 0.0.0.0 assets.media-platform.com
+0.0.0.0 rgepodownkiad.nediatek.com
 0.0.0.0 mediaweaver.jp
 0.0.0.0 jsc.mgid.com
 0.0.0.0 j.microad.net

@@ -244,7 +244,11 @@
 0.0.0.0 4hho4v-cdn-settings.appsflyersdk.com
 0.0.0.0 4hrm0x-cdn-settings.appsflyersdk.com
 0.0.0.0 4hrm0x-launches.appsflyersdk.com
+0.0.0.0 kaxlcl-cdn-settings.appsflyersdk.com
 0.0.0.0 kaxlcl-inapps.appsflyersdk.com
+0.0.0.0 kaxlcl-launches.appsflyersdk.com
+0.0.0.0 kw3qbu-cdn-settings.appsflyersdk.com
+0.0.0.0 kw3qbu-launches.appsflyersdk.com
 0.0.0.0 kw3qbu.cdn-settings.appsflyersdk.com
 0.0.0.0 kw3qbu.launches.appsflyersdk.com
 0.0.0.0 xgxqh3-cdn.appsflyersdk.com
@@ -440,7 +444,7 @@
 0.0.0.0 i.daily.jp
 
 #datadome.co
-0.0.0.0 api-sdk.#datadome.co
+0.0.0.0 api-sdk.datadome.co
 0.0.0.0 api-alb-ap-northeast-1.datadome.co
 
 #davidwalsh.name
@@ -911,6 +915,9 @@
 
 #media-platform.com  noDNS
 0.0.0.0 assets.media-platform.com
+
+#mediatek.com
+0.0.0.0 rgepodownkiad.nediatek.com
 
 #mediaweaver.jp
 0.0.0.0 mediaweaver.jp
