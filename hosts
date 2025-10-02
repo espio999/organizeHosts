@@ -657,18 +657,14 @@
 #googleadservices.com
 0.0.0.0 www.googleadservices.com
 
+#googlesyndication.com
+0.0.0.0 pagead2.googlesyndication.com tpc.googlesyndication.com
+
 #googletagmanager.com
 0.0.0.0 www.googletagmanager.com
 
 #googleusercontent.com --> YouTubeの広告画像、FeedlyやGoogle newsなどのサムネイル画像
 # 0.0.0.0 lh1.googleusercontent.com lh2.googleusercontent.com lh3.googleusercontent.com lh4.googleusercontent.com lh5.googleusercontent.com lh6.googleusercontent.com lh7.googleusercontent.com lh8.googleusercontent.com lh9.googleusercontent.com lh0.googleusercontent.com
-#0.0.0.0 www.gstatic.com
-
-#gstatic.com
-0.0.0.0 encrypted-tbn2.gstatic.com
-
-#googlesyndication.com
-0.0.0.0 pagead2.googlesyndication.com tpc.googlesyndication.com
 
 #goomaphy.com
 0.0.0.0 goomaphy.com
@@ -681,6 +677,10 @@
 
 #gstatic.com
 #CAPTCHAに利用される 0.0.0.0 www.gstatic.com
+#0.0.0.0 encrypted-tbn0.gstatic.com
+#0.0.0.0 encrypted-tbn1.gstatic.com
+#0.0.0.0 encrypted-tbn2.gstatic.com
+#0.0.0.0 encrypted-tbn3.gstatic.com
 
 #gumgum.com
 0.0.0.0 g2.gumgum.com js.gumgum.com usersync.gumgum.com

@@ -335,10 +335,9 @@
 0.0.0.0 ranking.goo.ne.jp
 0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 www.googleadservices.com
-0.0.0.0 www.googletagmanager.com
-0.0.0.0 encrypted-tbn2.gstatic.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 www.googletagmanager.com
 0.0.0.0 goomaphy.com
 0.0.0.0 secure.gravatar.com
 0.0.0.0 js.gsspcln.jp
