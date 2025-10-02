@@ -1243,6 +1243,9 @@
 0.0.0.0 b.scorecardresearch.com sb.scorecardresearch.com
 0.0.0.0 census-app.scorecardresearch.com
 
+#sechstant.com
+0.0.0.0 crm01m011.sechstant.com
+
 #sedo.com
 0.0.0.0 www.sedo.com
 

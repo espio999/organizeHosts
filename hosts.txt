@@ -610,6 +610,7 @@
 0.0.0.0 b.scorecardresearch.com
 0.0.0.0 sb.scorecardresearch.com
 0.0.0.0 census-app.scorecardresearch.com
+0.0.0.0 crm01m011.sechstant.com
 0.0.0.0 www.sedo.com
 0.0.0.0 sedoparking.com
 0.0.0.0 cs.seedtag.com
