@@ -169,6 +169,9 @@
 #0.0.0.0 a248.e.akamai.net
 0.0.0.0 speee-ad.akamaized.net
 
+#akamaized.net
+#msnポータルの画像が失われる 0.0.0.0 img-s-msn-com.akamaized.net
+
 #amazon
 #0.0.0.0 completion.amazon.com
 #0.0.0.0 aax-fe-sin.amazon-adsystem.com c.amazon-adsystem.com
@@ -238,9 +241,12 @@
 0.0.0.0 rt.applvn.com
 
 #appsflyersdk.com
+0.0.0.0 4hho4v-cdn-settings.appsflyersdk.com
 0.0.0.0 4hrm0x-cdn-settings.appsflyersdk.com
 0.0.0.0 4hrm0x-launches.appsflyersdk.com
 0.0.0.0 kaxlcl-inapps.appsflyersdk.com
+0.0.0.0 kw3qbu.cdn-settings.appsflyersdk.com
+0.0.0.0 kw3qbu.launches.appsflyersdk.com
 0.0.0.0 xgxqh3-cdn.appsflyersdk.com
 0.0.0.0 xgxqh3-inapps.appsflyersdk.com
 0.0.0.0 xgxqh3-launches.appsflyersdk.com
@@ -313,9 +319,8 @@
 #btloader.com
 0.0.0.0 btloader.com
 
-#bloombergの表示に必要
 #bwbx.io
-#0.0.0.0 assets.bwbx.io
+#bloombergの表示に必要 0.0.0.0 assets.bwbx.io
 
 #byteoversea.com
 0.0.0.0 v16-ad.byteoversea.com
@@ -341,8 +346,7 @@
 #0.0.0.0 appleid.cdn-apple.com
 
 #cedefender.co.in
-#有害
-0.0.0.0 cedefender.co.in
+#有害 0.0.0.0 cedefender.co.in
 
 #channel.io
 0.0.0.0 api.channel.io
@@ -434,6 +438,10 @@
 
 #daily.jp
 0.0.0.0 i.daily.jp
+
+#datadome.co
+0.0.0.0 api-sdk.#datadome.co
+0.0.0.0 api-alb-ap-northeast-1.datadome.co
 
 #davidwalsh.name
 0.0.0.0 davidwalsh.name
@@ -531,7 +539,8 @@
 0.0.0.0 static.xx.fbcdn.net
 
 #fb-t-msedge.net
-0.0.0.0 s-part-0018.t-0009.fb-t-msedge.net
+#0.0.0.0 part-0018.t-0009.fb-t-msedge.net
+#0.0.0.0 s-part-0018.t-0009.fb-t-msedge.net
 
 #fc2.com
 0.0.0.0 analyzer51.fc2.com counter.fc2.com counter1.fc2.com media.fc2.com media5.fc2.com static.fc2.com vip.chps-api.fc2.com
@@ -634,8 +643,8 @@
 
 #google.com
 #0.0.0.0 apis.google.com
-#0.0.0.0 clients.l.google.com →Googleサービスに必要
-#0.0.0.0 clients4.google.com →Googleサービスに必要
+#Googleサービスに必要 0.0.0.0 clients.l.google.com
+#Googleサービスに必要 0.0.0.0 clients4.google.com
 #0.0.0.0 mtalk.google.com
 #0.0.0.0 mobile-gtalk.l.google.com
 
@@ -667,15 +676,13 @@
 0.0.0.0 js.gsspcln.jp works.gsspcln.jp
 
 #gstatic.com
-#CAPTCHAに利用される
-#0.0.0.0 www.gstatic.com
+#CAPTCHAに利用される 0.0.0.0 www.gstatic.com
 
 #gumgum.com
 0.0.0.0 g2.gumgum.com js.gumgum.com usersync.gumgum.com
 
 #handgripknuckle.com
-#有害
-0.0.0.0 handgripknuckle.com
+#有害 0.0.0.0 handgripknuckle.com
 
 #hadronid.net
 0.0.0.0 cdn.hadronid.net
@@ -758,8 +765,7 @@
 0.0.0.0 sync.im-apps.net sync6.im-apps.net
 
 #impress.co.jp
-#impress系サイトで画像が表示されない
-#0.0.0.0 asset.watch.impress.co.jp
+#impress系サイトで画像が表示されない 0.0.0.0 asset.watch.impress.co.jp
 
 #impact-ad
 0.0.0.0 aw.dw.impact-ad.jp img.ak.impact-ad.jp penta.a.one.impact-ad.jp v.one.impact-ad.jp y.one.impact-ad.jp
@@ -774,8 +780,7 @@
 0.0.0.0 cdn.indexww.com js-sec.indexww.com
 
 #indir-zpf.com
-#有害
-0.0.0.0 indir-zpf.com
+#有害 0.0.0.0 indir-zpf.com
 
 #interactive-circle.jp
 0.0.0.0 panel.interactive-circle.jp
@@ -799,8 +804,7 @@
 0.0.0.0 telemetry-gke-gw1.ssp.inmobi.com
 
 #ismcdn.jp
-#東洋経済のCSS
-#0.0.0.0 tk.ismcdn.jp
+#東洋経済のCSS 0.0.0.0 tk.ismcdn.jp
 0.0.0.0 times-abema.ismcdn.jp
 
 #itmedia  noDNS
@@ -912,8 +916,7 @@
 0.0.0.0 mediaweaver.jp
 
 #meetfindsoul.com
-#有害
-0.0.0.0 ktdphrrdk.meetfindsoul.com
+#有害 0.0.0.0 ktdphrrdk.meetfindsoul.com
 
 #mgid.com
 0.0.0.0 jsc.mgid.com
@@ -923,8 +926,7 @@
 0.0.0.0 d-cache.microad.jp
 
 #mid-round.com
-#有害
-0.0.0.0 mid-round.com
+#有害 0.0.0.0 mid-round.com
 
 #mintegral.net
 0.0.0.0 analytics-tcp.mintegral.net
@@ -940,6 +942,9 @@
 
 #moatads.com
 0.0.0.0 z.moatads.com
+
+#moengage.com
+0.0.0.0 sdk-04.moengage.com
 
 #moloco.com
 0.0.0.0 eventfnt-asia.dsp--api.moloco.com
@@ -960,10 +965,7 @@
 0.0.0.0 r.msfstatic.com
 
 #msn.com
-#msnポータルの機能が失われる --> assets.msn.com
-#msnポータルの画像が失われる --> img-s-msn-com.akamaized.net
-#0.0.0.0 assets.msn.com
-#0.0.0.0 img-s-msn-com.akamaized.net
+#msnポータルの機能が失われる 0.0.0.0 assets.msn.com
 #0.0.0.0 api.msn.com
 0.0.0.0 browser.events.data.msn.com c.msn.com ent-api.msn.com mobileads.msn.com srtb.msn.com
 0.0.0.0 c.msn.cn
@@ -1009,7 +1011,7 @@
 0.0.0.0 nkis.nikkei.com r.nikkei.com
 
 #nordot  noDNS
-#KYODOの記事が表示されなくなる --> nordot.app
+#KYODOの記事が表示されなくなる nordot.app
 0.0.0.0 log.nordot.jp
 
 #npttech.com  noDNS
@@ -1037,8 +1039,7 @@
 0.0.0.0 cdn.onesignal.com
 
 #onijima.jp
-#有害
-0.0.0.0 onijima.jp
+#有害 0.0.0.0 onijima.jp
 
 #oooutbrain.com
 0.0.0.0	oooutbrain.com
@@ -1144,6 +1145,9 @@
 #privacymanager.io
 0.0.0.0 ats-wrapper.privacymanager.io
 0.0.0.0 geo.privacymanager.io
+
+#prodregistryv2.org
+0.0.0.0 prodregistryv2.org
 
 #profilepassport.jp
 0.0.0.0 pp3-sdk-api.profilepassport.jp
@@ -1310,8 +1314,7 @@
 0.0.0.0 frtn.socdm.com tg.socdm.com
 
 #sohu.com
-#有害
-0.0.0.0 pv.sohu.com
+#有害 0.0.0.0 pv.sohu.com
 
 #solutionshindsight.net noDNS
 0.0.0.0 static.solutionshindsight.net
@@ -1359,6 +1362,9 @@
 
 #strpst.com
 0.0.0.0 assets.strpst.com
+
+#syndicatedsearch.goog
+0.0.0.0 syndicatedsearch.goog
 
 #syoboi.jp
 #0.0.0.0 ngid.syoboi.jp
@@ -1408,8 +1414,7 @@
 0.0.0.0 a.teads.tv cm.teads.tv s8t.teads.tv
 
 #tgstc.com
-#togetterを正常に表示する
-#0.0.0.0 s.tgstc.com
+#togetterを正常に表示する 0.0.0.0 s.tgstc.com
 
 #themoneytizer.com
 0.0.0.0 ads.themoneytizer.com
@@ -1434,25 +1439,22 @@
 0.0.0.0 blog.tinect.jp
 
 #t-msedge.net
-0.0.0.0 part-0018.t-0009.t-msedge.net
-0.0.0.0 s-part-0018.t-0009.t-msedge.net
-
+#0.0.0.0 part-0018.t-0009.t-msedge.net
+#0.0.0.0 s-part-0018.t-0009.t-msedge.net
 
 #topsy.com
 0.0.0.0 cdn.topsy.com
 
 #tqjfn0om.cn
-#有害
-0.0.0.0 tqjfn0om.cn
+#有害 0.0.0.0 tqjfn0om.cn
 
 #trvdp.com
 0.0.0.0 go.trvdp.com vid.trvdp.com
 
 #trafficmanager.net
-0.0.0.0	msmonplat.trafficmanager.net 
-0.0.0.0 www.tm.a.prd.aadg.trafficmanager.net 
-#Microsoft ToDoの同期に影響する
-#0.0.0.0 www.tm.prd.ags.trafficmanager.net
+#0.0.0.0	msmonplat.trafficmanager.net 
+#0.0.0.0 www.tm.a.prd.aadg.trafficmanager.net 
+#Microsoft ToDoの同期に影響する 0.0.0.0 www.tm.prd.ags.trafficmanager.net
 
 #treasuredata.com noDNS
 0.0.0.0 ap01.records.in.treasuredata.com
@@ -1470,8 +1472,7 @@
 0.0.0.0 rtd.tubemogul.com
 
 #twimg.com
-#twitterアイコン
-#0.0.0.0 abs-0.twimg.com
+#twitterアイコン 0.0.0.0 abs-0.twimg.com
 0.0.0.0 cdn.syndication.twimg.com
 0.0.0.0 pbs.syndication.twimg.com
 0.0.0.0 video.twimg.com
@@ -1551,7 +1552,7 @@
 0.0.0.0 static-sg.winudf.com
 
 #wordpress, wp.com
-#0.0.0.0 c0.wp.com  画像
+#画像 0.0.0.0 c0.wp.com
 0.0.0.0 c0.wp.com stats.wp.com
 0.0.0.0 v0.wordpress.com
 
@@ -1566,31 +1567,38 @@
 
 #yahoo.co.jp
 0.0.0.0 headlines.yahoo.co.jp
-0.0.0.0 dsb.yahoo.co.jp
+0.0.0.0 b92.yahoo.co.jp dsb.yahoo.co.jp cksync.yahoo.co.jp yads.yahoo.co.jp ybx.yahoo.co.jp yjtag.yahoo.co.jp
 
 #Yahoo.com
 0.0.0.0 ads.yahoo.com fc.yahoo.com geo.yahoo.com geo.query.yahoo.com iquery.finance.yahoo.com
 0.0.0.0 a.beap.gemini.yahoo.com b.beap.gemini.yahoo.com c.beap.gemini.yahoo.com d.beap.gemini.yahoo.com e.beap.gemini.yahoo.com f.beap.gemini.yahoo.com g.beap.gemini.yahoo.com h.beap.gemini.yahoo.com i.beap.gemini.yahoo.com j.beap.gemini.yahoo.com k.beap.gemini.yahoo.com l.beap.gemini.yahoo.com m.beap.gemini.yahoo.com n.beap.gemini.yahoo.com o.beap.gemini.yahoo.com p.beap.gemini.yahoo.com q.beap.gemini.yahoo.com r.beap.gemini.yahoo.com s.beap.gemini.yahoo.com t.beap.gemini.yahoo.com u.beap.gemini.yahoo.com v.beap.gemini.yahoo.com w.beap.gemini.yahoo.com x.beap.gemini.yahoo.com y.beap.gemini.yahoo.com z.beap.gemini.yahoo.com
 0.0.0.0 beap.gemini.yahoo.com jill.fc.yahoo.com csm.analytics.yahoo.com opus.analytics.yahoo.com sp.analytics.yahoo.com video-api.yql.yahoo.com
+
+#yahoo.net
 0.0.0.0 hb.yahoo.net
-0.0.0.0 l.yimg.com
-#0.0.0.0  s.yimg.com --> Yahoo Financeが表示されなくなる
+
+#yahoomedia.net
 0.0.0.0 cdn.yahoomedia.net
+
+#yahoosandbox.com
 0.0.0.0 jac.yahoosandbox.com
 
-#Yahoo Japan
-#Yahooへのログインができなくなる --> s.yimg.jp
-#ヤフオクの画像が表示されない --> auc-pctr.c.yimg.jp
+#yimg.com
+0.0.0.0 l.yimg.com
+#Yahoo Financeが表示されなくなる 0.0.0.0 s.yimg.com
+
+#yimg.jp
 0.0.0.0 ads.c.yimg.jp
+#ヤフオクの画像が表示されない 0.0.0.0 auc-pctr.c.yimg.jp
 0.0.0.0 im.c.yimg.jp
+#Yahooへのログインができなくなる 0.0.0.0 s.yimg.jp
 0.0.0.0 yads.c.yimg.jp
+
+#yjtag.jp
 0.0.0.0 b.yjtag.jp s.yjtag.jp
-0.0.0.0 b92.yahoo.co.jp dsb.yahoo.co.jp cksync.yahoo.co.jp yads.yahoo.co.jp ybx.yahoo.co.jp yjtag.yahoo.co.jp
-0.0.0.0 slink.west.edge.storage-yahoo.jp
 
 #ykksu.cn
-#有害
-0.0.0.0 ykksu.cn
+#有害 0.0.0.0 ykksu.cn
 
 #yoast.com
 0.0.0.0 yoast.com
