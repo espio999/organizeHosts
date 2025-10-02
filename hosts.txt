@@ -162,6 +162,7 @@
 0.0.0.0 tr.ssp.bance.jp
 0.0.0.0 api.bestzpagelearnnextzone.com
 0.0.0.0 ads.betweendigital.com
+0.0.0.0 beyondwickedmapping.org
 0.0.0.0 x.bidswitch.net
 0.0.0.0 cdn.bigmining.com
 0.0.0.0 c.bing.com
