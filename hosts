@@ -1489,7 +1489,7 @@
 #twitterアイコン 0.0.0.0 abs-0.twimg.com
 0.0.0.0 cdn.syndication.twimg.com
 0.0.0.0 pbs.syndication.twimg.com
-0.0.0.0 video.twimg.com
+#twitter動画 0.0.0.0 video.twimg.com
 
 #twitter
 0.0.0.0 platform.twitter.com

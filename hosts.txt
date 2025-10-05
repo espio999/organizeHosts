@@ -745,7 +745,6 @@
 0.0.0.0 rtd.tubemogul.com
 0.0.0.0 cdn.syndication.twimg.com
 0.0.0.0 pbs.syndication.twimg.com
-0.0.0.0 video.twimg.com
 0.0.0.0 platform.twitter.com
 0.0.0.0 use.typekit.net
 0.0.0.0 cdn.unblockia.com
