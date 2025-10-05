@@ -365,7 +365,8 @@
 #0.0.0.0 cdnjs.cloudflare.com
 
 #cloudinary.com noDNS
-0.0.0.0 nordot-res.cloudinary.com res.cloudinary.com
+0.0.0.0 nordot-res.cloudinary.com
+#現代ビジネスの画像 0.0.0.0 res.cloudinary.com
 
 #cloud-messenger.net
 0.0.0.0 api.cloud-messenger.net
