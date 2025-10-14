@@ -1362,8 +1362,8 @@
 0.0.0.0 ads.stickyadstv.com
 
 #st-note.com
-0.0.0.0 assets.st-note.com
-0.0.0.0 cdn.st-note.com
+#noteの画像 0.0.0.0 assets.st-note.com
+#noteの画像 0.0.0.0 cdn.st-note.com
 
 #storage-yahoo.jp
 0.0.0.0 slink.west.edge.storage-yahoo.jp
