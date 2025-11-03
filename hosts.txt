@@ -539,6 +539,8 @@
 0.0.0.0 envoy-hl.envoy-csync.core-002-ew4.ov1o.com
 0.0.0.0 www.pages07.net
 0.0.0.0 www.sc.pages07.net
+0.0.0.0 blocktool.pages.dev
+0.0.0.0 checkx.pages.dev
 0.0.0.0 api16-access-sg.pangle.io
 0.0.0.0 api16-access-wf-sg.pangle.io
 0.0.0.0 api16-event-sg2.pangle.io

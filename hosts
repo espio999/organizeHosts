@@ -1092,6 +1092,10 @@
 #pages07.net
 0.0.0.0 www.pages07.net www.sc.pages07.net
 
+#pages.dev
+0.0.0.0 blocktool.pages.dev
+0.0.0.0 checkx.pages.dev
+
 #pangle.io
 0.0.0.0 api16-access-sg.pangle.io
 0.0.0.0 api16-access-wf-sg.pangle.io
