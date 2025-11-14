@@ -794,6 +794,9 @@
 #indir-zpf.com
 #有害 0.0.0.0 indir-zpf.com
 
+#intentiq.com
+0.0.0.0 sync.intentiq.com
+
 #interactive-circle.jp
 0.0.0.0 panel.interactive-circle.jp
 
@@ -864,6 +867,9 @@
 
 #lijit.com
 0.0.0.0 ap.lijit.com
+
+#line.me
+0.0.0.0 tr.line.me
 
 #line-apps.com
 0.0.0.0 scdn.line-apps.com
@@ -1014,6 +1020,9 @@
 
 #newrelic
 0.0.0.0 js-agent.newrelic.com
+
+#nexx360.io
+0.0.0.0 cdn.nexx360.io
 
 #nextmillmedia.com
 0.0.0.0 cookies.nextmillmedia.com
@@ -1326,6 +1335,7 @@
 0.0.0.0 ssbsync.smartadserver.com
 
 #smartnews-ads.com
+0.0.0.0 cdn.smartnews-ads.com
 0.0.0.0 i.smartnews-ads.com i6.smartnews-ads.com
 
 #spadsync.com

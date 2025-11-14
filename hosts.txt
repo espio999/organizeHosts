@@ -403,6 +403,7 @@
 0.0.0.0 cdn-gl.imrworldwide.com
 0.0.0.0 cdn.indexww.com
 0.0.0.0 js-sec.indexww.com
+0.0.0.0 sync.intentiq.com
 0.0.0.0 panel.interactive-circle.jp
 0.0.0.0 api64.ipify.org
 0.0.0.0 pxl.iqm.com
@@ -431,6 +432,7 @@
 0.0.0.0 px.ladsp.com
 0.0.0.0 cdn.liftoff-creatives.io
 0.0.0.0 ap.lijit.com
+0.0.0.0 tr.line.me
 0.0.0.0 scdn.line-apps.com
 0.0.0.0 d.line-scdn.net
 0.0.0.0 static.line-scdn.net
@@ -500,6 +502,7 @@
 0.0.0.0 cs.nakanohito.jp
 0.0.0.0 io.narrative.io
 0.0.0.0 js-agent.newrelic.com
+0.0.0.0 cdn.nexx360.io
 0.0.0.0 cookies.nextmillmedia.com
 0.0.0.0 location.nhk.or.jp
 0.0.0.0 nkis.nikkei.com
@@ -644,6 +647,7 @@
 0.0.0.0 prg.smartadserver.com
 0.0.0.0 rtb-csync-apac1.smartadserver.com
 0.0.0.0 ssbsync.smartadserver.com
+0.0.0.0 cdn.smartnews-ads.com
 0.0.0.0 i.smartnews-ads.com
 0.0.0.0 i6.smartnews-ads.com
 0.0.0.0 spadsync.com
