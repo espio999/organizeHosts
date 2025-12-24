@@ -21,6 +21,7 @@
 0.0.0.0 pixels.ad.gt
 0.0.0.0 ad999.biz
 0.0.0.0 cdn.adapex.io
+0.0.0.0 vlOIcXUv.addictivetips.com
 0.0.0.0 static.addtoany.com
 0.0.0.0 c1.adform.net
 0.0.0.0 cm.adform.net
@@ -118,6 +119,7 @@
 0.0.0.0 rtbpass-us.andbeyond.media
 0.0.0.0 player.aniview.com
 0.0.0.0 anymind360.com
+0.0.0.0 diffuser-cdn.app-us1.com
 0.0.0.0 ad.appier.net
 0.0.0.0 jprtb.c.appier.net
 0.0.0.0 vst.c.appier.net
@@ -460,6 +462,7 @@
 0.0.0.0 warp.media.net
 0.0.0.0 assets.media-platform.com
 0.0.0.0 rgepodownkiad.nediatek.com
+0.0.0.0 scripts.mediavine.com
 0.0.0.0 mediaweaver.jp
 0.0.0.0 jsc.mgid.com
 0.0.0.0 j.microad.net

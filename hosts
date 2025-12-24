@@ -59,6 +59,9 @@
 #adapex.io
 0.0.0.0 cdn.adapex.io
 
+#addictivetips.com
+0.0.0.0 vlOIcXUv.addictivetips.com
+
 #addtoany.com
 0.0.0.0 static.addtoany.com
 
@@ -215,6 +218,9 @@
 
 #app-measurement.com
 #0.0.0.0 app-measurement.com
+
+#app-us1.com
+0.0.0.0 diffuser-cdn.app-us1.com
 
 #appier.net
 0.0.0.0 ad.appier.net
@@ -932,6 +938,9 @@
 
 #mediatek.com
 0.0.0.0 rgepodownkiad.nediatek.com
+
+#mediavine.com
+0.0.0.0 scripts.mediavine.com
 
 #mediaweaver.jp
 0.0.0.0 mediaweaver.jp
