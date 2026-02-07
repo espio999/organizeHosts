@@ -282,8 +282,6 @@
 0.0.0.0 fam-ad.com
 0.0.0.0 secure.cdn.fastclick.net
 0.0.0.0 global.moloco.map.fastly.net
-0.0.0.0 jsdelivr.map.fastly.net
-0.0.0.0 reddit.map.fastly.net
 0.0.0.0 static.xx.fbcdn.net
 0.0.0.0 analyzer51.fc2.com
 0.0.0.0 counter.fc2.com
@@ -602,9 +600,6 @@
 0.0.0.0 imagegooranking.rank-king.jp
 0.0.0.0 cdn-settings.rayjump.com
 0.0.0.0 lb-133-237-105-33.lbaas.jpe1a.rdcnw.net
-0.0.0.0 e.reddit.com
-0.0.0.0 gql-fed.reddit.com
-0.0.0.0 w3-reporting.reddit.com
 0.0.0.0 api.relaido.jp
 0.0.0.0 api.reproio.com
 0.0.0.0 api.revenuecat.com

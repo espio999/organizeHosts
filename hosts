@@ -546,8 +546,8 @@
 
 #fastly.net
 0.0.0.0 global.moloco.map.fastly.net
-0.0.0.0 jsdelivr.map.fastly.net
-0.0.0.0 reddit.map.fastly.net
+#0.0.0.0 jsdelivr.map.fastly.net
+#0.0.0.0 reddit.map.fastly.net
 
 #fbcdn.net
 0.0.0.0 static.xx.fbcdn.net
@@ -1245,9 +1245,9 @@
 0.0.0.0 lb-133-237-105-33.lbaas.jpe1a.rdcnw.net
 
 #reddit.com
-0.0.0.0 e.reddit.com
-0.0.0.0 gql-fed.reddit.com
-0.0.0.0 w3-reporting.reddit.com
+#0.0.0.0 e.reddit.com
+#0.0.0.0 gql-fed.reddit.com
+#0.0.0.0 w3-reporting.reddit.com
 
 #relaido.jp
 0.0.0.0 api.relaido.jp
