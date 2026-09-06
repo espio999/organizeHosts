@@ -160,6 +160,7 @@
 0.0.0.0 media.assistads.net
 0.0.0.0 cdn.audiencedata.net
 0.0.0.0 cdn.avantisvideo.com
+0.0.0.0 adsdkprod.azureedge.net
 0.0.0.0 js.ssp.bance.jp
 0.0.0.0 tr.ssp.bance.jp
 0.0.0.0 api.bestzpagelearnnextzone.com
@@ -466,6 +467,7 @@
 0.0.0.0 jsc.mgid.com
 0.0.0.0 j.microad.net
 0.0.0.0 d-cache.microad.jp
+0.0.0.0 adsdk.microsoft.com
 0.0.0.0 analytics-tcp.mintegral.net
 0.0.0.0 opt.mieru-ca.com
 0.0.0.0 ml314.com
@@ -485,6 +487,7 @@
 0.0.0.0 ent-api.msn.com
 0.0.0.0 mobileads.msn.com
 0.0.0.0 srtb.msn.com
+0.0.0.0 zks1-ib.msn.com
 0.0.0.0 c.msn.cn
 0.0.0.0 static-global-s-msn-com.akamaized.net
 0.0.0.0 sdk.mrf.io

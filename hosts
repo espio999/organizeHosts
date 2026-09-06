@@ -285,6 +285,9 @@
 #ax-msedge.net
 #0.0.0.0 ax-0003.ax-msedge.net
 
+#azureedge.net
+0.0.0.0 adsdkprod.azureedge.net
+
 #bance.jp
 0.0.0.0 js.ssp.bance.jp tr.ssp.bance.jp
 
@@ -958,6 +961,9 @@
 0.0.0.0 j.microad.net
 0.0.0.0 d-cache.microad.jp
 
+#microsoft.com
+0.0.0.0 adsdk.microsoft.com
+
 #mid-round.com
 #有害 0.0.0.0 mid-round.com
 
@@ -1001,6 +1007,7 @@
 #msnポータルの機能が失われる 0.0.0.0 assets.msn.com
 #0.0.0.0 api.msn.com
 0.0.0.0 browser.events.data.msn.com c.msn.com ent-api.msn.com mobileads.msn.com srtb.msn.com
+0.0.0.0 zks1-ib.msn.com
 0.0.0.0 c.msn.cn
 0.0.0.0 static-global-s-msn-com.akamaized.net
 
