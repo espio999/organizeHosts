@@ -1,0 +1,918 @@
+<noscript>
+  <meta http-equiv="refresh" content="0;URL='https://0.0.0.0'" />
+</noscript>
+
+<!--　SE6対応の確認コードなので、SR6以前の記述スタイルでなければならない。　-->
+<script>
+  var isLegacy = (function() {
+    try {
+      // 1. 最小限のES6構文チェック
+      new Function('() => {}');
+
+      // 2. 必須APIの存在チェック
+      if (typeof Promise === "undefined" || !Object.assign) {
+        return true;
+      }
+      
+      return false;
+    } catch (e) {
+      return true;
+    }
+  })();
+
+  if (isLegacy) {
+    window.stop();
+    var destination_url = "https://0.0.0.0";
+    window.location.replace(destination_url);
+  }
+</script>
+
+<!--　最初の検閲　-->
+<script>
+  function isSuspiciousAccess(){
+    const isDirectAccess = !document.referrer;
+    if (isDirectAccess){
+      return true;
+    }
+    
+    const domainMap = new Set([
+      'www.aocr.org'
+    ]);
+
+    try{
+      const url = new URL(document.referrer);
+      const host = url.hostname;
+      if (domainMap.has(host)){
+        return true;
+      }
+    }
+    catch(e){
+      return true;
+    }
+
+    return false;
+  }
+
+  function isFriendlyBot_inline(){
+    const bot_list = [
+      'AdsBot-Google-Mobile', //Google Ads
+      'Applebot',             // Apple (Siri/Spotlight)
+      'bingbot',              // Bing / Microsoft Ads
+      'aka.ms/Microsoft',     // Microsoft clawler
+      //'Baiduspider',          // Baidu (中国最大手)
+      'DuckDuckBot',          // DuckDuckGo
+      //'facebookexternalhit',  // Facebookのリンクプレビュー
+      'Google-InspectionTool',  //URL検査ツール
+      'Google-Read-Aloud',    //Google テキスト読み上げサービス
+      'Google-Safety',    //Google テキスト読み上げサービス
+      'Google-Site-Verification', //サイトの所有権確認
+      'Googlebot',            // Google
+      //'PerplexityBot'         // AI検索 (Perplexity)
+      'Slackbot',             // Slackのリンク展開
+      'Twitterbot',           // X (Twitter) のリンク展開
+      'Y!J-',                 // Yahoo! JAPAN (独自の巡回ボット)
+      //'YandexBot',            // Yandex (ロシア最大手)
+    ];
+
+    const reg_bot = new RegExp(bot_list.join('|'), 'i');
+    return reg_bot.test(navigator.userAgent);
+  }
+  
+  function isE2Etest_inline(){
+    //E2Eテストライブラリのオブジェクトを確認
+    //一つでもロードされているとtruthy→一つ目の!でfalse、二つ目の!でtrue
+    //一つもロードされていないとfalse →一つ目の!でtrue、二つ目の!でfalse
+    const isBot = !!(
+      window.__nightmare || 
+      navigator.webdriver || 
+      window.Cypress || 
+      window._phantom
+    );
+
+    //言語設定されていない状況を判定
+    const hasNoLanguage = !!(navigator.languages && navigator.languages.length === 0);
+
+    return (isBot || hasNoLanguage);
+  }
+
+  function isSuspiciousTimezone(){
+    const suspicious_timezone = new Set([
+      //'Asia/Hong_Kong',
+      'Asia/Shanghai',
+      'Europe/Moscow',
+      'Etc/Unknown',
+    ]);
+
+    try{
+      const timezone_user = Intl.DateTimeFormat().resolvedOptions().timeZone;
+      return suspicious_timezone.has(timezone_user);
+    }
+    catch(e){
+      //timezone取得不可の場合
+      return true;
+    }
+  }
+
+  function isSuspiciousRegion(){
+    const suspicious_patterns = [
+      'America/Los_Angeles,zh-CN',
+      'America/Los_Angeles,zh-CN,zh',
+      'America/Mexico_City,zh-CN',
+      'America/Mexico_City,zh-CN,zh',
+      'Asia/Dhaka,en-US,en',
+      'Asia/Dhaka,en-US,en,bn',
+      'Asia/Hong_Kong,zh-CN',
+      'Asia/Hong_Kong,zh-CN,zh',
+      'Asia/Singapore,zh-CN',
+      'Asia/Singapore,zh-CN,zh',
+      'UTC,en-US',
+      'UTC,en-US,en',
+    ];
+
+    const is_undefined = (
+      typeof window === 'undefined' || 
+      typeof navigator === 'undefined' ||
+      typeof Intl === 'undefined'
+    );
+    if (is_undefined) return false;
+
+    const my_tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    const my_langs = navigator.languages ? navigator.languages.join(',') : navigator.language;
+
+    const current_status = `${my_tz},${my_langs}`;
+
+    return suspicious_patterns.some(pattern => current_status === pattern);
+  }
+
+  function isSuspiciousResolution(){
+    const suspicious_resolution = new Set([
+      "0,0",
+      //"360,780","780,360",
+      //"375,667","667,375",
+      //"375,812","812,375",
+      "480,800","800,480",
+      "517,826","826,517",
+      "600,800","800,600",
+      "600,1080","1080,600",
+      "810,1080","1080,810",
+      "900,1000","1000,900",
+      "939,587","587,939",
+      "981,613","613,981",
+      "1024,1024",
+      "1024,1280","1280,1024",
+      "1128,752",
+      "1200,1280","1280,1200",
+      "1200,1920","1920,1200",
+      "1200,3000",
+      "1206,1431","1431,1206",
+      "1232,1524","1524,1232",
+      "1262,1440","1440,1262",
+      "1267,1101","1101,1267",
+      "1280,1280",
+      "1312,1332",
+      "1366,1366",
+      "1463,823",
+      "1536,864",
+      "1600,1000",
+      "1600,1600",
+      "1664,1110",
+      "1707,960",
+      "1707,1067",
+      "1720,720",
+      "1873,1103",
+      "1895,1039",
+      "1938,1068",
+      "3072,1728",
+    ]);
+
+    const is_undefined = (typeof window === 'undefined' || typeof screen === 'undefined');
+    const SCREEN_WIDTH = (is_undefined) ? 0 : screen.width;
+    const SCREEN_HEIGHT = (is_undefined) ? 0 : screen.height;
+    const my_pair = [SCREEN_WIDTH, SCREEN_HEIGHT];
+    const isSuspicious = suspicious_resolution.has(my_pair.join(','));
+    return isSuspicious;
+  }
+
+  /*function isSuspiciousCombination() {
+    const suspicious_resolutions = new Set([
+      "1280,720",
+      "1920,1080",
+      "2560,1440",
+    ]);
+
+    const suspicious_languages = new Set([
+      "ja-JP,en-US,ja,en",
+    ]);
+
+    const is_undefined = (typeof window === 'undefined' || typeof screen === 'undefined' || typeof navigator === 'undefined');
+    if (is_undefined) return false;
+
+    const my_res_pair = `${screen.width},${screen.height}`;
+
+    const my_lang_pair = navigator.languages ? navigator.languages.join(',') : navigator.language;
+
+    const isResSuspicious = suspicious_resolutions.has(my_res_pair);
+    const isLangSuspicious = suspicious_languages.has(my_lang_pair);
+
+    return isResSuspicious && isLangSuspicious;
+  }*/
+
+  function isSuspiciousCombination() {
+    const suspicious_patterns = [
+      "800,600,America/New_York,en-US",
+      "800,600,America/New_York,en-US,en",
+      "800,600,UTC,en-US,en",
+      "1128,752,Asia/Tokyo,ja-JP,en-US,ja,en",
+      "1200,1920,Asia/Tokyo,en-US,en",
+      "1200,1920,Asia/Tokyo,ja,en-US,en",
+      "1208,1378,Asia/Singapore,zh-CN,zh",
+      "1218,1460,Asia/Los_Angeles,zh-CN,zh",
+      //"1229,820,Asia/Tokyo,ja,en-US,en",
+      "1231,1197,America/Los_Angeles,zh-CN,zh",
+      "1232,1524,Asia/Hong_Kong,zh-CN,zh",
+      "1239,1169,America/Los_Angeles,zh-CN,zh",
+      "1239,1203,America/Los_Angeles,zh-CN,zh",
+      "1242,1393,America/Los_Angeles,zh-CN,zh",
+      "1244,1363,Asia/Singapore,zh-CN,zh",
+      "1247,1222,America/Los_Angeles,zh-CN,zh",
+      "1251,1409,Asia/Hong_Kong,zh-CN,zh",
+      "1254,1387,America/Los_Angeles,zh-CN,zh",
+      "1259,1413,Asia/Hong_Kong,zh-CN,zh",
+      "1266,1350,America/Los_Angeles,zh-CN,zh",
+      "1270,1525,America/Los_Angeles,zh-CN,zh",
+      "1271,1506,America/Los_Angeles,zh-CN,zh",
+      "1274,1347,Asia/Singapore,zh-CN,zh",
+      "1280,720,Asia/Tokyo,en-US,en,ja",
+      "1280,720,Asia/Tokyo,ja-JP,en-US,ja,en",
+      "1280,1200,Asia/Shanghai,en-US",
+      "1294,1403,Asia/Singapore,zh-CN,zh",
+      "1295,1399,Asia/Los_Angeles,zh-CN,zh",
+      "1306,1338,America/Mexico_City,zh-CN,zh",
+      "1312,1332,America/Los_Angeles,zh-CN,zh",
+      "1316,1364,Asia/Singapore,zh-CN,zh",
+      "1321,1419,America/Los_Angeles,zh-CN,zh",
+      "1331,1258,America/Los_Angeles,zh-CN,zh",
+      "1343,1475,America/Mexico_City,zh-CN,zh",
+      "1355,1454,Asia/Singapore,zh-CN,zh",
+      "1361,1338,America/Los_Angeles,zh-CN,zh",
+      "1361,1351,America/Los_Angeles,zh-CN,zh",
+      "1365,1340,America/Los_Angeles,zh-CN,zh",
+      "1365,1343,America/Mexico_City,zh-CN,zh",
+      "1366,768,UTC,en-US,en",
+      "1366,768,Asia/Dhaka,en-US,en",
+      "1366,768,Asia/Dhaka,en-US,en,bn",
+      "1370,1435,America/Mexico_City,zh-CN,zh",
+      "1378,1416,America/Mexico_City,zh-CN,zh",
+      "1381,1368,Asia/Singapore,zh-CN,zh",
+      "1384,1420,Asia/Singapore,zh-CN,zh",
+      //"1440,960,Asia/Tokyo,ja,en-US,en",
+      //"1440,960,Asia/Tokyo,ja,en,en-GB,en-US",
+      "1463,823,Asia/Tokyo,ja-JP,en-US,ja,en",
+      "1536,864,Asia/Tokyo,ja-JP,en-US,ja,en",
+      "1664,1110,Asia/Tokyo,ja-JP,en-US,ja,en",
+      "1720,720,Asia/Tokyo,ja-JP,en-US,ja,en",
+      "1829,1143,Asia/Tokyo,en-US,en,ja",
+      "1920,1080,Asia/Baku,en-US",
+      "1920,1080,Asia/Tokyo,en-US,en",
+      //"1920,1080,Asia/Tokyo,en-US,en,ja",
+      "1920,1080,Asia/Tokyo,ja,en-US,en,zh-CN",
+      //"1920,1080,Asia/Tokyo,ja-JP,en-US,ja,en",
+      "1920,1080,Asia/Tokyo,vi-VN,vi,fr-FR,fr,en-US,en",
+      "1920,1080,Europe/Moscow,tr-TR,tr,en-US,en",
+      "2048,1152,Asia/Tokyo,ja-JP,en-US,ja,en",
+      "2048x1153,Asia/Macau,ja,en-US,en,zh-CN,zh,zh-TW",
+      "2560,1440,Asia/Tokyo,en-US,en",
+      "2560,1440,Asia/Tokyo,ja,en-US,en,zh-CN",
+      "2560,1440,Asia/Tokyo,ja-JP,en-US,ja,en",
+      "3072,1728,Asia/Tokyo,ja-JP,en-US,ja,en",
+    ];
+
+    const is_undefined = (
+      typeof window === 'undefined' || 
+      typeof screen === 'undefined' || 
+      typeof navigator === 'undefined' ||
+      typeof Intl === 'undefined'
+    );
+    if (is_undefined) return false;
+
+    const my_res = `${screen.width},${screen.height}`;
+    const my_tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    const my_langs = navigator.languages ? navigator.languages.join(',') : navigator.language;
+
+    const current_status = `${my_res},${my_tz},${my_langs}`;
+
+    return suspicious_patterns.some(pattern => current_status === pattern);
+  }
+
+  function isSuspiciousFingerprint() {
+    const suspicious_patterns = [
+      "iOS,Safari,390,844,Asia/Tokyo,en-US",
+      "Linux,Chrome,1280,800,UTC,en-US,en",
+      "Linux,Chrome,1536,960,Asia/Hong_Kong,en-US,en",
+      "Linux,Chrome,1920,1080,America/Chicago,en-US,en",
+      "Linux,Chrome,1920,1080,America/Denver,en-US,en",
+      "Linux,Chrome,1920,1080,America/Los_Angeles,en-US,en",
+      "Linux,Chrome,1920,1080,America/Mexico_City,en-US,en",
+      "Linux,Chrome,1920,1080,America/New_York,en-US,en",
+      "Linux,Chrome,1920,1080,America/Phoenix,en-US,en",
+      "Windows,Chrome,1280,720,UTC,en-US,en",
+      "Windows,Chrome,1920,1080,Asia/Hong_Kong,en-US",
+      "Windows,Chrome,1920,1080,Asia/Singapore,ja,en-US,en",
+      "Windows,Chrome,1920,1080,America/New_York,en-US,en",
+      "Windows,Chrome,2560,1600,America/New_York,en-US,en",
+    ];
+
+    const is_undefined = (
+      typeof window === 'undefined' || 
+      typeof screen === 'undefined' || 
+      typeof navigator === 'undefined' ||
+      typeof Intl === 'undefined'
+    );
+    if (is_undefined) return false;
+
+    const my_res = `${screen.width},${screen.height}`;
+    const my_tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    const my_langs = navigator.languages ? navigator.languages.join(',') : navigator.language;
+
+    const current_status = `${MY_OS},${MY_BROWSER},${my_res},${my_tz},${my_langs}`;
+
+    return suspicious_patterns.some(pattern => current_status === pattern);
+  }
+
+  function isSuspiciousQuery(){
+    const suspicious_keys = new Set([
+      'ad_format_ids',
+      'sua',
+      'gclid',
+      'fbclid',   // Facebookの追跡ID（不要な場合）
+      'msclkid',  // Microsoft広告の追跡ID
+    ]);
+
+    const query_params = new URLSearchParams(window.location.search);
+
+    let isSuspicious = false;
+    for (const key of query_params.keys()) {
+      if (suspicious_keys.has(key)) {
+        isSuspicious = true;
+        break;
+      }
+    }
+
+    return isSuspicious;
+  }
+
+  function is360browser(){
+    // 360 secure browser検出の正規表現
+    const list_360 = [
+      '360se',
+      'WOW64',
+      'QIHU',
+    ];
+
+    const reg_360 = new RegExp(list_360.join('|'), 'i');
+    return !!(UA_INLINE && reg_360.test(UA_INLINE));
+  }
+
+  function isHeadless(){
+    const reg = /HeadlessChrome/i;
+
+    return (navigator.webdriver === true) || reg.test(UA_INLINE);
+  }
+
+  function isServerside(){
+    return (typeof window === 'undefined' || typeof screen === 'undefined')
+  }
+
+  function getOs(){
+    // 簡単なOS・ブラウザ判別ロジック
+    let os = "Unknown OS";
+    if (UA_INLINE.indexOf("Win") != -1) os = "Windows";
+    if (UA_INLINE.indexOf("Mac") != -1) os = "Mac OS";
+    if (UA_INLINE.indexOf("Linux") != -1) os = "Linux";
+    if (UA_INLINE.indexOf("Android") != -1) os = "Android";
+    if (UA_INLINE.indexOf("like Mac") != -1) os = "iOS";
+    return os;
+  }
+
+  function getBrowser(){
+    // 簡単なOS・ブラウザ判別ロジック
+    let browser = "Unknown Browser";
+    if (UA_INLINE.indexOf("Firefox") != -1) browser = "Firefox";
+    if (UA_INLINE.indexOf("Safari") != -1) browser = "Safari";
+    if (UA_INLINE.indexOf("Edge") != -1) browser = "Edge";
+    if (UA_INLINE.indexOf("Chrome") != -1) browser = "Chrome";
+    return browser;
+  }
+
+  const UA_INLINE = navigator.userAgent;
+  const MY_OS = getOs();
+  const MY_BROWSER = getBrowser();
+
+  //const isDirectAccess = !document.referrer;
+  const isSuspiciousBot = !(isFriendlyBot_inline() && !isE2Etest_inline());
+
+  if (isSuspiciousAccess() && isSuspiciousBot && (isSuspiciousTimezone() || isSuspiciousRegion() || isSuspiciousResolution() || isSuspiciousCombination() || isSuspiciousFingerprint() || isSuspiciousQuery() || is360browser() || isHeadless() || isServerside())) {
+    window.stop();
+    
+    const destination_url = "https://0.0.0.0";
+    //window.location.replace(destination_url);
+
+    //history.replaceState(null, '', destination_url);
+    //location.reload();
+    
+    if (window.navigation) {
+      navigation.navigate(destination_url, { history: 'replace' });
+    } else {
+      location.replace(destination_url);
+    }
+  }
+</script>
+
+<!--　フラグ設定　-->
+<script>
+  /*function isE2Etest_inline(){
+    //E2Eテストライブラリのオブジェクトを確認
+    //一つでもロードされているとtruthy→一つ目の!でfalse、二つ目の!でtrue
+    //一つもロードされていないとfalse →一つ目の!でtrue、二つ目の!でfalse
+    const isBot = !!(
+      window.__nightmare || 
+      navigator.webdriver || 
+      window.Cypress || 
+      window._phantom
+    );
+
+    //言語設定されていない状況を判定
+    const hasNoLanguage = !!(navigator.languages && navigator.languages.length === 0);
+
+    return (isBot || hasNoLanguage);
+  }*/
+
+  /*function isFriendlyBot_inline(){
+    const bot_list = [
+      'AdsBot-Google-Mobile', //Google Ads
+      'Applebot',             // Apple (Siri/Spotlight)
+      'bingbot',              // Bing / Microsoft Ads
+      //'Baiduspider',          // Baidu (中国最大手)
+      'DuckDuckBot',          // DuckDuckGo
+      //'facebookexternalhit',  // Facebookのリンクプレビュー
+      'Google-InspectionTool',  //URL検査ツール
+      'Google-Read-Aloud',    //Google テキスト読み上げサービス
+      'Google-Safety',    //Google テキスト読み上げサービス
+      'Google-Site-Verification', //サイトの所有権確認
+      'Googlebot',            // Google
+      //'PerplexityBot'         // AI検索 (Perplexity)
+      'Slackbot',             // Slackのリンク展開
+      'Twitterbot',           // X (Twitter) のリンク展開
+      'Y!J-',                 // Yahoo! JAPAN (独自の巡回ボット)
+      //'YandexBot',            // Yandex (ロシア最大手)
+    ];
+
+    const reg_bot = new RegExp(bot_list.join('|'), 'i');
+    return reg_bot.test(navigator.userAgent);
+  }*/
+
+  function isRedirected_inline(){
+    const url_param = new URLSearchParams(window.location.search);
+    return !!url_param.get('expected');
+  }
+
+  window.FLAG_MAP = window.FLAG_MAP || {
+    isInlineExecuted: false,
+    isFriendlyBot: (isFriendlyBot_inline() && !isE2Etest_inline()),
+    isNoReferrer: !document.referrer,
+    isRedirected: isRedirected_inline(),
+    reason: "",
+    log_mode: "",
+  };
+
+  const {
+    promise: gate,
+    resolve: unlock,
+    reject: forceOpen
+  } = Promise.withResolvers();
+</script>
+
+<script>
+  /*
+  function is360_inline(){
+    const ua = navigator.userAgent;
+
+    // 360 secure browser検出の正規表現
+    const list_360 = [
+      '360se',
+      'WOW64',
+      'QIHU',
+    ];
+
+    const reg_360 = new RegExp(list_360.join('|'), 'i');
+    return !!(ua && reg_360.test(ua));
+  }
+  */
+
+  /*
+  function isE2Etest_inline(){
+    //E2Eテストライブラリのオブジェクトを確認
+    //一つでもロードされているとtruthy→一つ目の!でfalse、二つ目の!でtrue
+    //一つもロードされていないとfalse →一つ目の!でtrue、二つ目の!でfalse
+    const isBot = !!(
+      window.__nightmare || 
+      navigator.webdriver || 
+      window.Cypress || 
+      window._phantom
+    );
+
+    //言語設定されていない状況を判定
+    const hasNoLanguage = !!(navigator.languages && navigator.languages.length === 0);
+
+    return (isBot || hasNoLanguage);
+  }
+  */
+
+  /*
+  function isFriendlyBot_inline(){
+    const bot_list = [
+      'Googlebot',            // Google
+      'bingbot',              // Bing / Microsoft Ads
+      'Applebot',             // Apple (Siri/Spotlight)
+      'DuckDuckBot',          // DuckDuckGo
+      'Y!J-',                 // Yahoo! JAPAN (独自の巡回ボット)
+      //'Baiduspider',          // Baidu (中国最大手)
+      //'YandexBot',            // Yandex (ロシア最大手)
+      //'facebookexternalhit',  // Facebookのリンクプレビュー
+      'Slackbot',             // Slackのリンク展開
+      'Twitterbot',           // X (Twitter) のリンク展開
+      //'PerplexityBot'         // AI検索 (Perplexity)
+    ];
+
+    const reg_bot = new RegExp(bot_list.join('|'), 'i');
+    return reg_bot.test(navigator.userAgent);
+  }
+  */
+
+  function executeRedirect_inline(){
+    const CONFIG = {
+      REDIRECT_BASE: "https://0.0.0.0",
+      WARNING_URL: "https://impsbl.hatenablog.jp/entry/20260228",
+      WARNING_HASH: "#Redirect-Destination-for-Suspicious-Access%E4%B8%8D%E5%AF%A9%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AE%E8%BB%A2%E9%80%81%E5%85%88",
+      // 本来のページURLをパラメータとして付与
+      ORIGINAL_URL: `?expected=${encodeURIComponent(window.location.href)}`
+    };
+
+    let destination_url;
+
+    switch (window.FLAG_MAP.reason) {
+      case "clarity":
+      case "clicky":
+      case "cloudflare":
+      case "fetch":
+      case "goatcounter":
+      case "juicer":
+      case "statcounter":
+      case "umami":
+        return;
+        destination_url = CONFIG.WARNING_URL + CONFIG.ORIGINAL_URL + CONFIG.WARNING_HASH;
+        break;
+      default:
+        destination_url = CONFIG.REDIRECT_BASE;
+    }
+
+    //window.location.replace(destination_url);
+
+    //history.replaceState(null, '', destination_url);
+    //location.reload();
+    
+    if (window.navigation) {
+        navigation.navigate(destination_url, { history: 'replace' });
+    } else {
+        location.replace(destination_url);
+    }
+  }
+
+
+  /*
+  async function executeLoggingAndRedirect_inline() {
+    await logToDiscord_inline();
+    executeRedirect_inline();
+  }
+  */
+
+
+  async function logToDiscord_inline() {
+    const webhookUrl = 'https://discord.com/api/webhooks/1459720856203825315/jcn_enLc0xQKrTtKvSJev_T3m_cAnlBVlEgqZxESPBBp1V0pcPL5LGypcSJ8uZ47Q7d2';
+
+    // user agentの取得
+    //const ua = navigator.userAgent;
+    const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    const languages = navigator.languages;
+    const resolution = `${window.screen.width}x${window.screen.height}`;
+    const previous_url = `${document.referrer}`;
+    const current_url = `${window.location.href}`;
+
+    // 簡単なOS・ブラウザ判別ロジック
+    /*
+    let os = "Unknown OS";
+    if (ua.indexOf("Win") != -1) os = "Windows";
+    if (ua.indexOf("Mac") != -1) os = "Mac OS";
+    if (ua.indexOf("Linux") != -1) os = "Linux";
+    if (ua.indexOf("Android") != -1) os = "Android";
+    if (ua.indexOf("like Mac") != -1) os = "iOS";
+
+    let browser = "Unknown Browser";
+    if (ua.indexOf("Chrome") != -1) browser = "Chrome";
+    else if (ua.indexOf("Firefox") != -1) browser = "Firefox";
+    else if (ua.indexOf("Safari") != -1) browser = "Safari";
+    else if (ua.indexOf("Edge") != -1) browser = "Edge";
+    */
+
+    // Discordに送信するデータ構造
+    let log_title = "🫥 Default";
+    let log_color = 16777215; //白色
+
+    switch (window.FLAG_MAP.log_mode) {
+      case "record":
+        //log_title = "👻 NoReferrer Access";
+        //log_color = 10181046; // 紫色
+        log_title = "🚫️ Blocking Analytics";
+        log_color = 8890731; // 緑色
+        break;
+      case "redirect":
+        log_title = "🚀 Redirect Log";
+        log_color = 15158332; // 赤色
+        break;
+    }
+
+    const payload = {
+        embeds: [{
+            title: log_title,
+            color: log_color,
+            fields: [
+                { name: "OS", value: os, inline: true },
+                { name: "Browser", value: browser, inline: true },
+                { name: "Resolution", value: resolution, inline: true },
+                { name: "Timezone", value: timezone, inline: true },
+                { name: "Languages", value: languages.toString(), inline: true },
+                { name: "Previous URL", value: previous_url, inline: false },
+                { name: "Current URL", value: current_url, inline: false },
+                { name: "isInlineExecuted", value: window.FLAG_MAP.isInlineExecuted, inline: true },
+                { name: "isNoReferrer", value: window.FLAG_MAP.isNoReferrer, inline: true },
+                { name: "isRedirected", value: window.FLAG_MAP.isRedirected, inline: true },
+                { name: "Comment", value: window.FLAG_MAP.reason || "なし", inline: false },
+                { name: "UserAgent", value: `\`\`\`${UA_INLINE}\`\`\``, inline: false }
+            ],
+            timestamp: new Date().toISOString()
+        }]
+    };
+
+    try {
+        const response = await fetch(webhookUrl, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload),
+            //keepalive: true,
+            //mode: 'no-cors'
+        });
+
+        if (response) console.log('Fetch completion confirmed');
+        
+    } catch (error) {
+        console.error('Failed to post to Discord:', error);
+    }
+  }
+
+  (function() {
+    const isSuspiciousAccess_inline = async (source) => {
+
+      /*
+      if (window.FLAG_MAP.isInlineExecuted || window.FLAG_MAP.isRedirected) {
+        unlock();
+        return false;
+      }
+      */
+
+      // 初回実行確認、初回実行のみ有効
+      // onerrorが2回以上発生した場合、実行する必要はない
+      if (window.FLAG_MAP.isInlineExecuted) {
+        return false;
+      }
+
+      // 前ページでonerrorイベントがあったのだから、リダイレクトされた
+      // リダイレクト先でも、同じonerrorイベントが起こる
+      // リダイレクト後は、エラー処理不要
+      // 検閲のみ実行する
+      if (window.FLAG_MAP.isRedirected) {
+        //window.FLAG_MAP.isRedirected = false;
+        unlock();
+        return false;
+      }
+
+      window.FLAG_MAP.isInlineExecuted = true;
+      window.FLAG_MAP.reason = source;
+      window.FLAG_MAP.log_mode = "redirect";
+
+      //　no referrerでなければ、検閲のみ実行する
+      // 友好的なボットならば、検閲のみ実行する
+      if (!window.FLAG_MAP.isNoReferrer || window.FLAG_MAP.isFriendlyBot) {
+        //logToDiscord_inline("record", `onError: ${window.FLAG_MAP.reason}`);
+        unlock();
+        return false;
+      }
+
+      // no referrerである
+      // 友好的ボットではない
+      // 必要なスクリプトをブロックしている
+      // アクセス集計サービスをブロックしている
+      try{
+        window.stop();
+        //await executeLoggingAndRedirect_inline();
+        await logToDiscord_inline();
+        window.FLAG_MAP.isRedirected = true;
+        executeRedirect_inline();
+        unlock();
+        return true;
+      }
+      catch(e){
+        console.log("inline fetch error");
+        forceOpen();
+        return false;
+      }
+    };
+
+    // 外部スクリプトから呼び出せるようにwindowに紐付ける
+    window.handleScriptError = async function(source) {
+      await isSuspiciousAccess_inline(source);
+    };
+  })();
+</script>
+
+<!-- Cloudflare Web Analytics -->
+<!--
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "22648483c0f34f21bf4ba5292447704b"}' onerror="handleScriptError('cloudflare')"></script>
+-->
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "22648483c0f34f21bf4ba5292447704b"}'></script>
+
+<!-- Clarity tracking code for https://impsbl.hatenablog.jp/ -->
+<!--
+<script>
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        t.setAttribute('onerror', "handleScriptError('clarity')");
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "59pvwqvhey");
+</script>
+-->
+<script>
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "59pvwqvhey");
+
+    // 2. ユーザーの操作に応じた処理
+    function onUserAccept() {
+      // 同意ボタンが押されたら呼び出す
+      if (typeof window.clarity === "function") {
+          window.clarity('consentv2', {
+            ad_Storage: 'granted',
+            analytics_Storage: 'granted'
+          });
+      }
+      localStorage.setItem('cookie_consent', 'granted');
+    }
+
+    // 3. ページ読み込み時に保存済みの同意状態をチェック
+    const savedConsent = localStorage.getItem('cookie_consent');
+    if (savedConsent === 'granted') {
+      onUserAccept();
+    }
+    else {
+      onUserAccept();
+    }
+</script>
+
+<!-- PostHog -->
+<script>
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog && window.posthog.__loaded)||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="xi Si init Ni Bi pr qi Ui $i capture calculateEventProperties Zi register register_once register_for_session unregister unregister_for_session Yi getFeatureFlag getFeatureFlagPayload getFeatureFlagResult isFeatureEnabled reloadFeatureFlags updateFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey displaySurvey cancelPendingSurvey canRenderSurvey canRenderSurveyAsync Ki identify setPersonProperties unsetPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset setIdentity clearIdentity get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException addExceptionStep captureLog startExceptionAutocapture stopExceptionAutocapture loadToolbar get_property getSessionProperty Qi Wi createPersonProfile setInternalOrTestUser Ji Fi tn opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing zi debug mr it getPageViewId captureTraceFeedback captureTraceMetric Ri".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_sC5iUoFMLWYQVnJiV8ajfxCDAHkbvUgScHskAC9TaKJi', {
+        api_host: 'https://us.i.posthog.com',
+        defaults: '2026-05-30',
+        person_profiles: 'identified_only', // or 'always' to create profiles for anonymous users as well
+    })
+</script>
+
+<!-- Default Statcounter code for Technically Impossible
+https://impsbl.hatenablog.jp/ -->
+<script type="text/javascript">
+var sc_project=13010108; 
+var sc_invisible=1; 
+var sc_security="a666689f"; 
+</script>
+<!--
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js" async onerror="handleScriptError('statcounter')"></script>
+-->
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js" async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/13010108/0/a666689f/1/" alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+
+<!-- clicky -->
+<!--
+<script async data-id="101500195" src="//static.getclicky.com/js" onerror="handleScriptError('clicky')"></script>
+-->
+<script async data-id="101500195" src="//static.getclicky.com/js"></script>
+
+<!-- umami -->
+<!--
+<script defer src="https://cloud.umami.is/script.js" data-website-id="e1f53978-b437-4804-aa5a-bf515c5e190a" onerror="handleScriptError('umami')"></script>
+-->
+<script defer src="https://cloud.umami.is/script.js" data-website-id="e1f53978-b437-4804-aa5a-bf515c5e190a"></script>
+
+<!-- GoatCounter -->
+<!--
+<script data-goatcounter="https://espio999.goatcounter.com/count" async src="//gc.zgo.at/count.js" onerror="handleScriptError('goatcounter')"></script>
+-->
+<script data-goatcounter="https://espio999.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+<!-- juicer -->
+<!--
+<script src="//kitchen.juicer.cc/?color=cevlk5DYGbE=" async onerror="handleScriptError('juicer')"></script>
+-->
+<script src="//kitchen.juicer.cc/?color=cevlk5DYGbE=" async></script>
+<meta name="pocket-site-verification" content="0298daba47760e2b25d7f69a6c6459" />
+
+<!----- MathML ----->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
+<!-- Twitter universal website tag code -->
+<script>
+!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+// Insert Twitter Pixel ID and Standard Event data below
+twq('init','o57ty');
+twq('track','PageView');
+</script>
+<!-- End Twitter universal website tag code -->
+
+<!-- online -->
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net/" />
+<!--
+<script src="https://cdn.jsdelivr.net/gh/espio999/redirectSuspiciousAccess@1.2.24/country.js" defer onerror="handleScriptError('country.js')"></script>
+<script src="https://cdn.jsdelivr.net/gh/espio999/redirectSuspiciousAccess@1.2.24/platform.js" defer onerror="handleScriptError('platform.js')"></script>
+<script src="https://cdn.jsdelivr.net/gh/espio999/redirectSuspiciousAccess@1.2.24/logging.js" defer onerror="handleScriptError('logging.js')"></script>
+<script src="https://cdn.jsdelivr.net/gh/espio999/redirectSuspiciousAccess@1.2.24/redirect.js" defer onerror="handleScriptError('redirect.js')"></script>
+<script src="https://cdn.jsdelivr.net/gh/espio999/redirectSuspiciousAccess@1.2.24/suspicious_access_test.js" defer onerror="handleScriptError('suspicious_access_test.js')"></script>
+<script src="https://cdn.jsdelivr.net/gh/espio999/redirectSuspiciousAccess@1.2.24/main.js" defer onerror="handleScriptError('main.js')"></script>>
+-->
+<script src="https://cdn.jsdelivr.net/gh/espio999/redirectSuspiciousAccess@1.2.24/country.js" defer></script>
+<script src="https://cdn.jsdelivr.net/gh/espio999/redirectSuspiciousAccess@1.2.24/platform.js" defer></script>
+<script src="https://cdn.jsdelivr.net/gh/espio999/redirectSuspiciousAccess@1.2.24/logging.js" defer></script>
+<script src="https://cdn.jsdelivr.net/gh/espio999/redirectSuspiciousAccess@1.2.24/redirect.js" defer></script>
+<script src="https://cdn.jsdelivr.net/gh/espio999/redirectSuspiciousAccess@1.2.24/suspicious_access_test.js" defer></script>
+<script src="https://cdn.jsdelivr.net/gh/espio999/redirectSuspiciousAccess@1.2.24/main.js" defer></script>
+
+<!-- offline -->
+<!--
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net/" />
+<script src="country.js" defer onerror="handleScriptError('country.js')"></script>
+<script src="platform.js" defer onerror="handleScriptError('platform.js')"></script>
+<script src="hlogging.js" defer onerror="handleScriptError('logging.js')"></script>
+<script src="redirect.js" defer onerror="handleScriptError('redirect.js')"></script>
+<script src="suspicious_access_test.js" defer onerror="handleScriptError('suspicious_access_test.js')"></script>
+<script src="main.js" defer onerror="handleScriptError('main.js')"></script>
+-->
+
+<script>
+  window.onload = function() {
+    const required_scripts = [
+      "file_country",
+      "file_platform",
+      "file_logging",
+      "file_redirect",
+      "file_test",
+      "file_main",
+    ];
+    const isAllLoaded = required_scripts.every(name => window[name]);
+
+    if (!isAllLoaded) {
+      window.stop();
+
+      //executeRedirect_inline();
+
+      const destination_url = "https://0.0.0.0";
+      //window.location.replace(destination_url);
+
+      //history.replaceState(null, '', destination_url);
+      //location.reload();
+      
+      if (window.navigation) {
+        navigation.navigate(destination_url, { history: 'replace' });
+      } else {
+        location.replace(destination_url);
+      }
+    }
+  };
+</script>
